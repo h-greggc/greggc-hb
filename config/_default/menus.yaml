@@ -22,3 +22,6 @@ main:
   - name: Uses
     url: uses/
     weight: 40
+  - name: Posts
+    url: post/
+    weight: 50
