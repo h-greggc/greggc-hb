@@ -16,9 +16,9 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: li-yang-5h_dMuX_7RE-unsplash.webp
+          filename: max-fray-unsplash.jpg
           filters:
-            brightness: 0.4
+            brightness: 0.9
           size: cover
           position: center
           parallax: false
@@ -45,7 +45,7 @@ sections:
       title: 'Welcome 👋'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        Use this area to speak to your mission. I'm a risk and decision analysis expert. I blog about stuff.
 
         **Specialties:** Analytics & Data, Leadership, Programming, Strategic Planning, Writing & Editing
     design:
