@@ -2,8 +2,6 @@
 title: 🧠 Sharpen your thinking with a second brain
 summary: Create a personal knowledge base and share your knowledge with your peers.
 date: 2023-10-26
-authors:
-  - admin
 tags:
   - Second Brain
   - Markdown
@@ -13,7 +11,7 @@ image:
 
 Create a personal knowledge base and share your knowledge with your peers.
 
-Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.
+Wowchemy web framework empowers you with one of the most flexible note-taking capabilities out there.
 
 Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.
 
@@ -21,7 +19,7 @@ Use it as your second brain, either publicly sharing your knowledge with your pe
 
 ## Mindmaps
 
-Hugo Blox supports a Markdown extension for mindmaps.
+Wowchemy supports a Markdown extension for mindmaps.
 
 With this open format, can even edit your mindmaps in other popular tools such as Obsidian.
 
@@ -34,7 +32,7 @@ Mindmaps can be created by simply writing the items as a Markdown list within th
 <code>
 ```markmap {height="200px"}
 - Hugo Modules
-  - Hugo Blox
+  - wowchemy
   - blox-plugins-netlify
   - blox-plugins-netlify-cms
   - blox-plugins-reveal
@@ -47,7 +45,7 @@ renders as
 
 ```markmap {height="200px"}
 - Hugo Modules
-  - Hugo Blox
+  - wowchemy
   - blox-plugins-netlify
   - blox-plugins-netlify-cms
   - blox-plugins-reveal
@@ -61,7 +59,7 @@ Anh here's a more advanced mindmap with formatting, code blocks, and math:
 ```markmap
 - Mindmaps
   - Links
-    - [Hugo Blox Docs](https://docs.hugoblox.com/)
+    - [Wowchemy Docs](https://docs.hugoblox.com/)
     - [Discord Community](https://discord.gg/z8wNYzb)
     - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
   - Features
@@ -86,7 +84,7 @@ renders as
 ```markmap
 - Mindmaps
   - Links
-    - [Hugo Blox Docs](https://docs.hugoblox.com/)
+    - [Wowchemy Docs](https://docs.hugoblox.com/)
     - [Discord Community](https://discord.gg/z8wNYzb)
     - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
   - Features
