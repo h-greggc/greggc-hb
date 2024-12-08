@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Risk and Decision Analysis Consultant 
+role: Risk and Decision Analysis Consultant in Public Health 
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -112,26 +112,26 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Woodworking
         description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Cats
+      - name: Music
         description: ''
         percent: 100
-        icon: cat
-      - name: Photography
+        icon: guitar
+      - name: Travel
         description: ''
         percent: 80
-        icon: camera
+        icon: person-simple-walk
 
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: Spanish
+    percent: 50
+  - name: French
+    percent: 10
 
 # Awards.
 #   Add/remove as many awards below as you like.

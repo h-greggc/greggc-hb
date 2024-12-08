@@ -44,10 +44,8 @@ sections:
     content:
       title: 'Welcome 👋'
       subtitle: ''
-      text: |-
-        Use this area to speak to your mission. I'm a risk and decision analysis expert. I blog about stuff.
-
-        **Specialties:** Analytics & Data, Leadership, Programming, Strategic Planning, Writing & Editing
+      text:  
+             I am a public health risk expert dedicated to teaching, application, and scientific development of quantitative risk analysis and decision-making in public health. You will find more about my specialty in these areas including quality risk management (QRM), multiple criteria decision making (MCDM) on this website.  
     design:
       columns: '1'
   - block: collection
