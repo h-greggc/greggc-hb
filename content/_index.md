@@ -42,7 +42,7 @@ sections:
         padding: [0, 0, 0, 0]
   - block: markdown
     content:
-      title: 'Welcome 👋'
+      title: 'Welcome to my website 👋'
       subtitle: ''
       text:  
              I am a public health risk expert dedicated to teaching, application, and scientific development of quantitative risk analysis and decision-making in public health. You will find more about my specialty in these areas including quality risk management (QRM), multiple criteria decision making (MCDM) on this website.  
