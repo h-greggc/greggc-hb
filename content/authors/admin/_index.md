@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Highlight the author in author lists? (true/false)
-highlight_name: false
+highlight_name: true
 
 # Role/position/tagline
 role: (PAGE UNDER CONSTRUCTION!!) Risk and Decision Analysis Consultant in Public Health 
@@ -48,7 +48,7 @@ profiles:
 education:
   - area: PhD Radiological Health Engineering
     institution: Northwestern University
-    date_start: 
+    date_start: 1977
     date_end: 1982
     summary: |
       
@@ -57,39 +57,39 @@ education:
       url: 
   - area: MS Radiological Health Engineering
     institution: Northwestern University
-    date_start: 
-    date_end: 1977
+    date_start: 1975
+    date_end:  1977
     summary: 
   
   - area: BA Human Biology
     institution: Stanford University
-    date_start: 
+    date_start: 1970
     date_end: 1974
     summary: 
 
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  # - position: Director of Cloud Infrastructure
+  #   company_name: GenCoin
+  #   company_url: ''
+  #   company_logo: ''
+  #   date_start: 2021-01-01
+  #   date_end: ''
+  #   summary: |2-
+  #     Responsibilities include:
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  # - position: Backend Software Engineer
+  #   company_name: X
+  #   company_url: ''
+  #   company_logo: ''
+  #   date_start: 2016-01-01
+  #   date_end: 2020-12-31
+  #   summary: |
+  #     Responsibilities include:
+  #     - Migrated infrastructure to a new data center
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -138,14 +138,14 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
+  - title: Human Capital Development Award
+    url: 
+    date: '2019-01-21'
+    awarder: FDA Center for Veterinary Medicine
     icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
+    summary: 
+
+  - title: Leveraging Award
     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
     date: '2023-07-01'
     awarder: edX

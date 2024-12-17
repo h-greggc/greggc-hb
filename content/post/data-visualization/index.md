@@ -1,7 +1,7 @@
 ---
 title: 📈 Communicate your results effectively with the best data visualizations
 summary: Use popular tools such as Plotly, Mermaid, and data frames.
-date: 2023-10-26
+date: 2000-10-26
 tags:
   - Hugo
   - Wowchemy
