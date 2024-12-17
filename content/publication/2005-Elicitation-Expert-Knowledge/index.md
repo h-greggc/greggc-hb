@@ -23,8 +23,6 @@ publication_types: article-journal
 
 publication: "*Pharmaceutical Engineering* **4**:24–38"
 abstract: This article describes development, implementation, and results of an expert elicitation survey about risks associated with pharmaceutical manufacturing processes, and discusses potential application of this data collection methodology to a broader range of experts.
-
-
 This is. one of the first papers about quality risk maangement for pharmaceutical manufacturing.
 featured: false
 
