@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Gregg Claycamp</title>
+    <link>https://example.com/post/</link>
+      <atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 18 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Posts</title>
+      <link>https://example.com/post/</link>
+    </image>
+    
+    <item>
+      <title>COVID-19 is Not Just Like the Annual Flu</title>
+      <link>https://example.com/post/covid-not-flu/</link>
+      <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/covid-not-flu/</guid>
+      <description>&lt;p&gt;Over the six months of the coronavirus pandemic in the US, I have had many casual conversations with strangers or family in which the individual suggests that &amp;ldquo;COVID-19 is just like an annual flu.&amp;rdquo; This notion is far from the truth even in the face of a general similarity that they are both respiratory infections. In this post I compare quantitative features of
+COVID-19 with H1N1 and other flu-like illnesses, Ebola virus disease (EVD), and SARS to show differences between COVID-19 and the flu. Of course, this is not the first time these comparisons have been made in public media; rather, this post is only my perspective on the issue.&lt;/p&gt;
+&lt;p&gt;There are several ways in which the ongoing COVID-19 pandemic and some recent other pandemics can be compared. Sometimes, the endpoints for comparing the pandemic are cherry-picked to support the individual&amp;rsquo;s or organization&amp;rsquo;s purpose. But generally speaking, quantitative comparisons of pandemics begin using fundamental measures, such as&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the number of cases,&lt;/li&gt;
+&lt;li&gt;the number of deaths, and&lt;/li&gt;
+&lt;li&gt;the population size.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Although these pandemic measures start with the seemingly simple process of counting cases and deaths, the luxury of that simplicity is seldom achievable. Each numerical comparison is nuanced and sometimes even specific to &lt;em&gt;which&lt;/em&gt; outbreak of complex disease. The field of epidemiology&amp;ndash;the study of diseases in populations&amp;ndash;uses these fundamental measures to derive more specific measures of incidence, prevalence, and risk (Below). Trained infectious disease scientists and clinicians seldom made casual comparisons using only the above terms, but instead, carefully state the  assumptions and possibly caveats necessary to make scientifically valid comparisons using an array of terms. For this post, we&amp;rsquo;ll assume that such simplifying assumptions and caveats could be easily resolved.&lt;/p&gt;
+&lt;h2 id=&#34;comparing-the-number-of-cases&#34;&gt;Comparing the number of cases&lt;/h2&gt;
+&lt;p&gt;The number of cases (&amp;ldquo;case counts&amp;rdquo;) is a basic measure used to routinely monitor diseases in addition to detecting an emerging epidemic disease.^[Both chronic and infectious diseases are counted on a regular basis as part of public health risk management. The CDC website has a good explanation of surveillance: &lt;a href=&#34;https://www.cdc.gov/chronicdisease/data/surveillance.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CDC Surveillance&lt;/a&gt;] The following figure (Fig.1) shows the worldwide case counts for the past SARS, EVD and H1N1 (Swine Flu) outbreaks and the ongoing COVID-19 pandemic. Note that the horizontal axis is a logarithmic scale, e.g., moving in powers of 10 (10, 100, 1000, 10000, &amp;hellip;). If not shown that way, the tens of millions of cases in COVID-19 and H1N1 would visually swamp the &lt;em&gt;thousands-fold&lt;/em&gt; fewer cases of Ebola and SARS. (You would need a very wide monitor to display the graph!)&lt;/p&gt;
+&lt;!-- ```
+{r opts, include=TRUE, echo=FALSE}
+#knitr::opts_chunk$set(&#34;fig.path&#34;= &#34;/post/2020-08-18-covid-19-is-still-not-the-annual-flu.en_files/figure-html/&#34;)
+``` --&gt;
+&lt;!-- ```
+{r plotbarcase, include=TRUE, echo=FALSE}
+library(ggplot2)
+
+cases &lt;- c(74210337,60800000,28646,8096)
+
+outbreak &lt;- c(&#34;COVID-19 (2019)&#34;, &#34;H1N1 (2009)&#34;, &#34;Ebola (2014)&#34;, &#34;SARS (2003)&#34;)
+
+df &lt;- as.data.frame(cases, outbreak)
+theme_set(theme_minimal())
+
+# Plot
+g &lt;- ggplot(df, aes(x = reorder(outbreak, cases), cases))
+g + geom_bar(stat=&#34;identity&#34;, width = 0.7, fill=&#34;blue&#34;) + 
+   geom_text(aes(label=cases), hjust=1.6, color=&#34;white&#34;, size=4.0) +
+      labs(title=&#34;Fig.1: Worldwide Case Counts in Major Outbreaks&#34;, 
+           caption=&#34;Data sources: WHO, CDC&#34;) +
+      theme(axis.title.y=element_blank() ) + 
+      theme(axis.text.y = element_text(size=rel(1.5))) +
+ scale_y_log10()  +  coord_flip()
+``` --&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-fig1-worldwide-case-counts-in-major-outbreaks-data-sources-who-cdc&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;plot cases&#34; srcset=&#34;
+               /media/plotbarcase_hu78f2c72ce5a7673ad2fc4636a1b06ea3_23236_c5b3fd28a5a3a6dd3a57beb3d49267a7.webp 400w,
+               /media/plotbarcase_hu78f2c72ce5a7673ad2fc4636a1b06ea3_23236_928314b3c09cc49145a30a15ceda81f1.webp 760w,
+               /media/plotbarcase_hu78f2c72ce5a7673ad2fc4636a1b06ea3_23236_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/media/plotbarcase_hu78f2c72ce5a7673ad2fc4636a1b06ea3_23236_c5b3fd28a5a3a6dd3a57beb3d49267a7.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;543&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Fig.1: Worldwide Case Counts in Major Outbreaks. Data sources: WHO, CDC
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;death-counts-tell-a-different-story&#34;&gt;Death Counts Tell a Different Story&lt;/h2&gt;
+&lt;p&gt;The total deaths due to the outbreaks are shown in Fig. 2. Here I dropped the log scale to show the dramatic differences among the past and ongoing outbreaks. For example, the SARS outbreak from a coronavirus, disappears as a significant cause of worldwide mortality.&lt;/p&gt;
+&lt;!-- ```
+{r plotbardeath, include=TRUE, echo=FALSE}
+
+deaths &lt;- c(1648596,163000,11323,774)
+outbreak &lt;- c(&#34;COVID-19 (2019)&#34;, &#34;H1N1 (2009)&#34;, &#34;Ebola (2014)&#34;, &#34;SARS (2003)&#34;)
+
+df &lt;- as.data.frame(deaths, outbreak)
+
+theme_set(theme_minimal())
+
+# Plot
+g &lt;- ggplot(df, aes(x = reorder(outbreak, deaths), deaths))
+g + geom_bar(stat=&#34;identity&#34;, width = 0.7, fill=&#34;coral2&#34;) + 
+   geom_text(aes(label=deaths), hjust=-0.1, color=&#34;black&#34;, size=4.0) +
+      labs(title=&#34;Fig.2: Worldwide Death Counts in Major Outbreaks&#34;, 
+           caption=&#34;Data sources: WHO, CDC Aug 19, 2020&#34;) +
+      theme(axis.title.y=element_blank()) + 
+  theme(axis.text.y = element_text(size=rel(1.5))) + ylim(0, 2000000) +
+  coord_flip()
+
+``` --&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-fig2-worldwide-death-counts-in-major-outbreaks-data-sources-who-cdc-aug-19-2020&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;plot deaths&#34; srcset=&#34;
+               /media/plotbardeath_hu406c631a3acdbfad12d811aad87e06d7_24635_26fc22279fbdd714976ad74a47b30a1f.webp 400w,
+               /media/plotbardeath_hu406c631a3acdbfad12d811aad87e06d7_24635_ed619b44407d74ada801d6fce8a9fabe.webp 760w,
+               /media/plotbardeath_hu406c631a3acdbfad12d811aad87e06d7_24635_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/media/plotbardeath_hu406c631a3acdbfad12d811aad87e06d7_24635_26fc22279fbdd714976ad74a47b30a1f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;543&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Fig.2: Worldwide Death Counts in Major Outbreaks. Data sources: WHO, CDC Aug 19, 2020
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The data reported during and after an outbreak is likely to include the &lt;em&gt;proportion&lt;/em&gt; of cases or deaths in the population. Sometimes these proportions are called the &amp;ldquo;normalized cases (or deaths).&amp;rdquo; At the simplest level, these proportions are simply the number of cases/deaths divided by the size of the population of concern. Because populations of interest in epidemiology are often large, the ratio is adjusted to the &amp;ldquo;number of cases/deaths per 100,000 in the population.&amp;rdquo; For example, if we found 200 cases in a population of 250,000 people, the normalized cases are:
+
+$$
+N^*=\frac{200 \ cases}{250,000 \ people}=0.0008
+$$
+
+
+This mathematical result, while certainly correct, leaves us with trying to imagine a 0.0008 illness. Thus, we can bring the proportion back to the realm of whole people by multiplying the proportion by 100,000:&lt;/p&gt;
+&lt;p&gt;
+$$
+n^*=0.0008 \ times \ 100000 = 80\ cases \ per \ 100,000 \ people
+$$
+
+&amp;ldquo;Normalizing&amp;rdquo; the case/death counts by population size makes sense for the comparison of the intensity of an outbreak from one administrative boundary to the next. For example, if the administrative boundary is &amp;quot; county&amp;quot; and the example is compared with a second county also having 200 cases of disease but a population size of 1M, then the normalized comparison is 80 versus 20 cases per 100,000. Clearly, the counties that were apparently equal in case counts now are 4-fold different in the normalized case counts.&lt;/p&gt;
+&lt;h2 id=&#34;higher-order-measures-in-outbreaks&#34;&gt;Higher Order Measures in Outbreaks&lt;/h2&gt;
+&lt;p&gt;The base counts are seldom sufficient for making comparisons among outbreaks and pandemics. For example, if we look at only total case counts, then we have only a cumulative counting measure that begins at the index (first) case and ends some period of time later when no new cases are observed. But the rate of accumulation of new cases might be more relevant to public health planning because it informs the rate at which health services will be needed for case management. There are several higher order or &lt;em&gt;derived&lt;/em&gt; measures of an outbreak that are more useful for understanding not only the population disease process itself, but also the possible demand on health care resources. Such derived measures include, among others:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;incidence (incidence rate; incidence proportion)&lt;/li&gt;
+&lt;li&gt;prevalence&lt;/li&gt;
+&lt;li&gt;person-years at risk&lt;/li&gt;
+&lt;li&gt;case fatality ratio&lt;/li&gt;
+&lt;li&gt;infectivity&lt;/li&gt;
+&lt;li&gt;virulence&lt;/li&gt;
+&lt;li&gt;modes of transmission&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A short blog is not suited for carefully defining all of these terms and then using them to compare outbreaks. I recommend online sources including basic epidemiology text published by CDC.^[&lt;a href=&#34;https://www.cdc.gov/csels/dsepd/ss1978/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Principles of Epidemiology in Public Health Practice, Third edition&lt;/a&gt;] We will continue our simplified comparison of outbreaks with only a few key measures.&lt;/p&gt;
+&lt;h2 id=&#34;comparing-the-case-fatality-ratios&#34;&gt;Comparing the case fatality ratios&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;https://www.cdc.gov/csels/dsepd/ss1978/lesson3/section3.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;case fatality proportion&lt;/em&gt;&lt;/a&gt; (also called the case fatality &lt;em&gt;ratio&lt;/em&gt; or &lt;em&gt;rate&lt;/em&gt;) is a basic measure of great importance in infectious disease epidemiology. The measure gets right to the point of, &amp;ldquo;how lethal is this disease?&amp;rdquo; It is typically defined as the number of cases of a disease that end in death from a specific cause divided by the total number of cases of that disease in a defined population. This endpoint is used colloquially to express the risk of death, &lt;em&gt;given that the individual has the disease&lt;/em&gt;. In other words, what percentage of true cases are expected to die? Using the case fatality ratio (CFR) is where the comparisons of the major outbreaks is turned on its head: now, the relatively low risk of having Ebola virus disease (EVD) looks much worse because, given the patient has EVD, the likelihood of death is about 40% By comparison, the relative chance of death, given an H1N1 infection is 400 times less than the risk of death from EVD. We will visit more characteristic of case fatality ratios in a later post; but for now, look at Fig. 3 for the remarkable differences among the CFRs the pandemics in question.&lt;/p&gt;
+&lt;!-- ```
+{r uscases, echo=FALSE}
+casefatality &lt;- c(2.2,0.1,39.53,9.56)
+
+outbreak &lt;- c(&#34;COVID-19 (2019)&#34;, &#34;H1N1 (2009)&#34;, &#34;Ebola (2014)&#34;, &#34;SARS (2003)&#34;)
+
+df &lt;- as.data.frame(casefatality, outbreak)
+
+theme_set(theme_minimal())
+
+# Plot
+g &lt;- ggplot(df, aes(x = reorder(outbreak, casefatality), casefatality))
+g + geom_bar(stat=&#34;identity&#34;, width = 0.7, fill=&#34;chartreuse4&#34;) + 
+   geom_text(aes(label=casefatality), hjust=1.6, color=&#34;white&#34;, size=4.0) +
+      labs(title=&#34;Fig.3: Case Fatality Ratios (%) in Major Outbreaks&#34;, 
+           caption=&#34;Data sources: WHO, CDC&#34;) +
+      theme(axis.title.y=element_blank() ) + 
+      theme(axis.text.y = element_text(size=rel(1.5))) +
+      coord_flip()
+      
+``` --&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-fig-3-case-fatality-ratios--in-major-outbreaks-data-sources-who-cdc&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;The case fatality ratios&#34; srcset=&#34;
+               /media/uscases_hu152a235d03bd2d6c45c94470586bcc1b_24143_e3a90d05914c02ab2acfd9bad1822b73.webp 400w,
+               /media/uscases_hu152a235d03bd2d6c45c94470586bcc1b_24143_5346431b0257db0174a03589a0977522.webp 760w,
+               /media/uscases_hu152a235d03bd2d6c45c94470586bcc1b_24143_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/media/uscases_hu152a235d03bd2d6c45c94470586bcc1b_24143_e3a90d05914c02ab2acfd9bad1822b73.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;543&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Fig. 3: Case Fatality Ratios (%) in Major Outbreaks. Data sources: WHO, CDC
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;other-comparisons&#34;&gt;Other Comparisons&lt;/h2&gt;
+&lt;h3 id=&#34;infectivity-and-modes-of-transmission&#34;&gt;Infectivity and Modes of Transmission&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Infectivity&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Viral infectivity&lt;/a&gt; is the ability of a pathogen to establish infection. Virulence is a measure that is really at the interface between the environment&amp;ndash;air, water, other fluids and solid surfaces&amp;ndash;and the host. In other words, if the viral particles are in the air that the host breathes, what is the likelihood that the host will be infected? Viral infectivity is correlated (positive) with the virulence of the virus. Although we might attempt to compare the infectivity of the three outbreaks in the abstract, in fact, the modes of transmission are different, complicating a simple comparison. The coronavirus causing SARS and COVID-19 are clearly transmitted primarily by inhalation of contaminated air, whereas the infection by Ebola virus is through contact with bodily fluids, tissues and contaminated surfaces from an EVD patient.&lt;/p&gt;
+&lt;h3 id=&#34;derived-measures&#34;&gt;Derived measures&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Prevalence&lt;/em&gt; and &lt;em&gt;incidence&lt;/em&gt; are two classical epidemiology measurements that are derived from the number of cases or deaths. The first of these&amp;ndash;prevalence&amp;ndash; is the proportion of cases in a defined population at a fixed time point. The &amp;ldquo;defined population&amp;rdquo; is central to both the epidemiology of a single outbreak and the comparison of different outbreaks and from possibly different viruses. Defined population can be based on administrative boundaries, e.g., the population within a county, state, country or continent; or, the definition might be a specific age group with other characteristics. The wide range of possible definition makes prevalence-based a potential minefield of errors.&lt;/p&gt;
+&lt;p&gt;The incidence or &lt;em&gt;incidence rate&lt;/em&gt; of disease is also difficult to use in comparisons across types of outbreaks. Incidence refers to the number of new cases in a defined population of susceptible hosts over a set period of time (e.g., &amp;ldquo;per year&amp;rdquo;). Incidence rates suffer from the same challenges of the related prevalence of disease.&lt;/p&gt;
+&lt;h2 id=&#34;outbreak-measures-can-and-do-change&#34;&gt;Outbreak measures can and do change&lt;/h2&gt;
+&lt;p&gt;While it might appear that the fundamental measurements in epidemiology, cases and deaths, can be easily tallied, in fact the &lt;em&gt;true&lt;/em&gt; number of cases/deaths in an outbreak can be difficult to obtain and might not even be known for several years after the outbreak!^[For example, the total cases in the H1N1 influenza (2009) cases are still uncertain a decade after the outbreak.] This happens because the signs and symptoms for many infectious diseases are overlapping, and might even overlap with those of the infected person&amp;rsquo;s pre-existing conditions. If there is no way to clearly identify the infectious agent, then the clinician diagnoses the disease by comparing with a current knowledge base of signs and symptoms.  With a novel disease like COVID-19, the scientific and regulatory communities will debate the exact definition of a COVID-19 case in the midst of the pandemic because the &amp;ldquo;recognized&amp;rdquo; signs and symptoms are likely to change with more experience.&lt;/p&gt;
+&lt;p&gt;In conclusion, I have shown that just a few simplistic comparisons using basic epidemiologic measures can easily dispel the notion that the ongoing COVID-19 pandemic is &amp;ldquo;just like the annual flu.&amp;rdquo; A deeper dive into the specifics of infectivity, virulence, age-dependency and co-morbidities would take volumes to discuss in even moderate depth. More importantly, the knowledge base on COVID-19 is rapidly evolving due to the efforts of scientists and public health officials to gather and share data. As Dr. &lt;a href=&#34;https://www.niaid.nih.gov/about/director&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Anthony Fauci&lt;/a&gt; remarked recently, understanding the long-term effects of COVID-19 is a &amp;ldquo;work in progress.&amp;quot;^[&lt;a href=&#34;https://www.cnn.com/world/live-news/coronavirus-pandemic-08-19-20-intl/h_24a802929c742bc3facdb547684b2645&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CNN&lt;/a&gt;].&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>📈 Communicate your results effectively with the best data visualizations</title>
+      <link>https://example.com/post/data-visualization/</link>
+      <pubDate>Thu, 26 Oct 2000 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/data-visualization/</guid>
+      <description>&lt;p&gt;Wowchemy is designed to give technical content creators a seamless experience. You can focus on the content and Wowchemy handles the rest.&lt;/p&gt;
+&lt;p&gt;Use popular tools such as Plotly, Mermaid, and data frames.&lt;/p&gt;
+&lt;h2 id=&#34;charts&#34;&gt;Charts&lt;/h2&gt;
+&lt;p&gt;Wowchemy supports the popular &lt;a href=&#34;https://plot.ly/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plotly&lt;/a&gt; format for interactive data visualizations. With Plotly, you can design almost any kind of visualization you can imagine!&lt;/p&gt;
+&lt;p&gt;Save your Plotly JSON in your page folder, for example &lt;code&gt;line-chart.json&lt;/code&gt;, and then add the &lt;code&gt;{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code&gt; shortcode where you would like the chart to appear.&lt;/p&gt;
+&lt;p&gt;Demo:&lt;/p&gt;
+
+
+
+
+&lt;div id=&#34;chart-876312945&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;script&gt;
+  async function fetchChartJSON() {
+    console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
+    const response = await fetch(&#39;.\/line-chart.json&#39;);
+    return await response.json();
+  }
+
+  (function() {
+    let a = setInterval( function() {
+      if ( typeof window.Plotly === &#39;undefined&#39; ) {
+        console.debug(&#39;Plotly not loaded yet...&#39;)
+        return;
+      }
+      clearInterval( a );
+
+      fetchChartJSON().then(chart =&gt; {
+        console.debug(&#39;Plotting chart...&#39;)
+        window.Plotly.newPlot(&#39;chart-876312945&#39;, chart.data, chart.layout, {responsive: true});
+      });
+    }, 500 );
+  })();
+&lt;/script&gt;
+
+&lt;p&gt;You might also find the &lt;a href=&#34;http://plotly-json-editor.getforge.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plotly JSON Editor&lt;/a&gt; useful.&lt;/p&gt;
+&lt;h2 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h2&gt;
+&lt;p&gt;Wowchemy supports the &lt;em&gt;Mermaid&lt;/em&gt; Markdown extension for diagrams.&lt;/p&gt;
+&lt;p&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+graph TD
+A[Hard] --&amp;gt;|Text| B(Round)
+B --&amp;gt; C{Decision}
+C --&amp;gt;|One| D[Result 1]
+C --&amp;gt;|Two| E[Result 2]
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;graph TD
+A[Hard] --&gt;|Text| B(Round)
+B --&gt; C{Decision}
+C --&gt;|One| D[Result 1]
+C --&gt;|Two| E[Result 2]
+&lt;/div&gt;
+&lt;p&gt;An example &lt;strong&gt;sequence diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+sequenceDiagram
+Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
+loop Healthcheck
+    John-&amp;gt;&amp;gt;John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John--&amp;gt;&amp;gt;Alice: Great!
+John-&amp;gt;&amp;gt;Bob: How about you?
+Bob--&amp;gt;&amp;gt;John: Jolly good!
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;sequenceDiagram
+Alice-&gt;&gt;John: Hello John, how are you?
+loop Healthcheck
+    John-&gt;&gt;John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John--&gt;&gt;Alice: Great!
+John-&gt;&gt;Bob: How about you?
+Bob--&gt;&gt;John: Jolly good!
+&lt;/div&gt;
+&lt;p&gt;An example &lt;strong&gt;class diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+classDiagram
+Class01 &amp;lt;|-- AveryLongClass : Cool
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 --&amp;gt; C2 : Where am i?
+Class09 --* C3
+Class09 --|&amp;gt; Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+Class08 &amp;lt;--&amp;gt; C2: Cool label
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;classDiagram
+Class01 &lt;|-- AveryLongClass : Cool
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 --&gt; C2 : Where am i?
+Class09 --* C3
+Class09 --|&gt; Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+Class08 &lt;--&gt; C2: Cool label
+&lt;/div&gt;
+&lt;p&gt;An example &lt;strong&gt;state diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+stateDiagram
+[*] --&amp;gt; Still
+Still --&amp;gt; [*]
+Still --&amp;gt; Moving
+Moving --&amp;gt; Still
+Moving --&amp;gt; Crash
+Crash --&amp;gt; [*]
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;stateDiagram
+[*] --&gt; Still
+Still --&gt; [*]
+Still --&gt; Moving
+Moving --&gt; Still
+Moving --&gt; Crash
+Crash --&gt; [*]
+&lt;/div&gt;
+&lt;h2 id=&#34;data-frames&#34;&gt;Data Frames&lt;/h2&gt;
+&lt;p&gt;Save your spreadsheet as a CSV file in your page&amp;rsquo;s folder and then render it by adding the &lt;em&gt;Table&lt;/em&gt; shortcode to your page:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{{&amp;lt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;table&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;path&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;results.csv&amp;#34;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;header&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;true&amp;#34;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;caption&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Table 1: My results&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table class=&#34;table-auto w-full&#34;&gt;
+  
+    
+    
+    &lt;thead&gt;
+      &lt;tr&gt;  &lt;th class=&#34;border-b dark:border-slate-600 font-medium p-4 pt-0 pb-3 text-slate-400 dark:text-slate-200 text-left&#34;&gt;customer_id&lt;/th&gt;  &lt;th class=&#34;border-b dark:border-slate-600 font-medium p-4 pt-0 pb-3 text-slate-400 dark:text-slate-200 text-left&#34;&gt;score&lt;/th&gt;  &lt;/tr&gt;
+    &lt;/thead&gt;
+  
+  &lt;tbody&gt;
+  
+    &lt;tr&gt;
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34; class=&#34;border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400&#34;&gt;1&lt;/td&gt;
+        
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34; class=&#34;border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400&#34;&gt;0&lt;/td&gt;
+        
+      
+    &lt;/tr&gt;
+  
+    &lt;tr&gt;
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34; class=&#34;border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400&#34;&gt;2&lt;/td&gt;
+        
+      
+        
+          &lt;td data-table-dtype=&#34;text&#34; class=&#34;border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400&#34;&gt;0.5&lt;/td&gt;
+        
+      
+    &lt;/tr&gt;
+  
+    &lt;tr&gt;
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34; class=&#34;border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400&#34;&gt;3&lt;/td&gt;
+        
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34; class=&#34;border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400&#34;&gt;1&lt;/td&gt;
+        
+      
+    &lt;/tr&gt;
+  
+  &lt;/tbody&gt;
+  
+    &lt;caption class=&#34;table-caption&#34;&gt;Table 1: My results&lt;/caption&gt;
+  
+&lt;/table&gt;
+
+&lt;h2 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>🧠 Sharpen your thinking with a second brain</title>
+      <link>https://example.com/post/second-brain/</link>
+      <pubDate>Thu, 26 Oct 2000 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/second-brain/</guid>
+      <description>&lt;p&gt;Create a personal knowledge base and share your knowledge with your peers.&lt;/p&gt;
+&lt;p&gt;Wowchemy web framework empowers you with one of the most flexible note-taking capabilities out there.&lt;/p&gt;
+&lt;p&gt;Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.&lt;/p&gt;
+&lt;p&gt;Use it as your second brain, either publicly sharing your knowledge with your peers via your website, or via a private GitHub repository and password-protected site just for yourself.&lt;/p&gt;
+&lt;h2 id=&#34;mindmaps&#34;&gt;Mindmaps&lt;/h2&gt;
+&lt;p&gt;Wowchemy supports a Markdown extension for mindmaps.&lt;/p&gt;
+&lt;p&gt;With this open format, can even edit your mindmaps in other popular tools such as Obsidian.&lt;/p&gt;
+&lt;p&gt;Simply insert a Markdown code block labelled as &lt;code&gt;markmap&lt;/code&gt; and optionally set the height of the mindmap as shown in the example below.&lt;/p&gt;
+&lt;p&gt;Mindmaps can be created by simply writing the items as a Markdown list within the &lt;code&gt;markmap&lt;/code&gt; code block, indenting each item to create as many sub-levels as you need:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;
+&lt;code&gt;
+```markmap {height=&#34;200px&#34;}
+- Hugo Modules
+  - wowchemy
+  - blox-plugins-netlify
+  - blox-plugins-netlify-cms
+  - blox-plugins-reveal
+```
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;markmap&#34; style=&#34;height: 200px;&#34;&gt;
+
+&lt;pre&gt;- Hugo Modules
+  - wowchemy
+  - blox-plugins-netlify
+  - blox-plugins-netlify-cms
+  - blox-plugins-reveal&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Anh here&amp;rsquo;s a more advanced mindmap with formatting, code blocks, and math:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;
+&lt;code&gt;
+```markmap
+- Mindmaps
+  - Links
+    - [Wowchemy Docs](https://docs.hugoblox.com/)
+    - [Discord Community](https://discord.gg/z8wNYzb)
+    - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
+  - Features
+    - Markdown formatting
+    - **inline** ~~text~~ *styles*
+    - multiline
+      text
+    - `inline code`
+    -
+      ```js
+      console.log(&#39;hello&#39;);
+      console.log(&#39;code block&#39;);
+      ```
+    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
+```
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;markmap&#34; style=&#34;height: 500px;&#34;&gt;
+
+&lt;pre&gt;- Mindmaps
+  - Links
+    - [Wowchemy Docs](https://docs.hugoblox.com/)
+    - [Discord Community](https://discord.gg/z8wNYzb)
+    - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
+  - Features
+    - Markdown formatting
+    - **inline** ~~text~~ *styles*
+    - multiline
+      text
+    - `inline code`
+    -
+      ```js
+      console.log(&#39;hello&#39;);
+      console.log(&#39;code block&#39;);
+      ```
+    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;highlighting&#34;&gt;Highlighting&lt;/h2&gt;
+&lt;p&gt;&lt;mark&gt;Highlight&lt;/mark&gt; important text with &lt;code&gt;mark&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;mark&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Highlighted text&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;mark&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;callouts&#34;&gt;Callouts&lt;/h2&gt;
+&lt;p&gt;Use &lt;a href=&#34;https://docs.hugoblox.com/reference/markdown/#callouts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;callouts&lt;/a&gt; (aka &lt;em&gt;asides&lt;/em&gt;, &lt;em&gt;hints&lt;/em&gt;, or &lt;em&gt;alerts&lt;/em&gt;) to draw attention to notes, tips, and warnings.&lt;/p&gt;
+&lt;p&gt;By wrapping a paragraph in &lt;code&gt;{{% callout note %}} ... {{% /callout %}}&lt;/code&gt;, it will render as an aside.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% callout note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% /callout %}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;A Markdown aside is useful for displaying notices, hints, or definitions to your readers.&lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;Or use the &lt;code&gt;warning&lt;/code&gt; callout type so your readers don&amp;rsquo;t miss critical details:&lt;/p&gt;
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-yellow-100 dark:bg-yellow-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-red-400&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0zM12 15.75h.007v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;A Markdown aside is useful for displaying notices, hints, or definitions to your readers.&lt;/span&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>👩🏼‍🏫 Teach academic courses</title>
+      <link>https://example.com/post/teach-courses/</link>
+      <pubDate>Tue, 24 Oct 2000 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/teach-courses/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
+&lt;h2 id=&#34;video&#34;&gt;Video&lt;/h2&gt;
+&lt;p&gt;Teach your course by sharing videos with your students. Choose from one of the following approaches:&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/D2vj0WcvH5c&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Youtube&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; youtube w7Ft2ymGmfc &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Bilibili&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; bilibili id=&amp;quot;BV1WV4y1r7DF&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;Video file&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Videos may be added to a page by either placing them in your &lt;code&gt;assets/media/&lt;/code&gt; media library or in your &lt;a href=&#34;https://gohugo.io/content-management/page-bundles/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page&amp;rsquo;s folder&lt;/a&gt;, and then embedding them with the &lt;em&gt;video&lt;/em&gt; shortcode:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; video src=&amp;quot;my_video.mp4&amp;quot; controls=&amp;quot;yes&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;podcast&#34;&gt;Podcast&lt;/h2&gt;
+&lt;p&gt;You can add a podcast or music to a page by placing the MP3 file in the page&amp;rsquo;s folder or the media library folder and then embedding the audio on your page with the &lt;em&gt;audio&lt;/em&gt; shortcode:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{&amp;lt; audio src=&amp;quot;ambient-piano.mp3&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Try it out:&lt;/p&gt;
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+&lt;audio controls &gt;
+  &lt;source src=&#34;https://example.com/post/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+&lt;/audio&gt;
+
+&lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
+&lt;p&gt;Provide a simple yet fun self-assessment by revealing the solutions to challenges with the &lt;code&gt;spoiler&lt;/code&gt; shortcode:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;spoiler&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;text&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;👉 Click to view the solution&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;You found me!
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;spoiler&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary class=&#34;cursor-pointer&#34;&gt;👉 Click to view the solution&lt;/summary&gt;
+  &lt;div class=&#34;rounded-lg bg-neutral-50 dark:bg-neutral-800 p-2&#34;&gt;
+    You found me 🎉
+  &lt;/div&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;Hugo Blox Builder supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the &lt;code&gt;math&lt;/code&gt; option in your &lt;code&gt;config/_default/params.yaml&lt;/code&gt; file.&lt;/p&gt;
+&lt;p&gt;To render &lt;em&gt;inline&lt;/em&gt; or &lt;em&gt;block&lt;/em&gt; math, wrap your LaTeX math with &lt;code&gt;{{&amp;lt; math &amp;gt;}}$...${{&amp;lt; /math &amp;gt;}}&lt;/code&gt; or &lt;code&gt;{{&amp;lt; math &amp;gt;}}$$...$${{&amp;lt; /math &amp;gt;}}&lt;/code&gt;, respectively.&lt;/p&gt;
+&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;We wrap the LaTeX math in the Hugo Blox &lt;em&gt;math&lt;/em&gt; shortcode to prevent Hugo rendering our math as Markdown.&lt;/span&gt;
+&lt;/div&gt;
+&lt;p&gt;Example &lt;strong&gt;math block&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\gamma&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;_{n} &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\frac&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{ &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; | &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n} &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;^T &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; |}{&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\|\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{x}_{n}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{x}_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\|&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;^&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; /math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+
+$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
+
+
+&lt;p&gt;Example &lt;strong&gt;inline math&lt;/strong&gt; &lt;code&gt;{{&amp;lt; math &amp;gt;}}$\nabla F(\mathbf{x}_{n})${{&amp;lt; /math &amp;gt;}}&lt;/code&gt; renders as $\nabla F(\mathbf{x}_{n})$
+.&lt;/p&gt;
+&lt;p&gt;Example &lt;strong&gt;multi-line math&lt;/strong&gt; using the math linebreak (&lt;code&gt;\\&lt;/code&gt;):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;k;p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\begin&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{cases}p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &amp;amp; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{if }k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;, &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\\&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &amp;amp; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{if }k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\end&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{cases}&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; /math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+
+
+$$
+f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} &amp; \text{if }k=1, \\
+1-p_{0}^{*} &amp; \text{if }k=0.\end{cases}
+$$
+
+
+
+&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
+&lt;p&gt;Hugo Blox Builder utilises Hugo&amp;rsquo;s Markdown extension for highlighting code syntax. The code theme can be selected in the &lt;code&gt;config/_default/params.yaml&lt;/code&gt; file.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```python
+import pandas as pd
+data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
+data.head()
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pandas&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pd&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pd&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;read_csv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;data.csv&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;inline-images&#34;&gt;Inline Images&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{{&amp;lt;&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;icon&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;python&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;}}&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;Python&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;p&gt;
+  &lt;span class=&#34;inline-block  pr-1&#34;&gt;
+    &lt;svg style=&#34;height: 1em; transform: translateY(0.1em);&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; height=&#34;1em&#34; viewBox=&#34;0 0 448 512&#34; fill=&#34;currentColor&#34;&gt;&lt;path d=&#34;M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4.1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8.1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3.1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z&#34;/&gt;&lt;/svg&gt;
+  &lt;/span&gt; Python&lt;/p&gt;
+&lt;h2 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>✅ Manage your projects</title>
+      <link>https://example.com/post/project-management/</link>
+      <pubDate>Mon, 23 Oct 2000 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/project-management/</guid>
+      <description>&lt;p&gt;Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!&lt;/p&gt;
+&lt;h2 id=&#34;ideation&#34;&gt;Ideation&lt;/h2&gt;
+&lt;p&gt;Wowchemy supports a Markdown extension for mindmaps.&lt;/p&gt;
+&lt;p&gt;Simply insert a Markdown code block labelled as &lt;code&gt;markmap&lt;/code&gt; and optionally set the height of the mindmap as shown in the example below.&lt;/p&gt;
+&lt;p&gt;Mindmaps can be created by simply writing the items as a Markdown list within the &lt;code&gt;markmap&lt;/code&gt; code block, indenting each item to create as many sub-levels as you need:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;
+&lt;code&gt;
+```markmap {height=&#34;200px&#34;}
+- Hugo Modules
+  - wowchemy
+  - blox-plugins-netlify
+  - blox-plugins-netlify-cms
+  - blox-plugins-reveal
+```
+&lt;/code&gt;
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;markmap&#34; style=&#34;height: 200px;&#34;&gt;
+
+&lt;pre&gt;- Hugo Modules
+  - wowchemy
+  - blox-plugins-netlify
+  - blox-plugins-netlify-cms
+  - blox-plugins-reveal&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h2&gt;
+&lt;p&gt;Wowchemy supports the &lt;em&gt;Mermaid&lt;/em&gt; Markdown extension for diagrams.&lt;/p&gt;
+&lt;p&gt;An example &lt;strong&gt;Gantt diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+gantt
+section Section
+Completed :done,    des1, 2014-01-06,2014-01-08
+Active        :active,  des2, 2014-01-07, 3d
+Parallel 1   :         des3, after des1, 1d
+Parallel 2   :         des4, after des1, 1d
+Parallel 3   :         des5, after des3, 1d
+Parallel 4   :         des6, after des4, 1d
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;mermaid&#34;&gt;gantt
+section Section
+Completed :done,    des1, 2014-01-06,2014-01-08
+Active        :active,  des2, 2014-01-07, 3d
+Parallel 1   :         des3, after des1, 1d
+Parallel 2   :         des4, after des1, 1d
+Parallel 3   :         des5, after des3, 1d
+Parallel 4   :         des6, after des4, 1d
+&lt;/div&gt;
+&lt;h2 id=&#34;todo-lists&#34;&gt;Todo lists&lt;/h2&gt;
+&lt;p&gt;You can even write your todo lists in Markdown too:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;- [x]&lt;/span&gt; Write math example
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;- [x]&lt;/span&gt; Write diagram example
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;- [ ]&lt;/span&gt; Do something else
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write math example
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write diagram example&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Do something else&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

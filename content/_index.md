@@ -22,10 +22,10 @@ sections:
           size: cover
           position: center
           parallax: false
-  #  block: stats
+  # - block: stats
   #   content:
   #     items:
-  #       - statistic: "15"
+  #       - statistic: "82"
   #         description: |
   #           Publications
   #       - statistic: "1,000+"
@@ -69,8 +69,8 @@ sections:
       # Page order: descending (desc) or ascending (asc) date.
       order: desc
     design:
-      # Choose a layout view
-      view: card
+      # Choose a layout view date-title-summary, article-grid, citation, card
+      view: date-title-summary
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
