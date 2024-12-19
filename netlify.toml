@@ -4,8 +4,8 @@
   TZ = "America/Chicago"
 
 [build]
-  command = "hugo --gc --minify
-
+  command = "hugo --gc --minify -b $URL
+  publish = "public" 
  
 [context.production.environment]
   HUGO_ENV = "production"
