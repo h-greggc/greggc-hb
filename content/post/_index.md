@@ -1,5 +1,5 @@
 ---
 title: Posts
-columns: 2
+columns: 1
 view: article-grid
 ---
