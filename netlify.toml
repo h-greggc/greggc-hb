@@ -1,12 +1,12 @@
-[build]
-  command = "hugo --gc --minify 
-  publish = "public"
-
 [build.environment]
   HUGO_VERSION = "0.137.1"
   HUGO_ENABLEGITINFO = "true"
   TZ = "America/Chicago"
-  
+
+[build]
+  command = "hugo --gc --minify 
+  publish = "public"
+ 
 [context.production.environment]
   HUGO_ENV = "production"
 
