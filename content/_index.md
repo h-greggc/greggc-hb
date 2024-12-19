@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
-title:
-date: 2022-10-24
+title: 
+date: 2024-11-29
 type: landing
 
 sections:
@@ -9,7 +9,7 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text:
+      text: 
     design:
       css_class: dark
       background:
@@ -22,15 +22,16 @@ sections:
           size: cover
           position: center
           parallax: false
-  # - block: stats
-  #   content:
-  #     items:
-  #       - statistic: "82"
-  #         description: |
-  #           Publications
-  #       - statistic: "1,000+"
-  #         description: |
-  #           Citations
+  - block: markdown
+  #- block: stats
+    # content:
+    #   items:
+    #     - statistic: "82"
+    #       description: |
+    #         Publications
+    #     - statistic: "1,000+"
+    #       description: |
+    #         Citations
 
     design:
       # Section background color (CSS class)
@@ -40,12 +41,12 @@ sections:
         padding: [0, 0, 0, 0]
   - block: markdown
     content:
-      title: 'Welcome to my website 👋'
+      title: 'Welcome! 👋'
       subtitle: ''
       text:  
              I am a public health risk expert dedicated to teaching, application, and scientific development of quantitative risk analysis and decision-making in public health. You will find more about my specialty in these areas including quality risk management (QRM), multiple criteria decision making (MCDM) on this website.  
     design:
-      columns: '2'
+      columns: '1'
   - block: collection
     content:
       title: Recent Posts
@@ -70,7 +71,7 @@ sections:
       order: desc
     design:
       # Choose a layout view date-title-summary, article-grid, citation, card
-      view: date-title-summary
+      view: card
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
