@@ -4,7 +4,7 @@
   TZ = "America/Chicago"
 
 [build]
-  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL && npx pagefind --source 'public' 
+  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL && npx pagefind --source 'public'"
   publish = "public" 
  
 [context.production.environment]
