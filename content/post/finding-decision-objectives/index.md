@@ -27,7 +27,7 @@ draft: false
 bibliography: library-2020-02-05.bib
 ---
 
-
+<font size= 4rem>
 {{% callout note %}}
 This is a demo book chapter: it will be deleted when the eBook (in progress) is posted.
 {{% /callout %}}
@@ -65,7 +65,7 @@ Stating or identifying the reason for the decision–the objectives–is often t
 This general procedure has been slightly adapted for risk-focused prioritization used in projects I either led or facilitated at FDA and NIH (Fig. 1).
 
 
-<img src="img/Risk-Focused-Prioritization.png" width="500" /> <font size="3"> **Fig. 1. Risk-Focused Prioritization Process.** An example MCDA process in which the identification and statement of the objectives is the first important step.  
+<img src="img/Risk-Focused-Prioritization.png" width="500" /> <font size=2em> **Fig. 1. Risk-Focused Prioritization Process.** An example MCDA process in which the identification and statement of the objectives is the first important step.  
 </font>
 
 
@@ -282,3 +282,5 @@ Sunstein, Cass R, Daniel Kahneman, David Schkade, and Ilana Ritov. 2002. “Pred
 
 [^1]: I believe this approach is useful in many team decision making settings, although the relative importance of objectives in a hierarchy differs somewhat from the business literature.
 
+
+</font>
