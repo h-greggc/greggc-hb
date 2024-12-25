@@ -16,7 +16,6 @@ header:
 title: COVID-19 is Not Just Like the Annual Flu
 subtitle: Not your mother's pandemic!
 date: 2020-08-18
-#featured: true
 tags:
   - COVID-19
   - pandemic
