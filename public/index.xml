@@ -34,6 +34,26 @@
     </item>
     
     <item>
+      <title>Another new post</title>
+      <link>/post/another-new-post/</link>
+      <pubDate>Thu, 26 Dec 2024 20:11:00 +0000</pubDate>
+      <guid>/post/another-new-post/</guid>
+      <description>&lt;p&gt;Lore ipsum…&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Here’s a new slide </title>
+      <link>/slides/heres-a-new-slide/</link>
+      <pubDate>Thu, 26 Dec 2024 20:09:00 +0000</pubDate>
+      <guid>/slides/heres-a-new-slide/</guid>
+      <description>&lt;p&gt;slide 1
+—-
+Slide 2&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Defining Objectives for Team Decisions</title>
       <link>/post/defining-the-objectives/</link>
       <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
@@ -984,7 +1004,7 @@ g + geom_bar(stat=&#34;identity&#34;, width = 0.7, fill=&#34;chartreuse4&#34;) +
 
 
 
-&lt;div id=&#34;chart-347698521&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-571493286&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -1002,7 +1022,7 @@ g + geom_bar(stat=&#34;identity&#34;, width = 0.7, fill=&#34;chartreuse4&#34;) +
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-347698521&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-571493286&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

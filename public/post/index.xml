@@ -5,12 +5,21 @@
     <link>/post/</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 21 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Dec 2024 11:41:00 +0000</lastBuildDate>
     <image>
       <url>/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>/post/</link>
     </image>
+    
+    <item>
+      <title>Another new post</title>
+      <link>/post/another-new-post/</link>
+      <pubDate>Thu, 26 Dec 2024 20:11:00 +0000</pubDate>
+      <guid>/post/another-new-post/</guid>
+      <description>&lt;p&gt;Lore ipsum…&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Defining Objectives for Team Decisions</title>
@@ -452,7 +461,7 @@ g + geom_bar(stat=&#34;identity&#34;, width = 0.7, fill=&#34;chartreuse4&#34;) +
 
 
 
-&lt;div id=&#34;chart-347698521&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-571493286&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -470,7 +479,7 @@ g + geom_bar(stat=&#34;identity&#34;, width = 0.7, fill=&#34;chartreuse4&#34;) +
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-347698521&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-571493286&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
