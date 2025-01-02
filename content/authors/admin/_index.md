@@ -181,7 +181,6 @@ awards:
   
 ---
 
-## About Me
 
 I am a risk scientist devoted to scientific development, teaching and application of quantitative risk and decision making in public health, I spent half my career in academia and the second half at the US FDA. 
 
