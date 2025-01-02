@@ -2,7 +2,6 @@ module github.com/h-greggc/greggc-hb
 
 go 1.22
 
-toolchain go1.23.4
 
 require (
 	github.com/HugoBlox/all-access/blox-all-access v0.0.0-20240506024847-96f2f37c71bb
