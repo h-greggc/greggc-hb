@@ -20,7 +20,8 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Risk and Decision Analysis Consultant
+role: |
+  - Risk and Decision Analysis Consultant | (website under construction)
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -31,25 +32,25 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:hgclaycamp@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
-  - icon: brands/github
-    url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
+  # - icon: brands/x
+  #   url: https://twitter.com/GetResearchDev
+  # - icon: brands/instagram
+  #   url: https://www.instagram.com/
+  # - icon: brands/github
+  #   url: https://github.com/gcushen
+  # - icon: brands/linkedin
+    url: https://www.linkedin.com/in/gregg-claycamp-01200b10
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C44&q=h+g+claycamp&oq=
+
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Risk analysis
+  - Decision analysis
+  - Risk Management
+  - Public Health Statistics
 
 education:
   - area: PhD Artificial Intelligence
@@ -182,7 +183,5 @@ awards:
 ---
 
 
-I am a risk scientist devoted to scientific development, teaching and application of quantitative risk and decision making in public health, I spent half my career in academia and the second half at the US FDA. 
-
-<!-- The key foundation of my work is an interdisciplinary approach to risk analysis and decision making for complex problems in FDA regulated industries--particularly within the pharmaceutical GMP context. My approach developed from an undergraduate Human Biology major at Stanford followed by graduate public health engineering--emphasizing Radiological Health--at Northwestern Univ. After serving on the graduate faculties of three major universities, I left academia for a Senior Biomedical Research Scientist (SBRS) position in government. Having enjoyed developing and delivering a wide range of risk projects over my career, I never lost my passion for teaching the risk sciences to graduate and professional students.  My most recent activities are in the novel applied field of [quality risk management](https://database.ich.org/sites/default/files/Q9%20Guideline.pdf) for the pharmaceutical industry.    
+<!-- I am a risk scientist devoted to scientific development, teaching and application of quantitative risk and decision making in public health, I spent half my career in academia and the second half at the US FDA. The key foundation of my work is an interdisciplinary approach to risk analysis and decision making for complex problems in FDA regulated industries--particularly within the pharmaceutical GMP context. My approach developed from an undergraduate Human Biology major at Stanford followed by graduate public health engineering--emphasizing Radiological Health--at Northwestern Univ. After serving on the graduate faculties of three major universities, I left academia for a Senior Biomedical Research Scientist (SBRS) position in government. Having enjoyed developing and delivering a wide range of risk projects over my career, I never lost my passion for teaching the risk sciences to graduate and professional students.  My most recent activities are in the novel applied field of [quality risk management](https://database.ich.org/sites/default/files/Q9%20Guideline.pdf) for the pharmaceutical industry.    
  -->
