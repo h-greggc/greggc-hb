@@ -5,7 +5,7 @@ type: landing
 
 design:
   # Section spacing
-  spacing: '5rem'
+  spacing: '4rem'
 
 # Page sections
 sections:
@@ -15,6 +15,10 @@ sections:
       text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
       # Upload project images to your `assets/media/` folder and reference the filename in the `image` option
       items:
+        - title: Church Website
+          description: A Wordpress.org website for Prince of Peace Lutheran Church
+          image: prince-of-peace-church.png
+          url: https://poplutheran.org
         - title: Pandas
           description: Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.
           image: panda.png
@@ -23,8 +27,8 @@ sections:
           description: scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.
           image: robot.png
           url: https://github.com/scikit-learn/scikit-learn
-        - title: PyTorch
-          description: PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.
-          image: nlp.png
-          url: https://github.com/pytorch/pytorch
+        # - title: PyTorch
+        #   description: PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.
+        #   image: nlp.png
+        #   url: https://github.com/pytorch/pytorch
 ---

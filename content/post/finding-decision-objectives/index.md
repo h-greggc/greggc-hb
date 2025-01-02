@@ -27,11 +27,7 @@ draft: false
 bibliography: library-2020-02-05.bib
 ---
 
-<font size= 4rem>
-{{% callout note %}}
-This is a demo book chapter: it will be deleted when the eBook (in progress) is posted.
-{{% /callout %}}
-
+<font size= 4rem> {{% callout note %}} This is a demo book chapter: it will be deleted when the eBook (in progress) is posted. {{% /callout %}}
 
 ## 1 Introduction
 
@@ -39,13 +35,13 @@ This post is about the need for working groups and teams to define their decisio
 
 ### 1.1 Clear Decision Objectives are Essential
 
-Sometimes weeks or months into a team’s decision making process, debate arises around the meaning of the decision objective(s) possibly stalling the team’s progress. Different perceptions among the team about purpose of the decision creates uncertainty, a poorly formed decision and might even lead to a dysfunctional team process. The team’s growing uncertainty often leads to a request that the decision owner restate her objective(s) to the working group. In other situations, the decision making team might complete their decision-making charge recommendation under a shared misunderstanding of the objectives only to be told that from the decision owner’s perspective, the team answered the *wrong question*! If broken decision making processes occur fre*quently in the organization, there will be a growing list of reluctant volunteers for *ad hoc\* decision making groups. Ultimately, poor processes affect organizational performance and resilience.
+Sometimes weeks or months into a team’s decision making process, debate arises around the meaning of the decision objective(s) possibly stalling the team’s progress. Different perceptions among the team about purpose of the decision creates uncertainty, a poorly formed decision and might even lead to a dysfunctional team process. The team’s growing uncertainty often leads to a request that the decision owner restate her objective(s) to the working group. In other situations, the decision making team might complete their decision-making charge recommendation under a shared misunderstanding of the objectives only to be told that from the decision owner’s perspective, the team answered the *wrong question*! If broken decision making processes occur fre*quently in the organization, there will be a growing list of reluctant volunteers for* ad hoc\* decision making groups. Ultimately, poor processes affect organizational performance and resilience.
 
 > The achievement of objectives is the sole reason for being interested in any decision. (Keeney 1992, 55).
 
-Keeney’s succinct statement or similar statements appear frequently in decades of MCDM literature. Yet I believe that most decision facilitators or coaches will report that a lack of clearly-stated objectives remains a common problem for individual or team decision making. The decision objective(s)–the *reason(s) for the decision*—are sometimes poorly articulated even for critical strategic decisions. In the absence of clear objectives, the MCDM process fails produces disillusion and frustration with formal decision making processes.
+Keeney’s succinct statement or similar statements appear frequently over decades of MCDM research. Yet I believe that most decision facilitators or coaches will attest to the notion that poorly-stated objectives remains a common problem for both individual or team decision making. The decision objective(s)–i.e., *the* *reason(s) for the decision*—are sometimes poorly articulated even for critical strategic decisions. In the absence of clear objectives, the MCDM process fails often leads to disillusionment and frustration with formal decision making when it is most needed.
 
-### 1.2 Doesn’t everyone know the objectives?
+### 1.2 Doesn’t everyone already know the objectives?
 
 Think about your experience working in groups or teams who have been charged with finding solutions to complex problems, such as developing new information or prioritizing among projects in the organization’s tactical plan. Did the team discuss and articulate the main objective, or was the objective simply “handed down” from the decision owner? Senior management or next-level managers likely pass the team’s decision-making charge and expectations either verbally in the form of a committee charge or problem statement. The decision objective(s) might be well understood and part of both the culture and business process in most routine decisions. But novel and complex decision settings can lead to both nuanced and vague decision objectives for a variety of reasons, such as the uncertainty about a novel situation or even a concern by management for appearing to dictate a decision process. These are the team decision making situations that we are most interested in understanding and improving, so-called “Category II” decisions that are “nonroutine, nonrecurring and uncertain of outcome”(Harrison 1999). The remainder of this essay focuses on the importance of setting clear objectives for these difficult multiobjective decisions. A clear articulation of the objectives and a communication processes keeping the interpretation timely is crucial to an efficient decision-making process and achieving a lasting and satisfying choice.
 
@@ -64,16 +60,16 @@ Stating or identifying the reason for the decision–the objectives–is often t
 
 This general procedure has been slightly adapted for risk-focused prioritization used in projects I either led or facilitated at FDA and NIH (Fig. 1).
 
-
-<img src="img/Risk-Focused-Prioritization.png" width="500" /> <font size=2em> **Fig. 1. Risk-Focused Prioritization Process.** An example MCDA process in which the identification and statement of the objectives is the first important step.  
+<img src="img/Risk-Focused-Prioritization.png" width="500"/> <font size=2em> **Fig. 1. Risk-Focused Prioritization Process.** An example MCDA process in which the identification and statement of the objectives is the first important step.\
 </font>
-
 
 Most MCDM scholars and practitioners describe an objectives identification and statement process (Keeney 1992, 2012; Harrison 1999; Saaty and Peniwati 2013); however, the term “objectives” might not be used either explicitly or in a definition. For example, Belton and Stewart subsume objectives identification within the process of “problem structuring” (Belton and Stewart 2002). Harrison refers to “managerial objectives” implying that objectives are specified in an organizational top-down manner (Harrison 1999).
 
 In general, both individuals and organizations have some notion of **strategic objectives** as guides to the individual’s or organization’s decision making from a very general, high-level perspective. For individuals, these might be expressed as “life goals,” while organizations might blend strategic objectives with mission statements. In either case, strategic objectives might not even be written individually or organizationally as an objective. Even if objectives are formalized, the strategic objective level may be too general to guide decision making in any specific situation.
 
 Keeney writes from the perspective of decision sciences and decision-making situations ranging from the personal (Hammond, Keeney, and Raiffa 2002) to the organizational and societal (Keeney 1992, 2004). Keeney parses objectives into strategic, fundamental and means-ends objectives (Keeney 1992).[^1]
+
+[^1]: I believe this approach is useful in many team decision making settings, although the relative importance of objectives in a hierarchy differs somewhat from the business literature.
 
 **Fundamental objectives** are the decision-making goals in a narrower context. “A fundamental objective characterizes an essential reason for interest in the decision situation.” (Keeney 1992, 34). In contrast, Keeney’s **means-ends objectives** state the ways in which the goals might be achieved. For example, the fundamental objective of “increase supplier audits by 10%” could have an underlying means-end objectives of “hire more auditing staff” and “contract more third-party auditors.” These “actionable” objectives are means to support the ends of increasing audits.
 
@@ -83,15 +79,13 @@ The management, economics and psychology literature have also contributed much r
 
 Harrison’s statement is suited to the idea of strategic objectives. Identifying fundamental objectives for the decision situation makes the general objective specific and “real” for the team of decision makers.
 
-<img src="/img/ObjectivesandLocus.jpg" width="600" alt="Fig. 1. A view of the dominant responsibility for objectives/decisions process." /><font size="3" line-height=15px /><strong>Fig. 1. A view of the dominant responsibility for objectives/decisions process.</strong> For example, the organization “owns” the overall strategic objectives and typically embeds them in a strategic plan. Fundamental objectives definition is done for important decisions and might be identified and developed at a division or team level. Fundamental objectives apply to a defined decision situation.<br><br>
-<font size="4" />
+<img src="/img/ObjectivesandLocus.jpg" alt="Fig. 1. A view of the dominant responsibility for objectives/decisions process." width="600"/><font size="3" line-height=15px /><strong>Fig. 1. A view of the dominant responsibility for objectives/decisions process.</strong> For example, the organization “owns” the overall strategic objectives and typically embeds them in a strategic plan. Fundamental objectives definition is done for important decisions and might be identified and developed at a division or team level. Fundamental objectives apply to a defined decision situation.<br><br> <font size="4" />
 
 ## 2.2 Means-ends objectives anticipate a solution
 
 There are decision situations designed to update a decision or prioritization model with new information, criteria or re-scaled judgments and for which the fundamental objectives are well-established and understood by the decision making team. Such is frequently the case in a regulatory environment where the fundamental objective exists within a specific regulation or standard. The discussion about and definition of means-ends objectives helps the decision team focus on how the fundamental objectives are or might be achieved using new ideas, data and procedures.
 
-Certainly, it is possible to charge a working group with solving means-ends objectives-focused problem. But, if the group does not articulate the connections among the means-ends objectives with the overarching fundamental objectives, the decision will not likely be as robust as it could be otherwise.
-Often, the urge to produce “tangible results” for an organization shifts the team’s focus to defining means-ends objectives before clearly defining the fundamental objectives.
+Certainly, it is possible to charge a working group with solving means-ends objectives-focused problem. But, if the group does not articulate the connections among the means-ends objectives with the overarching fundamental objectives, the decision will not likely be as robust as it could be otherwise. Often, the urge to produce “tangible results” for an organization shifts the team’s focus to defining means-ends objectives before clearly defining the fundamental objectives.
 
 ## 3 Decision making by teams
 
@@ -150,7 +144,7 @@ Less complex decisions might be accomplished following only the **PrOACT** proce
 
 ## 4 Understanding the Objectives
 
-<img src="/img/stratplanning-post-it.jpg" data-position="center" data-caption="" width="600" /> <font size="3" >**Fig.3 A common method for objectives identification is the “Post-It” method.**(Photo by Daria Nepriakhina on Unsplash.com)</font>
+<img src="/img/stratplanning-post-it.jpg" data-position="center" width="600"/> <font size="3" >**Fig.3 A common method for objectives identification is the “Post-It” method.**(Photo by Daria Nepriakhina on Unsplash.com)</font>
 
 The fundamental objectives of the decision capture the reason(s) we are deciding choosing among two or more alternatives (–sometimes known as choices; options). The fundamental objectives are no less important to a decision than are clearly stated and testable hypotheses to a high-quality research design. Even decisions in our personal lives have objectives that a perceived differently by individuals. For example, how many ways might an objective, “achieve personal satisfaction in my career,” be perceived and defined among even a small number of individuals?
 
@@ -180,107 +174,70 @@ NOTES———-
 
 ## References
 
-<div id="refs" class="references csl-bib-body hanging-indent">
-
-<div id="ref-Ariely2009" class="csl-entry">
-
+::: {#refs .references .csl-bib-body .hanging-indent}
+::: {#ref-Ariely2009 .csl-entry}
 Ariely, Dan. 2009. *Predictably Irrational*. Harper-Collins eBooks.
+:::
 
-</div>
-
-<div id="ref-Belton2002" class="csl-entry">
-
+::: {#ref-Belton2002 .csl-entry}
 Belton, V, and T. J. Stewart. 2002. *Multiple Criteria Decision Analysis, an Integrated Approach*. Kluware Academic Publishers.
+:::
 
-</div>
+::: {#ref-Chapman-RJ1998 .csl-entry}
+Chapman, R. J. 1998. “[The effectiveness of working group risk identification and assessment techniques]{.nocase}.” *International Journal of Project Management* 13 (6): 333–43.
+:::
 
-<div id="ref-Chapman-RJ1998" class="csl-entry">
-
-Chapman, R. J. 1998. “<span class="nocase">The effectiveness of working group risk identification and assessment techniques</span>.” *International Journal of Project Management* 13 (6): 333–43.
-
-</div>
-
-<div id="ref-UKCommunities2009" class="csl-entry">
-
+::: {#ref-UKCommunities2009 .csl-entry}
 Communities (UK), Department for, and Local Government. 2009. “Multi-Criteria Analysis: A Manual.” <https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/7612/1132618.pdf>.
+:::
 
-</div>
-
-<div id="ref-Granger1964" class="csl-entry">
-
+::: {#ref-Granger1964 .csl-entry}
 Granger, Charles H. 1964. “The Hierarchy of Objectives.” *Harvard Business Review*.
+:::
 
-</div>
+::: {#ref-Hammond2002 .csl-entry}
+Hammond, J S, R L Keeney, and H Raiffa. 2002. [*Smart Choices. A Practical Guide to Making Better Decisions*]{.nocase}. Book. Paperback; New York: Broadway Books.
+:::
 
-<div id="ref-Hammond2002" class="csl-entry">
-
-Hammond, J S, R L Keeney, and H Raiffa. 2002. *<span class="nocase">Smart Choices. A Practical Guide to Making Better Decisions</span>*. Book. Paperback; New York: Broadway Books.
-
-</div>
-
-<div id="ref-Harrison1999" class="csl-entry">
-
+::: {#ref-Harrison1999 .csl-entry}
 Harrison, E. Frank. 1999. *The Managerial Decision-Making Process*. Fifth. Houghton-Mifflin.
+:::
 
-</div>
-
-<div id="ref-Kahneman2011" class="csl-entry">
-
+::: {#ref-Kahneman2011 .csl-entry}
 Kahneman, D. 2011. *Thinking, Fast and Slow*. Farrar, Straus; Giroux.
+:::
 
-</div>
-
-<div id="ref-Kahneman1982" class="csl-entry">
-
+::: {#ref-Kahneman1982 .csl-entry}
 Kahneman, D, P Slovic, and A Tversky. 1982. *Judgments Under Uncertainty: Heuristics and Biases*. Cambridge University Press.
+:::
 
-</div>
-
-<div id="ref-Keeney1992" class="csl-entry">
-
+::: {#ref-Keeney1992 .csl-entry}
 Keeney, R L. 1992. *Value-Focused Thinking*. Book. Cambridge University Press.
+:::
 
-</div>
+::: {#ref-Keeney2004 .csl-entry}
+———. 2004. “[Making better decision makers]{.nocase}.” Journal Article. *Decision Analysis* 1 (4): 193–204.
+:::
 
-<div id="ref-Keeney2004" class="csl-entry">
+::: {#ref-Keeney2012 .csl-entry}
+———. 2012. “[Value-focused brainstorming]{.nocase}.” Journal Article. *Decision Analysis* 9 (4): 303–13.
+:::
 
-———. 2004. “<span class="nocase">Making better decision makers</span>.” Journal Article. *Decision Analysis* 1 (4): 193–204.
-
-</div>
-
-<div id="ref-Keeney2012" class="csl-entry">
-
-———. 2012. “<span class="nocase">Value-focused brainstorming</span>.” Journal Article. *Decision Analysis* 9 (4): 303–13.
-
-</div>
-
-<div id="ref-Keeney2013" class="csl-entry">
-
+::: {#ref-Keeney2013 .csl-entry}
 ———. 2013. “Foundations for Group Decision Analysis.” *Decision Analysis* 10: 103–20.
+:::
 
-</div>
-
-<div id="ref-Ley-Borras2015" class="csl-entry">
-
+::: {#ref-Ley-Borras2015 .csl-entry}
 Ley-Borrás, Roberto. 2015. “Deciding on the Decision Situation to Analyze: The Critical First Step of a Decision Analysis.” *Decision Analysis* 12 (March). <https://doi.org/10.1287/deca.2014.0308>.
+:::
 
-</div>
-
-<div id="ref-Saaty2013" class="csl-entry">
-
+::: {#ref-Saaty2013 .csl-entry}
 Saaty, T L, and K Peniwati. 2013. *Group Decision Making: Drawing Out and Reconciling Differences*. 2013; 2008. RWS Publications.
+:::
 
-</div>
-
-<div id="ref-Sunstein2002" class="csl-entry">
-
+::: {#ref-Sunstein2002 .csl-entry}
 Sunstein, Cass R, Daniel Kahneman, David Schkade, and Ilana Ritov. 2002. “Predictably Incoherent Judgments.” *Stanford Law Review* 54: 1153–1215.
-
-</div>
-
-</div>
-
-[^1]: I believe this approach is useful in many team decision making settings, although the relative importance of objectives in a hierarchy differs somewhat from the business literature.
-
+:::
+:::
 
 </font>

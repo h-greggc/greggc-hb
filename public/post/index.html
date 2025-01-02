@@ -1,13 +1,13 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: December 18, 2024 --><html lang="en-us" dir="ltr"
+<!-- Last Published: December 28, 2024 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="Hugo Blox Builder 0.2.0" />
+  <meta name="generator" content="Hugo Blox Builder 0.3.1" />
 
   
   
@@ -34,7 +34,7 @@
   
   
 
-  <meta name="author" content="H. Gregg Claycamp, MS, PhD" />
+  <meta name="author" content="H. Gregg Claycamp" />
 
   
   
@@ -44,7 +44,7 @@
   <meta name="description" content="Risk and Decision Analysis expert in public health ." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://example.com/post/" />
+  <link rel="alternate" hreflang="en-us" href="/post/" />
 
   
   
@@ -166,7 +166,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://example.com/post/" />
+  <link rel="canonical" href="/post/" />
 
   
   
@@ -189,13 +189,13 @@
   <meta property="twitter:card" content="summary" />
   
   <meta property="og:site_name" content="Gregg Claycamp" />
-  <meta property="og:url" content="https://example.com/post/" />
+  <meta property="og:url" content="/post/" />
   <meta property="og:title" content="Posts | Gregg Claycamp" />
-  <meta property="og:description" content="Risk and Decision Analysis expert in public health ." /><meta property="og:image" content="https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
-    <meta property="twitter:image" content="https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="Risk and Decision Analysis expert in public health ." /><meta property="og:image" content="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
-      <meta property="og:updated_time" content="2020-08-18T00:00:00&#43;00:00" />
+      <meta property="og:updated_time" content="2024-08-21T00:00:00&#43;00:00" />
     
   
 
@@ -221,7 +221,7 @@
       font-style: normal;
       font-weight: 100 900;
       font-display: swap;
-      src: url(/dist/font/RobotoSlab-VariableFont_wght.ttf) format(truetype);
+      src: url(/dist/font/Inter.var.woff2) format(woff2);
     }
   </style>
 
@@ -230,6 +230,89 @@
   
   
 
+
+  
+  
+  
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+      
+      
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        
+        
+      
+    
+  
+  
+  
+  
+  
+  
   
   
   
@@ -360,61 +443,7 @@
     
   
   
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
+  
   
   
   
@@ -504,6 +533,9 @@
 
 <script src="/dist/pagefind/pagefind-ui.87693d7c6f2b3b347ce359d0ede762c033419f0a32b22ce508c335a81d841f1b.js" integrity="sha256-h2k9fG8rOzR841nQ7ediwDNBnwoysizlCMM1qB2EHxs="></script>
 
+
+<script>window.hbb.pagefind = {"baseUrl":"/"};</script>
+
 <style>
   html.dark {
     --pagefind-ui-primary: #eeeeee;
@@ -516,7 +548,12 @@
 
 <script>
   window.addEventListener('DOMContentLoaded', (event) => {
-    new PagefindUI({ element: "#search", showSubResults: true });
+    new PagefindUI({
+      element: "#search",
+      showSubResults: true,
+      baseUrl: window.hbb.pagefind.baseUrl,
+      bundlePath: window.hbb.pagefind.baseUrl + "pagefind/",
+    });
   });
   document.addEventListener('DOMContentLoaded', () => {
     let element = document.getElementById('search');
@@ -568,8 +605,8 @@
   
   <script
     defer
-    src="/js/hugo-blox-en.min.e5fa931947cac2d947732ea37a770aae2b5bd4a50b6048060cd129b46159a06d.js"
-    integrity="sha256-5fqTGUfKwtlHcy6jencKritb1KULYEgGDNEptGFZoG0="
+    src="/js/hugo-blox-en.min.8c8ea06bd0420f5067e52fa727b9f92303757322ba4431774153d59a9735eadb.js"
+    integrity="sha256-jI6ga9BCD1Bn5S&#43;nJ7n5IwN1cyK6RDF3QVPVmpc16ts="
   ></script>
 
   
@@ -659,6 +696,20 @@
       
       <li class="nav-item">
         <a
+          class="nav-link active"
+          
+          href="/post/"
+        >Posts</a
+        >
+      </li>
+      
+      
+      
+      
+      
+      
+      <li class="nav-item">
+        <a
           class="nav-link "
           
           href="/publication"
@@ -719,20 +770,6 @@
           
           href="/uses/"
         >Uses</a
-        >
-      </li>
-      
-      
-      
-      
-      
-      
-      <li class="nav-item">
-        <a
-          class="nav-link active"
-          
-          href="/post/"
-        >Posts</a
         >
       </li>
       
@@ -811,7 +848,10 @@
 
 <div class="flex flex-col items-center">
 
-  <div class="container px-8 mx-auto max-w-screen-lg xl:px-5 py-5 lg:py-8">
+  
+
+
+<div class="container px-8 mx-auto xl:px-5 py-5 lg:py-8 max-w-screen-lg ">
   <div class="grid gap-10 md:grid-cols-2 lg:gap-10">
 
 
@@ -822,49 +862,61 @@
 
 
 
+
+
+
+
+
 <div class="group cursor-pointer">
 
   
+  
+  
+    
   
   
   <div class="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800">
 
     <a
       class="relative block aspect-video"
-      href="/post/covid-not-flu/">
+      href="/post/defining-the-objectives/" >
 
-      <img alt="COVID-19 is Not Just Like the Annual Flu"
-           class="object-cover transition-all"
+      <img alt="Defining Objectives for Team Decisions"
+           class="object-fill transition-all"
            data-nimg="fill"
            decoding="async"
-           fetchpriority="high" height="655" loading="lazy" src="/post/covid-not-flu/featured_hu85c3a0d47cf34784f4cbd181b37d1525_1710475_9901eab7dbe3a4bc037991384203e22b.webp"
+           fetchpriority="high" height="540" loading="lazy" src="/post/defining-the-objectives/featured_hub4f91b0793132c32d462830ab3583d81_1454419_ba50ad78dd117e391acf85afe4b4aa99.webp"
            style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
-           width="655"></a>
+           width="960"></a>
   </div>
   
   <div class="">
     <div class="">
       <div class="flex gap-3">
         
+        <a href="/tags/working-paper/"><span
+          class="inline-block text-xs font-medium tracking-wider uppercase mt-5 text-primary-700 dark:text-primary-300">Working Paper</span></a>
+        
       </div>
       
       <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
-        href="/post/covid-not-flu/"><span
-        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">COVID-19 is Not Just Like the Annual Flu</span></a>
+        href="/post/defining-the-objectives/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">Defining Objectives for Team Decisions
+          </span></a>
       </h2>
       
       <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
-        href="/post/covid-not-flu/">
-        The coronavirus pandemic of COVID-19 is often compared with recent pandemics and then casually dismissed as being \&#34;no worse than the flu.\&#34; I disuss some of the striking differences that should get and keep our attention for the health of the nation and the globe.</a></p>
+        href="/post/defining-the-objectives/" >
+        Teams and individuals need define their decision objectives whenever the decision is important for accomplishing the team&#39;s goals. That&#39;s true for nearly all of their decisions!</a></p>
       </div>
       <div class="flex-none">
         <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
           
-          <div class="flex items-center gap-3">
-            
-          <time class="truncate text-sm" datetime="2020-08-18">Aug 18, 2020</time>
+          
+          <time class="truncate text-sm" datetime="2024-08-21">Aug 21, 2024</time>
         </div>
       </div>
+
     </div>
   </div>
 </div>
@@ -875,24 +927,97 @@
 
 
 
+
+
+
+
+
 <div class="group cursor-pointer">
 
   
+  
+  
+    
   
   
   <div class="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800">
 
     <a
       class="relative block aspect-video"
-      href="/post/second-brain/">
+      href="/post/covid-not-flu/" >
 
-      <img alt="🧠 Sharpen your thinking with a second brain"
-           class="object-cover transition-all"
+      <img alt="COVID-19 is Not Just Like the Annual Flu"
+           class="object-fill transition-all"
            data-nimg="fill"
            decoding="async"
-           fetchpriority="high" height="655" loading="lazy" src="/post/second-brain/featured_hu02aa61ae1d9de35cbe238d2676170cb9_115048_cb12b50b1b86bea308e5774a8264c0dd.webp"
+           fetchpriority="high" height="540" loading="lazy" src="/post/covid-not-flu/featured_hu85c3a0d47cf34784f4cbd181b37d1525_1710475_0c1f4f59ad8a88af4e07898fd6fada75.webp"
            style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
-           width="655"></a>
+           width="960"></a>
+  </div>
+  
+  <div class="">
+    <div class="">
+      <div class="flex gap-3">
+        
+        <a href="/tags/covid-19/"><span
+          class="inline-block text-xs font-medium tracking-wider uppercase mt-5 text-primary-700 dark:text-primary-300">COVID-19</span></a>
+        
+      </div>
+      
+      <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
+        href="/post/covid-not-flu/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">COVID-19 is Not Just Like the Annual Flu
+          </span></a>
+      </h2>
+      
+      <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
+        href="/post/covid-not-flu/" >
+        The coronavirus pandemic of COVID-19 is often compared with recent pandemics and then casually dismissed as being \&#34;no worse than the flu.\&#34; I disuss some of the striking differences that should get and keep our attention for the health of the nation and the globe.</a></p>
+      </div>
+      <div class="flex-none">
+        <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
+          
+          
+          <time class="truncate text-sm" datetime="2020-08-18">Aug 18, 2020</time>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  
+  
+
+
+
+
+
+
+
+
+
+<div class="group cursor-pointer">
+
+  
+  
+  
+    
+  
+  
+  <div class="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800">
+
+    <a
+      class="relative block aspect-video"
+      href="/post/second-brain/" >
+
+      <img alt="🧠 Sharpen your thinking with a second brain"
+           class="object-fill transition-all"
+           data-nimg="fill"
+           decoding="async"
+           fetchpriority="high" height="540" loading="lazy" src="/post/second-brain/featured_hu02aa61ae1d9de35cbe238d2676170cb9_115048_f4dd96e7ee59d980cb91976c27b50759.webp"
+           style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
+           width="960"></a>
   </div>
   
   <div class="">
@@ -900,27 +1025,28 @@
       <div class="flex gap-3">
         
         <a href="/tags/second-brain/"><span
-          class="inline-block text-xs font-medium tracking-wider uppercase mt-5 text-primary-600 dark:text-primary-300">Second Brain</span></a>
+          class="inline-block text-xs font-medium tracking-wider uppercase mt-5 text-primary-700 dark:text-primary-300">Second Brain</span></a>
         
       </div>
       
       <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
-        href="/post/second-brain/"><span
-        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">🧠 Sharpen your thinking with a second brain</span></a>
+        href="/post/second-brain/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">🧠 Sharpen your thinking with a second brain
+          </span></a>
       </h2>
       
       <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
-        href="/post/second-brain/">
+        href="/post/second-brain/" >
         Create a personal knowledge base and share your knowledge with your peers.</a></p>
       </div>
       <div class="flex-none">
         <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
           
-          <div class="flex items-center gap-3">
-            
+          
           <time class="truncate text-sm" datetime="2000-10-26">Oct 26, 2000</time>
         </div>
       </div>
+
     </div>
   </div>
 </div>
@@ -931,24 +1057,32 @@
 
 
 
+
+
+
+
+
 <div class="group cursor-pointer">
 
   
+  
+  
+    
   
   
   <div class="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800">
 
     <a
       class="relative block aspect-video"
-      href="/post/data-visualization/">
+      href="/post/data-visualization/" >
 
       <img alt="📈 Communicate your results effectively with the best data visualizations"
-           class="object-cover transition-all"
+           class="object-fill transition-all"
            data-nimg="fill"
            decoding="async"
-           fetchpriority="high" height="655" loading="lazy" src="/post/data-visualization/featured_hu02aa61ae1d9de35cbe238d2676170cb9_233990_fd942d60a626658078731eb2ef615565.webp"
+           fetchpriority="high" height="540" loading="lazy" src="/post/data-visualization/featured_hu02aa61ae1d9de35cbe238d2676170cb9_233990_de4aa32d2cb2e729b1cb477b67e66949.webp"
            style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
-           width="655"></a>
+           width="960"></a>
   </div>
   
   <div class="">
@@ -956,27 +1090,28 @@
       <div class="flex gap-3">
         
         <a href="/tags/hugo/"><span
-          class="inline-block text-xs font-medium tracking-wider uppercase mt-5 text-primary-600 dark:text-primary-300">Hugo</span></a>
+          class="inline-block text-xs font-medium tracking-wider uppercase mt-5 text-primary-700 dark:text-primary-300">Hugo</span></a>
         
       </div>
       
       <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
-        href="/post/data-visualization/"><span
-        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">📈 Communicate your results effectively with the best data visualizations</span></a>
+        href="/post/data-visualization/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">📈 Communicate your results effectively with the best data visualizations
+          </span></a>
       </h2>
       
       <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
-        href="/post/data-visualization/">
+        href="/post/data-visualization/" >
         Use popular tools such as Plotly, Mermaid, and data frames.</a></p>
       </div>
       <div class="flex-none">
         <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
           
-          <div class="flex items-center gap-3">
-            
+          
           <time class="truncate text-sm" datetime="2000-10-26">Oct 26, 2000</time>
         </div>
       </div>
+
     </div>
   </div>
 </div>
@@ -987,24 +1122,32 @@
 
 
 
+
+
+
+
+
 <div class="group cursor-pointer">
 
   
+  
+  
+    
   
   
   <div class="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800">
 
     <a
       class="relative block aspect-video"
-      href="/post/teach-courses/">
+      href="/post/teach-courses/" >
 
       <img alt="👩🏼‍🏫 Teach academic courses"
-           class="object-cover transition-all"
+           class="object-fill transition-all"
            data-nimg="fill"
            decoding="async"
-           fetchpriority="high" height="655" loading="lazy" src="/post/teach-courses/featured_hu02aa61ae1d9de35cbe238d2676170cb9_173745_64c2ef085162ca523b275147f8d451dc.webp"
+           fetchpriority="high" height="540" loading="lazy" src="/post/teach-courses/featured_hu02aa61ae1d9de35cbe238d2676170cb9_173745_f6b44c6f8d5dcf1d4fefa177ca1d0b31.webp"
            style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
-           width="655"></a>
+           width="960"></a>
   </div>
   
   <div class="">
@@ -1012,27 +1155,28 @@
       <div class="flex gap-3">
         
         <a href="/tags/hugo/"><span
-          class="inline-block text-xs font-medium tracking-wider uppercase mt-5 text-primary-600 dark:text-primary-300">Hugo</span></a>
+          class="inline-block text-xs font-medium tracking-wider uppercase mt-5 text-primary-700 dark:text-primary-300">Hugo</span></a>
         
       </div>
       
       <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
-        href="/post/teach-courses/"><span
-        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">👩🏼‍🏫 Teach academic courses</span></a>
+        href="/post/teach-courses/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">👩🏼‍🏫 Teach academic courses
+          </span></a>
       </h2>
       
       <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
-        href="/post/teach-courses/">
+        href="/post/teach-courses/" >
         Embed videos, podcasts, code, LaTeX math, and even test students!</a></p>
       </div>
       <div class="flex-none">
         <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
           
-          <div class="flex items-center gap-3">
-            
+          
           <time class="truncate text-sm" datetime="2000-10-24">Oct 24, 2000</time>
         </div>
       </div>
+
     </div>
   </div>
 </div>
@@ -1043,24 +1187,32 @@
 
 
 
+
+
+
+
+
 <div class="group cursor-pointer">
 
   
+  
+  
+    
   
   
   <div class="overflow-hidden rounded-md bg-gray-100 transition-all hover:scale-105 dark:bg-gray-800">
 
     <a
       class="relative block aspect-video"
-      href="/post/project-management/">
+      href="/post/project-management/" >
 
       <img alt="✅ Manage your projects"
-           class="object-cover transition-all"
+           class="object-fill transition-all"
            data-nimg="fill"
            decoding="async"
-           fetchpriority="high" height="655" loading="lazy" src="/post/project-management/featured_hu02aa61ae1d9de35cbe238d2676170cb9_181206_057cab4e9f491f5495ff4841926fc40e.webp"
+           fetchpriority="high" height="540" loading="lazy" src="/post/project-management/featured_hu02aa61ae1d9de35cbe238d2676170cb9_181206_1ca6ffa2669ecc65467a3c03a2b6bc98.webp"
            style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
-           width="655"></a>
+           width="960"></a>
   </div>
   
   <div class="">
@@ -1068,27 +1220,28 @@
       <div class="flex gap-3">
         
         <a href="/tags/wowchemy/"><span
-          class="inline-block text-xs font-medium tracking-wider uppercase mt-5 text-primary-600 dark:text-primary-300">Wowchemy</span></a>
+          class="inline-block text-xs font-medium tracking-wider uppercase mt-5 text-primary-700 dark:text-primary-300">Wowchemy</span></a>
         
       </div>
       
       <h2 class="text-lg font-semibold leading-snug tracking-tight mt-2 dark:text-white"><a
-        href="/post/project-management/"><span
-        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">✅ Manage your projects</span></a>
+        href="/post/project-management/" ><span
+        class="bg-gradient-to-r from-primary-200 to-primary-100 bg-[length:0px_10px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_10px] dark:from-primary-800 dark:to-primary-900">✅ Manage your projects
+          </span></a>
       </h2>
       
       <div class="grow"><p class="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400"><a
-        href="/post/project-management/">
+        href="/post/project-management/" >
         Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!</a></p>
       </div>
       <div class="flex-none">
         <div class="mt-3 flex items-center space-x-3 text-gray-500 dark:text-gray-400 cursor-default">
           
-          <div class="flex items-center gap-3">
-            
+          
           <time class="truncate text-sm" datetime="2000-10-23">Oct 23, 2000</time>
         </div>
       </div>
+
     </div>
   </div>
 </div>

@@ -1,1 +1,23 @@
 /* my overrides */
+
+.ul-interests li {
+    font-size: 0.9rem;
+}
+
+.big-icon {
+    font-size: 2rem;
+}
+
+.ul-edu li .description p.course {
+    font-size: 0.9rem;
+}
+
+/* Skills           */
+
+.skills-name { 
+    margin-bottom: 6px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+

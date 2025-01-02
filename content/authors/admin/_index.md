@@ -1,6 +1,6 @@
 ---
 # Display name
-title: H. Gregg Claycamp, MS, PhD
+title: H. Gregg Claycamp
 
 # Name pronunciation (optional)
 name_pronunciation: 

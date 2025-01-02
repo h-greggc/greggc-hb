@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pandemic | Gregg Claycamp</title>
+    <link>/tags/pandemic/</link>
+      <atom:link href="/tags/pandemic/index.xml" rel="self" type="application/rss+xml" />
+    <description>pandemic</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 18 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>pandemic</title>
+      <link>/tags/pandemic/</link>
+    </image>
+    
+    <item>
+      <title>COVID-19 is Not Just Like the Annual Flu</title>
+      <link>/post/covid-not-flu/</link>
+      <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/post/covid-not-flu/</guid>
+      <description>&lt;p&gt;Over the six months of the coronavirus pandemic in the US, I have had many casual conversations with strangers or family in which the individual suggests that &amp;ldquo;COVID-19 is just like an annual flu.&amp;rdquo; This notion is far from the truth even in the face of a general similarity that they are both respiratory infections. In this post I compare quantitative features of
+COVID-19 with H1N1 and other flu-like illnesses, Ebola virus disease (EVD), and SARS to show differences between COVID-19 and the flu. Of course, this is not the first time these comparisons have been made in public media; rather, this post is only my perspective on the issue.&lt;/p&gt;
+&lt;p&gt;There are several ways in which the ongoing COVID-19 pandemic and some recent other pandemics can be compared. Sometimes, the endpoints for comparing the pandemic are cherry-picked to support the individual&amp;rsquo;s or organization&amp;rsquo;s purpose. But generally speaking, quantitative comparisons of pandemics begin using fundamental measures, such as&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the number of cases,&lt;/li&gt;
+&lt;li&gt;the number of deaths, and&lt;/li&gt;
+&lt;li&gt;the population size.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Although these pandemic measures start with the seemingly simple process of counting cases and deaths, the luxury of that simplicity is seldom achievable. Each numerical comparison is nuanced and sometimes even specific to &lt;em&gt;which&lt;/em&gt; outbreak of complex disease. The field of epidemiology&amp;ndash;the study of diseases in populations&amp;ndash;uses these fundamental measures to derive more specific measures of incidence, prevalence, and risk (Below). Trained infectious disease scientists and clinicians seldom made casual comparisons using only the above terms, but instead, carefully state the  assumptions and possibly caveats necessary to make scientifically valid comparisons using an array of terms. For this post, we&amp;rsquo;ll assume that such simplifying assumptions and caveats could be easily resolved.&lt;/p&gt;
+&lt;h2 id=&#34;comparing-the-number-of-cases&#34;&gt;Comparing the number of cases&lt;/h2&gt;
+&lt;p&gt;The number of cases (&amp;ldquo;case counts&amp;rdquo;) is a basic measure used to routinely monitor diseases in addition to detecting an emerging epidemic disease.^[Both chronic and infectious diseases are counted on a regular basis as part of public health risk management. The CDC website has a good explanation of surveillance: &lt;a href=&#34;https://www.cdc.gov/chronicdisease/data/surveillance.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CDC Surveillance&lt;/a&gt;] The following figure (Fig.1) shows the worldwide case counts for the past SARS, EVD and H1N1 (Swine Flu) outbreaks and the ongoing COVID-19 pandemic. Note that the horizontal axis is a logarithmic scale, e.g., moving in powers of 10 (10, 100, 1000, 10000, &amp;hellip;). If not shown that way, the tens of millions of cases in COVID-19 and H1N1 would visually swamp the &lt;em&gt;thousands-fold&lt;/em&gt; fewer cases of Ebola and SARS. (You would need a very wide monitor to display the graph!)&lt;/p&gt;
+&lt;!-- ```
+{r opts, include=TRUE, echo=FALSE}
+#knitr::opts_chunk$set(&#34;fig.path&#34;= &#34;/post/2020-08-18-covid-19-is-still-not-the-annual-flu.en_files/figure-html/&#34;)
+``` --&gt;
+&lt;!-- ```
+{r plotbarcase, include=TRUE, echo=FALSE}
+library(ggplot2)
+
+cases &lt;- c(74210337,60800000,28646,8096)
+
+outbreak &lt;- c(&#34;COVID-19 (2019)&#34;, &#34;H1N1 (2009)&#34;, &#34;Ebola (2014)&#34;, &#34;SARS (2003)&#34;)
+
+df &lt;- as.data.frame(cases, outbreak)
+theme_set(theme_minimal())
+
+# Plot
+g &lt;- ggplot(df, aes(x = reorder(outbreak, cases), cases))
+g + geom_bar(stat=&#34;identity&#34;, width = 0.7, fill=&#34;blue&#34;) + 
+   geom_text(aes(label=cases), hjust=1.6, color=&#34;white&#34;, size=4.0) +
+      labs(title=&#34;Fig.1: Worldwide Case Counts in Major Outbreaks&#34;, 
+           caption=&#34;Data sources: WHO, CDC&#34;) +
+      theme(axis.title.y=element_blank() ) + 
+      theme(axis.text.y = element_text(size=rel(1.5))) +
+ scale_y_log10()  +  coord_flip()
+``` --&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-fig1-worldwide-case-counts-in-major-outbreaks-data-sources-who-cdc&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;plot cases&#34; srcset=&#34;
+               /media/plotbarcase_hu78f2c72ce5a7673ad2fc4636a1b06ea3_23236_c5b3fd28a5a3a6dd3a57beb3d49267a7.webp 400w,
+               /media/plotbarcase_hu78f2c72ce5a7673ad2fc4636a1b06ea3_23236_928314b3c09cc49145a30a15ceda81f1.webp 760w,
+               /media/plotbarcase_hu78f2c72ce5a7673ad2fc4636a1b06ea3_23236_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;/media/plotbarcase_hu78f2c72ce5a7673ad2fc4636a1b06ea3_23236_c5b3fd28a5a3a6dd3a57beb3d49267a7.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;543&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Fig.1: Worldwide Case Counts in Major Outbreaks. Data sources: WHO, CDC
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;death-counts-tell-a-different-story&#34;&gt;Death Counts Tell a Different Story&lt;/h2&gt;
+&lt;p&gt;The total deaths due to the outbreaks are shown in Fig. 2. Here I dropped the log scale to show the dramatic differences among the past and ongoing outbreaks. For example, the SARS outbreak from a coronavirus, disappears as a significant cause of worldwide mortality.&lt;/p&gt;
+&lt;!-- ```
+{r plotbardeath, include=TRUE, echo=FALSE}
+
+deaths &lt;- c(1648596,163000,11323,774)
+outbreak &lt;- c(&#34;COVID-19 (2019)&#34;, &#34;H1N1 (2009)&#34;, &#34;Ebola (2014)&#34;, &#34;SARS (2003)&#34;)
+
+df &lt;- as.data.frame(deaths, outbreak)
+
+theme_set(theme_minimal())
+
+# Plot
+g &lt;- ggplot(df, aes(x = reorder(outbreak, deaths), deaths))
+g + geom_bar(stat=&#34;identity&#34;, width = 0.7, fill=&#34;coral2&#34;) + 
+   geom_text(aes(label=deaths), hjust=-0.1, color=&#34;black&#34;, size=4.0) +
+      labs(title=&#34;Fig.2: Worldwide Death Counts in Major Outbreaks&#34;, 
+           caption=&#34;Data sources: WHO, CDC Aug 19, 2020&#34;) +
+      theme(axis.title.y=element_blank()) + 
+  theme(axis.text.y = element_text(size=rel(1.5))) + ylim(0, 2000000) +
+  coord_flip()
+
+``` --&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-fig2-worldwide-death-counts-in-major-outbreaks-data-sources-who-cdc-aug-19-2020&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;plot deaths&#34; srcset=&#34;
+               /media/plotbardeath_hu406c631a3acdbfad12d811aad87e06d7_24635_26fc22279fbdd714976ad74a47b30a1f.webp 400w,
+               /media/plotbardeath_hu406c631a3acdbfad12d811aad87e06d7_24635_ed619b44407d74ada801d6fce8a9fabe.webp 760w,
+               /media/plotbardeath_hu406c631a3acdbfad12d811aad87e06d7_24635_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;/media/plotbardeath_hu406c631a3acdbfad12d811aad87e06d7_24635_26fc22279fbdd714976ad74a47b30a1f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;543&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Fig.2: Worldwide Death Counts in Major Outbreaks. Data sources: WHO, CDC Aug 19, 2020
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;The data reported during and after an outbreak is likely to include the &lt;em&gt;proportion&lt;/em&gt; of cases or deaths in the population. Sometimes these proportions are called the &amp;ldquo;normalized cases (or deaths).&amp;rdquo; At the simplest level, these proportions are simply the number of cases/deaths divided by the size of the population of concern. Because populations of interest in epidemiology are often large, the ratio is adjusted to the &amp;ldquo;number of cases/deaths per 100,000 in the population.&amp;rdquo; For example, if we found 200 cases in a population of 250,000 people, the normalized cases are:
+
+$$
+N^*=\frac{200 \ cases}{250,000 \ people}=0.0008
+$$
+
+
+This mathematical result, while certainly correct, leaves us with trying to imagine a 0.0008 illness. Thus, we can bring the proportion back to the realm of whole people by multiplying the proportion by 100,000:&lt;/p&gt;
+&lt;p&gt;
+$$
+n^*=0.0008 \ times \ 100000 = 80\ cases \ per \ 100,000 \ people
+$$
+
+&amp;ldquo;Normalizing&amp;rdquo; the case/death counts by population size makes sense for the comparison of the intensity of an outbreak from one administrative boundary to the next. For example, if the administrative boundary is &amp;quot; county&amp;quot; and the example is compared with a second county also having 200 cases of disease but a population size of 1M, then the normalized comparison is 80 versus 20 cases per 100,000. Clearly, the counties that were apparently equal in case counts now are 4-fold different in the normalized case counts.&lt;/p&gt;
+&lt;h2 id=&#34;higher-order-measures-in-outbreaks&#34;&gt;Higher Order Measures in Outbreaks&lt;/h2&gt;
+&lt;p&gt;The base counts are seldom sufficient for making comparisons among outbreaks and pandemics. For example, if we look at only total case counts, then we have only a cumulative counting measure that begins at the index (first) case and ends some period of time later when no new cases are observed. But the rate of accumulation of new cases might be more relevant to public health planning because it informs the rate at which health services will be needed for case management. There are several higher order or &lt;em&gt;derived&lt;/em&gt; measures of an outbreak that are more useful for understanding not only the population disease process itself, but also the possible demand on health care resources. Such derived measures include, among others:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;incidence (incidence rate; incidence proportion)&lt;/li&gt;
+&lt;li&gt;prevalence&lt;/li&gt;
+&lt;li&gt;person-years at risk&lt;/li&gt;
+&lt;li&gt;case fatality ratio&lt;/li&gt;
+&lt;li&gt;infectivity&lt;/li&gt;
+&lt;li&gt;virulence&lt;/li&gt;
+&lt;li&gt;modes of transmission&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A short blog is not suited for carefully defining all of these terms and then using them to compare outbreaks. I recommend online sources including basic epidemiology text published by CDC.^[&lt;a href=&#34;https://www.cdc.gov/csels/dsepd/ss1978/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Principles of Epidemiology in Public Health Practice, Third edition&lt;/a&gt;] We will continue our simplified comparison of outbreaks with only a few key measures.&lt;/p&gt;
+&lt;h2 id=&#34;comparing-the-case-fatality-ratios&#34;&gt;Comparing the case fatality ratios&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&#34;https://www.cdc.gov/csels/dsepd/ss1978/lesson3/section3.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;case fatality proportion&lt;/em&gt;&lt;/a&gt; (also called the case fatality &lt;em&gt;ratio&lt;/em&gt; or &lt;em&gt;rate&lt;/em&gt;) is a basic measure of great importance in infectious disease epidemiology. The measure gets right to the point of, &amp;ldquo;how lethal is this disease?&amp;rdquo; It is typically defined as the number of cases of a disease that end in death from a specific cause divided by the total number of cases of that disease in a defined population. This endpoint is used colloquially to express the risk of death, &lt;em&gt;given that the individual has the disease&lt;/em&gt;. In other words, what percentage of true cases are expected to die? Using the case fatality ratio (CFR) is where the comparisons of the major outbreaks is turned on its head: now, the relatively low risk of having Ebola virus disease (EVD) looks much worse because, given the patient has EVD, the likelihood of death is about 40% By comparison, the relative chance of death, given an H1N1 infection is 400 times less than the risk of death from EVD. We will visit more characteristic of case fatality ratios in a later post; but for now, look at Fig. 3 for the remarkable differences among the CFRs the pandemics in question.&lt;/p&gt;
+&lt;!-- ```
+{r uscases, echo=FALSE}
+casefatality &lt;- c(2.2,0.1,39.53,9.56)
+
+outbreak &lt;- c(&#34;COVID-19 (2019)&#34;, &#34;H1N1 (2009)&#34;, &#34;Ebola (2014)&#34;, &#34;SARS (2003)&#34;)
+
+df &lt;- as.data.frame(casefatality, outbreak)
+
+theme_set(theme_minimal())
+
+# Plot
+g &lt;- ggplot(df, aes(x = reorder(outbreak, casefatality), casefatality))
+g + geom_bar(stat=&#34;identity&#34;, width = 0.7, fill=&#34;chartreuse4&#34;) + 
+   geom_text(aes(label=casefatality), hjust=1.6, color=&#34;white&#34;, size=4.0) +
+      labs(title=&#34;Fig.3: Case Fatality Ratios (%) in Major Outbreaks&#34;, 
+           caption=&#34;Data sources: WHO, CDC&#34;) +
+      theme(axis.title.y=element_blank() ) + 
+      theme(axis.text.y = element_text(size=rel(1.5))) +
+      coord_flip()
+      
+``` --&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-fig-3-case-fatality-ratios--in-major-outbreaks-data-sources-who-cdc&#34;&gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;The case fatality ratios&#34; srcset=&#34;
+               /media/uscases_hu152a235d03bd2d6c45c94470586bcc1b_24143_e3a90d05914c02ab2acfd9bad1822b73.webp 400w,
+               /media/uscases_hu152a235d03bd2d6c45c94470586bcc1b_24143_5346431b0257db0174a03589a0977522.webp 760w,
+               /media/uscases_hu152a235d03bd2d6c45c94470586bcc1b_24143_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;/media/uscases_hu152a235d03bd2d6c45c94470586bcc1b_24143_e3a90d05914c02ab2acfd9bad1822b73.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;543&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Fig. 3: Case Fatality Ratios (%) in Major Outbreaks. Data sources: WHO, CDC
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;other-comparisons&#34;&gt;Other Comparisons&lt;/h2&gt;
+&lt;h3 id=&#34;infectivity-and-modes-of-transmission&#34;&gt;Infectivity and Modes of Transmission&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Infectivity&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Viral infectivity&lt;/a&gt; is the ability of a pathogen to establish infection. Virulence is a measure that is really at the interface between the environment&amp;ndash;air, water, other fluids and solid surfaces&amp;ndash;and the host. In other words, if the viral particles are in the air that the host breathes, what is the likelihood that the host will be infected? Viral infectivity is correlated (positive) with the virulence of the virus. Although we might attempt to compare the infectivity of the three outbreaks in the abstract, in fact, the modes of transmission are different, complicating a simple comparison. The coronavirus causing SARS and COVID-19 are clearly transmitted primarily by inhalation of contaminated air, whereas the infection by Ebola virus is through contact with bodily fluids, tissues and contaminated surfaces from an EVD patient.&lt;/p&gt;
+&lt;h3 id=&#34;derived-measures&#34;&gt;Derived measures&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Prevalence&lt;/em&gt; and &lt;em&gt;incidence&lt;/em&gt; are two classical epidemiology measurements that are derived from the number of cases or deaths. The first of these&amp;ndash;prevalence&amp;ndash; is the proportion of cases in a defined population at a fixed time point. The &amp;ldquo;defined population&amp;rdquo; is central to both the epidemiology of a single outbreak and the comparison of different outbreaks and from possibly different viruses. Defined population can be based on administrative boundaries, e.g., the population within a county, state, country or continent; or, the definition might be a specific age group with other characteristics. The wide range of possible definition makes prevalence-based a potential minefield of errors.&lt;/p&gt;
+&lt;p&gt;The incidence or &lt;em&gt;incidence rate&lt;/em&gt; of disease is also difficult to use in comparisons across types of outbreaks. Incidence refers to the number of new cases in a defined population of susceptible hosts over a set period of time (e.g., &amp;ldquo;per year&amp;rdquo;). Incidence rates suffer from the same challenges of the related prevalence of disease.&lt;/p&gt;
+&lt;h2 id=&#34;outbreak-measures-can-and-do-change&#34;&gt;Outbreak measures can and do change&lt;/h2&gt;
+&lt;p&gt;While it might appear that the fundamental measurements in epidemiology, cases and deaths, can be easily tallied, in fact the &lt;em&gt;true&lt;/em&gt; number of cases/deaths in an outbreak can be difficult to obtain and might not even be known for several years after the outbreak!^[For example, the total cases in the H1N1 influenza (2009) cases are still uncertain a decade after the outbreak.] This happens because the signs and symptoms for many infectious diseases are overlapping, and might even overlap with those of the infected person&amp;rsquo;s pre-existing conditions. If there is no way to clearly identify the infectious agent, then the clinician diagnoses the disease by comparing with a current knowledge base of signs and symptoms.  With a novel disease like COVID-19, the scientific and regulatory communities will debate the exact definition of a COVID-19 case in the midst of the pandemic because the &amp;ldquo;recognized&amp;rdquo; signs and symptoms are likely to change with more experience.&lt;/p&gt;
+&lt;p&gt;In conclusion, I have shown that just a few simplistic comparisons using basic epidemiologic measures can easily dispel the notion that the ongoing COVID-19 pandemic is &amp;ldquo;just like the annual flu.&amp;rdquo; A deeper dive into the specifics of infectivity, virulence, age-dependency and co-morbidities would take volumes to discuss in even moderate depth. More importantly, the knowledge base on COVID-19 is rapidly evolving due to the efforts of scientists and public health officials to gather and share data. As Dr. &lt;a href=&#34;https://www.niaid.nih.gov/about/director&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Anthony Fauci&lt;/a&gt; remarked recently, understanding the long-term effects of COVID-19 is a &amp;ldquo;work in progress.&amp;quot;^[&lt;a href=&#34;https://www.cnn.com/world/live-news/coronavirus-pandemic-08-19-20-intl/h_24a802929c742bc3facdb547684b2645&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CNN&lt;/a&gt;].&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

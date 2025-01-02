@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Expert elicitation | Gregg Claycamp</title>
-    <link>https://example.com/tags/expert-elicitation/</link>
-      <atom:link href="https://example.com/tags/expert-elicitation/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/expert-elicitation/</link>
+      <atom:link href="/tags/expert-elicitation/index.xml" rel="self" type="application/rss+xml" />
     <description>Expert elicitation</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Sep 2012 14:01:07 -0600</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Expert elicitation</title>
-      <link>https://example.com/tags/expert-elicitation/</link>
+      <link>/tags/expert-elicitation/</link>
     </image>
     
     <item>
       <title>The reliability-quality relationship for quality systems and quality risk management</title>
-      <link>https://example.com/publication/2012-reliability-quality-relationship-qrm/</link>
+      <link>/publication/2012-reliability-quality-relationship-qrm/</link>
       <pubDate>Sat, 01 Sep 2012 14:01:07 -0600</pubDate>
-      <guid>https://example.com/publication/2012-reliability-quality-relationship-qrm/</guid>
+      <guid>/publication/2012-reliability-quality-relationship-qrm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Elicitation of expert knowledge about risks associated with pharmaceutical manufacturing processes</title>
-      <link>https://example.com/publication/2005-elicitation-expert-knowledge/</link>
+      <link>/publication/2005-elicitation-expert-knowledge/</link>
       <pubDate>Thu, 01 Sep 2005 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/2005-elicitation-expert-knowledge/</guid>
+      <guid>/publication/2005-elicitation-expert-knowledge/</guid>
       <description></description>
     </item>
     

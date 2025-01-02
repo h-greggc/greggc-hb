@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DNA damage | Gregg Claycamp</title>
-    <link>https://example.com/tags/dna-damage/</link>
-      <atom:link href="https://example.com/tags/dna-damage/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/dna-damage/</link>
+      <atom:link href="/tags/dna-damage/index.xml" rel="self" type="application/rss+xml" />
     <description>DNA damage</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jul 1992 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>DNA damage</title>
-      <link>https://example.com/tags/dna-damage/</link>
+      <link>/tags/dna-damage/</link>
     </image>
     
     <item>
       <title>Phenol sensitization of DNA to subsequent oxidative damage in 8-hydroxyguanine assays</title>
-      <link>https://example.com/publication/1992-8ohdg-phenol/</link>
+      <link>/publication/1992-8ohdg-phenol/</link>
       <pubDate>Wed, 01 Jul 1992 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/1992-8ohdg-phenol/</guid>
+      <guid>/publication/1992-8ohdg-phenol/</guid>
       <description></description>
     </item>
     

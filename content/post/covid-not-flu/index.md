@@ -22,6 +22,7 @@ tags:
   - risk
 image:
   caption: featured-flu
+backlinks: false
 
 ---
   

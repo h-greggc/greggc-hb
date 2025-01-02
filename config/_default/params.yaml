@@ -7,26 +7,26 @@
 appearance:
   mode: system
   color: emerald
-  font: roboto
-  size: M
+  font: mr_robot
+  font_size: M
 
 # SEO
-marketing:
-  seo:
-    site_type: Person
-    local_business_type: ''
-    org_name: ''
-    description: 'Risk and Decision Analysis expert in public health .'
-    twitter: ''
-  analytics:
-    google_analytics: ''
-    baidu_tongji: ''
-    plausible: ''
-    fathom: ''
-    pirsch: ''
-  verification:
-    google: ''
-    baidu: ''
+# marketing:
+#   seo:
+#     site_type: Person
+#     local_business_type: ''
+#     org_name: ''
+#     description: 'Risk and Decision Analysis expert in public health .'
+#     twitter: ''
+#   analytics:
+#     google_analytics: ''
+#     baidu_tongji: ''
+#     plausible: ''
+#     fathom: ''
+#     pirsch: ''
+#   verification:
+#     google: ''
+#     baidu: ''
 
 # Site header
 header:

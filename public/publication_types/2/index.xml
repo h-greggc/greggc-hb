@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2 | Gregg Claycamp</title>
-    <link>https://example.com/publication_types/2/</link>
-      <atom:link href="https://example.com/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <link>/publication_types/2/</link>
+      <atom:link href="/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Dec 2014 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>2</title>
-      <link>https://example.com/publication_types/2/</link>
+      <link>/publication_types/2/</link>
     </image>
     
     <item>
       <title>A Systematic Approach of Employing Quality by Design Principles: Risk Assessment and Design of Experiments to Demonstrate Process Understanding and Identify the Critical Process Parameters for Coating of the Ethylcellulose Pseudolatex Dispersion Using Non-Conventional Fluid Bed Process</title>
-      <link>https://example.com/publication/2014-systematic-approach-empolying-qbd/</link>
+      <link>/publication/2014-systematic-approach-empolying-qbd/</link>
       <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/2014-systematic-approach-empolying-qbd/</guid>
+      <guid>/publication/2014-systematic-approach-empolying-qbd/</guid>
       <description>
 
 
@@ -40,9 +40,9 @@
     
     <item>
       <title>Perspective on Quality Risk Management of Pharmaceutical Quality</title>
-      <link>https://example.com/publication/2007-perspective-on-qrm/</link>
+      <link>/publication/2007-perspective-on-qrm/</link>
       <pubDate>Sat, 01 Sep 2007 00:00:00 +0000</pubDate>
-      <guid>https://example.com/publication/2007-perspective-on-qrm/</guid>
+      <guid>/publication/2007-perspective-on-qrm/</guid>
       <description></description>
     </item>
     
