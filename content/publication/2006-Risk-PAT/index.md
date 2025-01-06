@@ -4,7 +4,7 @@ output:
 title: 'Risk, uncertainty, and process analytical technology'
 author: 
   - H G Claycamp
-date: '2006'
+date: 2006
 tags:
   - QRM
   - Risk management

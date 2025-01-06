@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Expert elicitation | Gregg Claycamp</title>
-    <link>/tags/expert-elicitation/</link>
-      <atom:link href="/tags/expert-elicitation/index.xml" rel="self" type="application/rss+xml" />
-    <description>Expert elicitation</description>
+    <title>Expert Elicitation | Gregg Claycamp</title>
+    <link>//localhost:1313/tags/expert-elicitation/</link>
+      <atom:link href="//localhost:1313/tags/expert-elicitation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Expert Elicitation</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Sep 2012 14:01:07 -0600</lastBuildDate>
     <image>
-      <url>/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
-      <title>Expert elicitation</title>
-      <link>/tags/expert-elicitation/</link>
+      <url>//localhost:1313/media/icon_hu10226378635250344412.png</url>
+      <title>Expert Elicitation</title>
+      <link>//localhost:1313/tags/expert-elicitation/</link>
     </image>
     
     <item>
       <title>The reliability-quality relationship for quality systems and quality risk management</title>
-      <link>/publication/2012-reliability-quality-relationship-qrm/</link>
+      <link>//localhost:1313/publication/2012-reliability-quality-relationship-qrm/</link>
       <pubDate>Sat, 01 Sep 2012 14:01:07 -0600</pubDate>
-      <guid>/publication/2012-reliability-quality-relationship-qrm/</guid>
+      <guid>//localhost:1313/publication/2012-reliability-quality-relationship-qrm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Elicitation of expert knowledge about risks associated with pharmaceutical manufacturing processes</title>
-      <link>/publication/2005-elicitation-expert-knowledge/</link>
-      <pubDate>Thu, 01 Sep 2005 00:00:00 +0000</pubDate>
-      <guid>/publication/2005-elicitation-expert-knowledge/</guid>
+      <link>//localhost:1313/publication/2005-elicitation-expert-knowledge/</link>
+      <pubDate>Wed, 31 Dec 1969 18:33:25 -0600</pubDate>
+      <guid>//localhost:1313/publication/2005-elicitation-expert-knowledge/</guid>
       <description></description>
     </item>
     

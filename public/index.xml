@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gregg Claycamp</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:1313/</link>
+      <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <description>Gregg Claycamp</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 29 Nov 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>//localhost:1313/media/icon_hu10226378635250344412.png</url>
       <title>Gregg Claycamp</title>
-      <link>/</link>
+      <link>//localhost:1313/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>/event/example/</link>
+      <link>//localhost:1313/event/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>/event/example/</guid>
+      <guid>//localhost:1313/event/example/</guid>
       <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
   &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
@@ -34,19 +34,10 @@
     </item>
     
     <item>
-      <title>Another new post</title>
-      <link>/post/another-new-post/</link>
-      <pubDate>Thu, 26 Dec 2024 20:11:00 +0000</pubDate>
-      <guid>/post/another-new-post/</guid>
-      <description>&lt;p&gt;Lore ipsum…&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Here’s a new slide </title>
-      <link>/slides/heres-a-new-slide/</link>
+      <link>//localhost:1313/slides/heres-a-new-slide/</link>
       <pubDate>Thu, 26 Dec 2024 20:09:00 +0000</pubDate>
-      <guid>/slides/heres-a-new-slide/</guid>
+      <guid>//localhost:1313/slides/heres-a-new-slide/</guid>
       <description>&lt;p&gt;slide 1
 —-
 Slide 2&lt;/p&gt;
@@ -55,9 +46,9 @@ Slide 2&lt;/p&gt;
     
     <item>
       <title>Defining Objectives for Team Decisions</title>
-      <link>/post/defining-the-objectives/</link>
+      <link>//localhost:1313/post/defining-the-objectives/</link>
       <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>/post/defining-the-objectives/</guid>
+      <guid>//localhost:1313/post/defining-the-objectives/</guid>
       <description>&lt;font size= 4rem&gt; 
 &lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
@@ -98,7 +89,7 @@ Slide 2&lt;/p&gt;
 &lt;p&gt;Objectives, which underlie the effective management of any type of formal organization, are not abstractions. They are the commitments to action through which the mission of the organization is carried out, and they are the standards against which the performance of management is measured. (Harrison 1999, 43)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Harrison’s statement is suited to the idea of strategic objectives. Identifying fundamental objectives for the decision situation makes the general objective specific and “real” for the team of decision makers.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/ObjectivesandLocus.jpg&#34; alt=&#34;Fig. 1. A view of the dominant responsibility for objectives/decisions process.&#34; width=&#34;600&#34;/&gt;&lt;font size=&#34;3&#34; line-height=15px /&gt;&lt;strong&gt;Fig. 1. A view of the dominant responsibility for objectives/decisions process.&lt;/strong&gt; For example, the organization “owns” the overall strategic objectives and typically embeds them in a strategic plan. Fundamental objectives definition is done for important decisions and might be identified and developed at a division or team level. Fundamental objectives apply to a defined decision situation.&lt;br&gt;&lt;br&gt; &lt;font size=&#34;4&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/img/ObjectivesandLocus.jpg&#34; alt=&#34;Fig. 1. A view of the dominant responsibility for objectives/decisions process.&#34; width=&#34;600&#34;/&gt;&lt;font size=&#34;3&#34; line-height=15px /&gt;&lt;strong&gt;Fig. 1. A view of the dominant responsibility for objectives/decisions process.&lt;/strong&gt; For example, the organization “owns” the overall strategic objectives and typically embeds them in a strategic plan. Fundamental objectives definition is done for important decisions and might be identified and developed at a division or team level. Fundamental objectives apply to a defined decision situation.&lt;br&gt;&lt;br&gt; &lt;font size=&#34;4&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;22-means-ends-objectives-anticipate-a-solution&#34;&gt;2.2 Means-ends objectives anticipate a solution&lt;/h2&gt;
 &lt;p&gt;There are decision situations designed to update a decision or prioritization model with new information, criteria or re-scaled judgments and for which the fundamental objectives are well-established and understood by the decision making team. Such is frequently the case in a regulatory environment where the fundamental objective exists within a specific regulation or standard. The discussion about and definition of means-ends objectives helps the decision team focus on how the fundamental objectives are or might be achieved using new ideas, data and procedures.&lt;/p&gt;
 &lt;p&gt;Certainly, it is possible to charge a working group with solving means-ends objectives-focused problem. But, if the group does not articulate the connections among the means-ends objectives with the overarching fundamental objectives, the decision will not likely be as robust as it could be otherwise. Often, the urge to produce “tangible results” for an organization shifts the team’s focus to defining means-ends objectives before clearly defining the fundamental objectives.&lt;/p&gt;
@@ -136,51 +127,51 @@ Slide 2&lt;/p&gt;
 &lt;p&gt;Proponents of multicriteria decision analysis argue that many of the challenges within group decision making can be overcome by following processes that have their roots in applied decision analysis, such as the ProACT procedures (Hammond, Keeney, and Raiffa 2002) and value-focused thinking (Keeney 1992) discussed in the following paragraphs.&lt;/p&gt;
 &lt;p&gt;There are many “how-to” books in the trade and peer-review literature discussing individual decision making. One of the most useful and accessible books is &lt;em&gt;Smart Choices&lt;/em&gt; (Hammond, Keeney, and Raiffa 2002). The book is an excellent introduction to decision making with multiple criteria. The authors recommended a “ProACT/URL” process for these difficult decisions as described in the following table.&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Pr&lt;/strong&gt;oblem&lt;/td&gt;
-&lt;td&gt;Work on the right decision problem&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;O&lt;/strong&gt;bjective&lt;/td&gt;
-&lt;td&gt;Specify your objectives&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;A&lt;/strong&gt;lternatives&lt;/td&gt;
-&lt;td&gt;Create Imaginative alternatives&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;C&lt;/strong&gt;onsequences&lt;/td&gt;
-&lt;td&gt;Understand the consequences&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;T&lt;/strong&gt;rade-offs&lt;/td&gt;
-&lt;td&gt;Grapple with your trade-offs&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Uncertainty&lt;/td&gt;
-&lt;td&gt;Clarify your uncertainties&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Risk tolerance&lt;/td&gt;
-&lt;td&gt;Think hard about your risk tolerance&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Linked decisions&lt;/td&gt;
-&lt;td&gt;Consider linked decisions&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Pr&lt;/strong&gt;oblem&lt;/td&gt;
+          &lt;td&gt;Work on the right decision problem&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;O&lt;/strong&gt;bjective&lt;/td&gt;
+          &lt;td&gt;Specify your objectives&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;A&lt;/strong&gt;lternatives&lt;/td&gt;
+          &lt;td&gt;Create Imaginative alternatives&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;C&lt;/strong&gt;onsequences&lt;/td&gt;
+          &lt;td&gt;Understand the consequences&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;T&lt;/strong&gt;rade-offs&lt;/td&gt;
+          &lt;td&gt;Grapple with your trade-offs&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Uncertainty&lt;/td&gt;
+          &lt;td&gt;Clarify your uncertainties&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Risk tolerance&lt;/td&gt;
+          &lt;td&gt;Think hard about your risk tolerance&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Linked decisions&lt;/td&gt;
+          &lt;td&gt;Consider linked decisions&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;Table 1. The PrOACT/URL approach to decision making by (Hammond, Keeney, and Raiffa 2002).&lt;/p&gt;
 &lt;p&gt;Less complex decisions might be accomplished following only the &lt;strong&gt;PrOACT&lt;/strong&gt; process while more complex decisions include assessing uncertainties, risk tolerance of the decision maker and whether or not the decision is linked to other decisions. Adding these features is the source of the complete acronym, “ProACT/URL.”&lt;/p&gt;
 &lt;h2 id=&#34;4-understanding-the-objectives&#34;&gt;4 Understanding the Objectives&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;/img/stratplanning-post-it.jpg&#34; data-position=&#34;center&#34; width=&#34;600&#34;/&gt; &lt;font size=&#34;3&#34; &gt;&lt;strong&gt;Fig.3 A common method for objectives identification is the “Post-It” method.&lt;/strong&gt;(Photo by Daria Nepriakhina on Unsplash.com)&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;//localhost:1313/img/stratplanning-post-it.jpg&#34; data-position=&#34;center&#34; width=&#34;600&#34;/&gt; &lt;font size=&#34;3&#34; &gt;&lt;strong&gt;Fig.3 A common method for objectives identification is the “Post-It” method.&lt;/strong&gt;(Photo by Daria Nepriakhina on Unsplash.com)&lt;/font&gt;&lt;/p&gt;
 &lt;p&gt;The fundamental objectives of the decision capture the reason(s) we are deciding choosing among two or more alternatives (–sometimes known as choices; options). The fundamental objectives are no less important to a decision than are clearly stated and testable hypotheses to a high-quality research design. Even decisions in our personal lives have objectives that a perceived differently by individuals. For example, how many ways might an objective, “achieve personal satisfaction in my career,” be perceived and defined among even a small number of individuals?&lt;/p&gt;
 &lt;h2 id=&#34;5-pressure-to-produce-tangible-results&#34;&gt;5 Pressure to Produce Tangible Results&lt;/h2&gt;
 &lt;h2 id=&#34;6-structured-approaches&#34;&gt;6 Structured Approaches?&lt;/h2&gt;
@@ -265,58 +256,58 @@ Sunstein, Cass R, Daniel Kahneman, David Schkade, and Ilana Ritov. 2002. “Pred
     
     <item>
       <title>Pandas</title>
-      <link>/project/pandas/</link>
+      <link>//localhost:1313/project/pandas/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/project/pandas/</guid>
+      <guid>//localhost:1313/project/pandas/</guid>
       <description>&lt;p&gt;Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>PyTorch</title>
-      <link>/project/pytorch/</link>
+      <link>//localhost:1313/project/pytorch/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/project/pytorch/</guid>
+      <guid>//localhost:1313/project/pytorch/</guid>
       <description>&lt;p&gt;PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>scikit-learn</title>
-      <link>/project/scikit/</link>
+      <link>//localhost:1313/project/scikit/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/project/scikit/</guid>
+      <guid>//localhost:1313/project/scikit/</guid>
       <description>&lt;p&gt;scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Experience</title>
-      <link>/experience/</link>
+      <link>//localhost:1313/experience/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/experience/</guid>
+      <guid>//localhost:1313/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Experience</title>
-      <link>/projects/</link>
+      <link>//localhost:1313/projects/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/projects/</guid>
+      <guid>//localhost:1313/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learn JavaScript</title>
-      <link>/teaching/js/</link>
+      <link>//localhost:1313/teaching/js/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/teaching/js/</guid>
+      <guid>//localhost:1313/teaching/js/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
 &lt;h2 id=&#34;video&#34;&gt;Video&lt;/h2&gt;
 &lt;p&gt;Teach your course by sharing videos with your students. Choose from one of the following approaches:&lt;/p&gt;
 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/D2vj0WcvH5c&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/D2vj0WcvH5c?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;Youtube&lt;/strong&gt;:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;{{&amp;lt; youtube w7Ft2ymGmfc &amp;gt;}}
@@ -351,7 +342,7 @@ Sunstein, Cass R, Daniel Kahneman, David Schkade, and Ilana Ritov. 2002. “Pred
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;/teaching/js/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;//localhost:1313/teaching/js/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -428,18 +419,18 @@ data.head()
     
     <item>
       <title>Learn Python</title>
-      <link>/teaching/python/</link>
+      <link>//localhost:1313/teaching/python/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/teaching/python/</guid>
+      <guid>//localhost:1313/teaching/python/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
 &lt;h2 id=&#34;video&#34;&gt;Video&lt;/h2&gt;
 &lt;p&gt;Teach your course by sharing videos with your students. Choose from one of the following approaches:&lt;/p&gt;
 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/D2vj0WcvH5c&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/D2vj0WcvH5c?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;Youtube&lt;/strong&gt;:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;{{&amp;lt; youtube w7Ft2ymGmfc &amp;gt;}}
@@ -474,7 +465,7 @@ data.head()
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;/teaching/python/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;//localhost:1313/teaching/python/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -551,9 +542,9 @@ data.head()
     
     <item>
       <title>Uses</title>
-      <link>/uses/</link>
+      <link>//localhost:1313/uses/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>/uses/</guid>
+      <guid>//localhost:1313/uses/</guid>
       <description>&lt;p&gt;The idea of a Uses page is to tell you about the stuff I use.&lt;/p&gt;
 &lt;p&gt;Make sure to check out &lt;a href=&#34;https://uses.tech/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;uses.tech&lt;/a&gt; for a list of everyone&amp;rsquo;s Uses pages!&lt;/p&gt;
 &lt;p&gt;I often get asked about what software or hardware I use, so this page will serve as a living document and a place to point curious readers to when I get asked.&lt;/p&gt;
@@ -572,9 +563,9 @@ data.head()
     
     <item>
       <title>COVID-19 is Not Just Like the Annual Flu</title>
-      <link>/post/covid-not-flu/</link>
+      <link>//localhost:1313/post/covid-not-flu/</link>
       <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>/post/covid-not-flu/</guid>
+      <guid>//localhost:1313/post/covid-not-flu/</guid>
       <description>&lt;p&gt;Over the six months of the coronavirus pandemic in the US, I have had many casual conversations with strangers or family in which the individual suggests that &amp;ldquo;COVID-19 is just like an annual flu.&amp;rdquo; This notion is far from the truth even in the face of a general similarity that they are both respiratory infections. In this post I compare quantitative features of
 COVID-19 with H1N1 and other flu-like illnesses, Ebola virus disease (EVD), and SARS to show differences between COVID-19 and the flu. Of course, this is not the first time these comparisons have been made in public media; rather, this post is only my perspective on the issue.&lt;/p&gt;
 &lt;p&gt;There are several ways in which the ongoing COVID-19 pandemic and some recent other pandemics can be compared. Sometimes, the endpoints for comparing the pandemic are cherry-picked to support the individual&amp;rsquo;s or organization&amp;rsquo;s purpose. But generally speaking, quantitative comparisons of pandemics begin using fundamental measures, such as&lt;/p&gt;
@@ -630,10 +621,10 @@ g + geom_bar(stat=&#34;identity&#34;, width = 0.7, fill=&#34;blue&#34;) +
 &lt;figure  id=&#34;figure-fig1-worldwide-case-counts-in-major-outbreaks-data-sources-who-cdc&#34;&gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;plot cases&#34; srcset=&#34;
-               /media/plotbarcase_hu78f2c72ce5a7673ad2fc4636a1b06ea3_23236_c5b3fd28a5a3a6dd3a57beb3d49267a7.webp 400w,
-               /media/plotbarcase_hu78f2c72ce5a7673ad2fc4636a1b06ea3_23236_928314b3c09cc49145a30a15ceda81f1.webp 760w,
-               /media/plotbarcase_hu78f2c72ce5a7673ad2fc4636a1b06ea3_23236_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;/media/plotbarcase_hu78f2c72ce5a7673ad2fc4636a1b06ea3_23236_c5b3fd28a5a3a6dd3a57beb3d49267a7.webp&#34;
+               /media/plotbarcase_hu10073645641584489576.webp 400w,
+               /media/plotbarcase_hu17025792173898046106.webp 760w,
+               /media/plotbarcase_hu3169737616762299870.webp 1200w&#34;
+               src=&#34;//localhost:1313/media/plotbarcase_hu10073645641584489576.webp&#34;
                width=&#34;760&#34;
                height=&#34;543&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -683,10 +674,10 @@ g + geom_bar(stat=&#34;identity&#34;, width = 0.7, fill=&#34;coral2&#34;) +
 &lt;figure  id=&#34;figure-fig2-worldwide-death-counts-in-major-outbreaks-data-sources-who-cdc-aug-19-2020&#34;&gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;plot deaths&#34; srcset=&#34;
-               /media/plotbardeath_hu406c631a3acdbfad12d811aad87e06d7_24635_26fc22279fbdd714976ad74a47b30a1f.webp 400w,
-               /media/plotbardeath_hu406c631a3acdbfad12d811aad87e06d7_24635_ed619b44407d74ada801d6fce8a9fabe.webp 760w,
-               /media/plotbardeath_hu406c631a3acdbfad12d811aad87e06d7_24635_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;/media/plotbardeath_hu406c631a3acdbfad12d811aad87e06d7_24635_26fc22279fbdd714976ad74a47b30a1f.webp&#34;
+               /media/plotbardeath_hu17869015885608634849.webp 400w,
+               /media/plotbardeath_hu12717155597378379551.webp 760w,
+               /media/plotbardeath_hu6711948686741218124.webp 1200w&#34;
+               src=&#34;//localhost:1313/media/plotbardeath_hu17869015885608634849.webp&#34;
                width=&#34;760&#34;
                height=&#34;543&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -762,10 +753,10 @@ g + geom_bar(stat=&#34;identity&#34;, width = 0.7, fill=&#34;chartreuse4&#34;) +
 &lt;figure  id=&#34;figure-fig-3-case-fatality-ratios--in-major-outbreaks-data-sources-who-cdc&#34;&gt;
   &lt;div class=&#34;flex justify-center	&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;The case fatality ratios&#34; srcset=&#34;
-               /media/uscases_hu152a235d03bd2d6c45c94470586bcc1b_24143_e3a90d05914c02ab2acfd9bad1822b73.webp 400w,
-               /media/uscases_hu152a235d03bd2d6c45c94470586bcc1b_24143_5346431b0257db0174a03589a0977522.webp 760w,
-               /media/uscases_hu152a235d03bd2d6c45c94470586bcc1b_24143_1200x1200_fit_q80_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;/media/uscases_hu152a235d03bd2d6c45c94470586bcc1b_24143_e3a90d05914c02ab2acfd9bad1822b73.webp&#34;
+               /media/uscases_hu5177947395891799217.webp 400w,
+               /media/uscases_hu5710196219568358464.webp 760w,
+               /media/uscases_hu17791834305310666828.webp 1200w&#34;
+               src=&#34;//localhost:1313/media/uscases_hu5177947395891799217.webp&#34;
                width=&#34;760&#34;
                height=&#34;543&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -787,9 +778,9 @@ g + geom_bar(stat=&#34;identity&#34;, width = 0.7, fill=&#34;chartreuse4&#34;) +
     
     <item>
       <title>An example preprint / working paper</title>
-      <link>/publication/preprint/</link>
+      <link>//localhost:1313/publication/preprint/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/preprint/</guid>
+      <guid>//localhost:1313/publication/preprint/</guid>
       <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
   &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
@@ -802,9 +793,9 @@ g + geom_bar(stat=&#34;identity&#34;, width = 0.7, fill=&#34;chartreuse4&#34;) +
     
     <item>
       <title>Controlling Subjectivity in Risk Decision-Making: The Benefits of Multicriteria Decision Analysis</title>
-      <link>/publication/2018-controlling-subjectivity/</link>
+      <link>//localhost:1313/publication/2018-controlling-subjectivity/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/2018-controlling-subjectivity/</guid>
+      <guid>//localhost:1313/publication/2018-controlling-subjectivity/</guid>
       <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
   &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
@@ -823,25 +814,17 @@ g + geom_bar(stat=&#34;identity&#34;, width = 0.7, fill=&#34;chartreuse4&#34;) +
     
     <item>
       <title>Prince of Peace Lutheran Church (Website)</title>
-      <link>/project/website-1/</link>
+      <link>//localhost:1313/project/website-1/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>/project/website-1/</guid>
+      <guid>//localhost:1313/project/website-1/</guid>
       <description>&lt;p&gt;A WordPress (.org) website created for Prince of Peace Lutheran Church.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>The risk of trusting priority numbers</title>
-      <link>/publication/2017-risk-of-trusting-priority-numbers/</link>
-      <pubDate>Fri, 01 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/2017-risk-of-trusting-priority-numbers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>An example journal article</title>
-      <link>/publication/journal-article/</link>
+      <link>//localhost:1313/publication/journal-article/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/journal-article/</guid>
+      <guid>//localhost:1313/publication/journal-article/</guid>
       <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
   &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
@@ -860,35 +843,9 @@ g + geom_bar(stat=&#34;identity&#34;, width = 0.7, fill=&#34;chartreuse4&#34;) +
     
     <item>
       <title>A Systematic Approach of Employing Quality by Design Principles: Risk Assessment and Design of Experiments to Demonstrate Process Understanding and Identify the Critical Process Parameters for Coating of the Ethylcellulose Pseudolatex Dispersion Using Non-Conventional Fluid Bed Process</title>
-      <link>/publication/2014-systematic-approach-empolying-qbd/</link>
+      <link>//localhost:1313/publication/2014-systematic-approach-empolying-qbd/</link>
       <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>/publication/2014-systematic-approach-empolying-qbd/</guid>
-      <description>
-
-
-&lt;p&gt;
-
-
-
-
-  
-    
-  
-
-&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
-&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
-  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
-&lt;/span&gt;
-  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.&lt;/span&gt;
-&lt;/div&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Quality-by-Design III: Application of Near-Infrared Spectroscopy to Monitor Roller Compaction In-process and Product Quality Attributes of Immediate Release Tablets</title>
-      <link>/publication/2018-quality-by-design-iii/</link>
-      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>/publication/2018-quality-by-design-iii/</guid>
+      <guid>//localhost:1313/publication/2014-systematic-approach-empolying-qbd/</guid>
       <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
   &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
@@ -899,18 +856,24 @@ g + geom_bar(stat=&#34;identity&#34;, width = 0.7, fill=&#34;chartreuse4&#34;) +
     </item>
     
     <item>
-      <title>Quality-by-Design II: Application of Quantitative Risk Analysis to the Formulation of Ciprofloxacin Tablets</title>
-      <link>/publication/2016-quality-by-design-ii/</link>
-      <pubDate>Mon, 01 Sep 2014 00:00:00 +0000</pubDate>
-      <guid>/publication/2016-quality-by-design-ii/</guid>
-      <description></description>
+      <title>Quality-by-Design III: Application of Near-Infrared Spectroscopy to Monitor Roller Compaction In-process and Product Quality Attributes of Immediate Release Tablets</title>
+      <link>//localhost:1313/publication/2018-quality-by-design-iii/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/publication/2018-quality-by-design-iii/</guid>
+      <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.&lt;/span&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
       <title>An example conference paper</title>
-      <link>/publication/conference-paper/</link>
+      <link>//localhost:1313/publication/conference-paper/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>/publication/conference-paper/</guid>
+      <guid>//localhost:1313/publication/conference-paper/</guid>
       <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
   &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
@@ -929,71 +892,33 @@ g + geom_bar(stat=&#34;identity&#34;, width = 0.7, fill=&#34;chartreuse4&#34;) +
     
     <item>
       <title>The reliability-quality relationship for quality systems and quality risk management</title>
-      <link>/publication/2012-reliability-quality-relationship-qrm/</link>
+      <link>//localhost:1313/publication/2012-reliability-quality-relationship-qrm/</link>
       <pubDate>Sat, 01 Sep 2012 14:01:07 -0600</pubDate>
-      <guid>/publication/2012-reliability-quality-relationship-qrm/</guid>
+      <guid>//localhost:1313/publication/2012-reliability-quality-relationship-qrm/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Quality by design I: application of failure mode effect analysis (FMEA) and Plackett-Burman design of experiments in the identification of “main factors” in the formulation and process design space for roller-compacted ciprofloxacin hydrochloride immediate-release tablets.</title>
-      <link>/publication/2013-quality-by-design-i/</link>
-      <pubDate>Sat, 01 Sep 2012 00:00:00 +0000</pubDate>
-      <guid>/publication/2013-quality-by-design-i/</guid>
-      <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
-&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
-  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
-&lt;/span&gt;
-  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.&lt;/span&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Probability Concepts in Quality Risk Management</title>
-      <link>/publication/2011-probability-concepts-in-qrm/</link>
+      <link>//localhost:1313/publication/2011-probability-concepts-in-qrm/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>/publication/2011-probability-concepts-in-qrm/</guid>
+      <guid>//localhost:1313/publication/2011-probability-concepts-in-qrm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Perspective on Quality Risk Management of Pharmaceutical Quality</title>
-      <link>/publication/2007-perspective-on-qrm/</link>
+      <link>//localhost:1313/publication/2007-perspective-on-qrm/</link>
       <pubDate>Sat, 01 Sep 2007 00:00:00 +0000</pubDate>
-      <guid>/publication/2007-perspective-on-qrm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Risk, uncertainty, and process analytical technology</title>
-      <link>/publication/2006-risk-pat/</link>
-      <pubDate>Fri, 01 Sep 2006 00:00:00 +0000</pubDate>
-      <guid>/publication/2006-risk-pat/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Elicitation of expert knowledge about risks associated with pharmaceutical manufacturing processes</title>
-      <link>/publication/2005-elicitation-expert-knowledge/</link>
-      <pubDate>Thu, 01 Sep 2005 00:00:00 +0000</pubDate>
-      <guid>/publication/2005-elicitation-expert-knowledge/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Antimicrobial Resistance Risk Assessment in Food Safety</title>
-      <link>/publication/2004-arra/</link>
-      <pubDate>Wed, 01 Sep 2004 00:00:00 +0000</pubDate>
-      <guid>/publication/2004-arra/</guid>
+      <guid>//localhost:1313/publication/2007-perspective-on-qrm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>📈 Communicate your results effectively with the best data visualizations</title>
-      <link>/post/data-visualization/</link>
+      <link>//localhost:1313/post/data-visualization/</link>
       <pubDate>Thu, 26 Oct 2000 00:00:00 +0000</pubDate>
-      <guid>/post/data-visualization/</guid>
+      <guid>//localhost:1313/post/data-visualization/</guid>
       <description>&lt;p&gt;Wowchemy is designed to give technical content creators a seamless experience. You can focus on the content and Wowchemy handles the rest.&lt;/p&gt;
 &lt;p&gt;Use popular tools such as Plotly, Mermaid, and data frames.&lt;/p&gt;
 &lt;h2 id=&#34;charts&#34;&gt;Charts&lt;/h2&gt;
@@ -1004,7 +929,7 @@ g + geom_bar(stat=&#34;identity&#34;, width = 0.7, fill=&#34;chartreuse4&#34;) +
 
 
 
-&lt;div id=&#34;chart-571493286&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-637129458&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -1022,7 +947,7 @@ g + geom_bar(stat=&#34;identity&#34;, width = 0.7, fill=&#34;chartreuse4&#34;) +
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-571493286&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-637129458&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -1201,9 +1126,9 @@ Crash --&gt; [*]
     
     <item>
       <title>🧠 Sharpen your thinking with a second brain</title>
-      <link>/post/second-brain/</link>
+      <link>//localhost:1313/post/second-brain/</link>
       <pubDate>Thu, 26 Oct 2000 00:00:00 +0000</pubDate>
-      <guid>/post/second-brain/</guid>
+      <guid>//localhost:1313/post/second-brain/</guid>
       <description>&lt;p&gt;Create a personal knowledge base and share your knowledge with your peers.&lt;/p&gt;
 &lt;p&gt;Wowchemy web framework empowers you with one of the most flexible note-taking capabilities out there.&lt;/p&gt;
 &lt;p&gt;Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.&lt;/p&gt;
@@ -1313,18 +1238,18 @@ Crash --&gt; [*]
     
     <item>
       <title>👩🏼‍🏫 Teach academic courses</title>
-      <link>/post/teach-courses/</link>
+      <link>//localhost:1313/post/teach-courses/</link>
       <pubDate>Tue, 24 Oct 2000 00:00:00 +0000</pubDate>
-      <guid>/post/teach-courses/</guid>
+      <guid>//localhost:1313/post/teach-courses/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
 &lt;h2 id=&#34;video&#34;&gt;Video&lt;/h2&gt;
 &lt;p&gt;Teach your course by sharing videos with your students. Choose from one of the following approaches:&lt;/p&gt;
 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/D2vj0WcvH5c&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/D2vj0WcvH5c?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;Youtube&lt;/strong&gt;:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;{{&amp;lt; youtube w7Ft2ymGmfc &amp;gt;}}
@@ -1359,7 +1284,7 @@ Crash --&gt; [*]
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;/post/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;//localhost:1313/post/teach-courses/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -1436,9 +1361,9 @@ data.head()
     
     <item>
       <title>✅ Manage your projects</title>
-      <link>/post/project-management/</link>
+      <link>//localhost:1313/post/project-management/</link>
       <pubDate>Mon, 23 Oct 2000 00:00:00 +0000</pubDate>
-      <guid>/post/project-management/</guid>
+      <guid>//localhost:1313/post/project-management/</guid>
       <description>&lt;p&gt;Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!&lt;/p&gt;
 &lt;h2 id=&#34;ideation&#34;&gt;Ideation&lt;/h2&gt;
 &lt;p&gt;Wowchemy supports a Markdown extension for mindmaps.&lt;/p&gt;
@@ -1511,17 +1436,71 @@ Parallel 4   :         des6, after des4, 1d
     
     <item>
       <title>Phenol sensitization of DNA to subsequent oxidative damage in 8-hydroxyguanine assays</title>
-      <link>/publication/1992-8ohdg-phenol/</link>
+      <link>//localhost:1313/publication/1992-8ohdg-phenol/</link>
       <pubDate>Wed, 01 Jul 1992 00:00:00 +0000</pubDate>
-      <guid>/publication/1992-8ohdg-phenol/</guid>
+      <guid>//localhost:1313/publication/1992-8ohdg-phenol/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The risk of trusting priority numbers</title>
+      <link>//localhost:1313/publication/2017-risk-of-trusting-priority-numbers/</link>
+      <pubDate>Wed, 31 Dec 1969 18:33:37 -0600</pubDate>
+      <guid>//localhost:1313/publication/2017-risk-of-trusting-priority-numbers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quality-by-Design II: Application of Quantitative Risk Analysis to the Formulation of Ciprofloxacin Tablets</title>
+      <link>//localhost:1313/publication/2016-quality-by-design-ii/</link>
+      <pubDate>Wed, 31 Dec 1969 18:33:34 -0600</pubDate>
+      <guid>//localhost:1313/publication/2016-quality-by-design-ii/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quality by design I: application of failure mode effect analysis (FMEA) and Plackett-Burman design of experiments in the identification of “main factors” in the formulation and process design space for roller-compacted ciprofloxacin hydrochloride immediate-release tablets.</title>
+      <link>//localhost:1313/publication/2013-quality-by-design-i/</link>
+      <pubDate>Wed, 31 Dec 1969 18:33:32 -0600</pubDate>
+      <guid>//localhost:1313/publication/2013-quality-by-design-i/</guid>
+      <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
+&lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
+  &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+  &lt;span class=&#34;dark:text-neutral-300&#34;&gt;Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.&lt;/span&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Risk, uncertainty, and process analytical technology</title>
+      <link>//localhost:1313/publication/2006-risk-pat/</link>
+      <pubDate>Wed, 31 Dec 1969 18:33:26 -0600</pubDate>
+      <guid>//localhost:1313/publication/2006-risk-pat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elicitation of expert knowledge about risks associated with pharmaceutical manufacturing processes</title>
+      <link>//localhost:1313/publication/2005-elicitation-expert-knowledge/</link>
+      <pubDate>Wed, 31 Dec 1969 18:33:25 -0600</pubDate>
+      <guid>//localhost:1313/publication/2005-elicitation-expert-knowledge/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Antimicrobial Resistance Risk Assessment in Food Safety</title>
+      <link>//localhost:1313/publication/2004-arra/</link>
+      <pubDate>Wed, 31 Dec 1969 18:33:24 -0600</pubDate>
+      <guid>//localhost:1313/publication/2004-arra/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/admin/config.yml</link>
+      <link>//localhost:1313/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/admin/config.yml</guid>
+      <guid>//localhost:1313/admin/config.yml</guid>
       <description></description>
     </item>
     

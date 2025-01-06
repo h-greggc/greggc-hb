@@ -8,7 +8,7 @@ author:
   - Oliver Heinzerling
   - H. Gregg Claycamp
 authors: ["John C. Strong", "Todd S. McDermott", "Oliver Heinzerling",  "H. Gregg Claycamp",]
-date: '2017'
+date: 2017
 tags:
   - QRM
   - FMEA

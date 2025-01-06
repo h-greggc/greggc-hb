@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Todd S. McDermott | Gregg Claycamp</title>
+    <link>//localhost:1313/author/todd-s.-mcdermott/</link>
+      <atom:link href="//localhost:1313/author/todd-s.-mcdermott/index.xml" rel="self" type="application/rss+xml" />
+    <description>Todd S. McDermott</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 31 Dec 1969 18:33:37 -0600</lastBuildDate>
+    <image>
+      <url>//localhost:1313/media/icon_hu10226378635250344412.png</url>
+      <title>Todd S. McDermott</title>
+      <link>//localhost:1313/author/todd-s.-mcdermott/</link>
+    </image>
+    
+    <item>
+      <title>The risk of trusting priority numbers</title>
+      <link>//localhost:1313/publication/2017-risk-of-trusting-priority-numbers/</link>
+      <pubDate>Wed, 31 Dec 1969 18:33:37 -0600</pubDate>
+      <guid>//localhost:1313/publication/2017-risk-of-trusting-priority-numbers/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

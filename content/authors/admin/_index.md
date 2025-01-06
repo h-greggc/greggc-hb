@@ -31,7 +31,7 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
+  - icon: envelope
     url: 'mailto:hgclaycamp@gmail.com'
     label: E-mail Me
   # - icon: brands/x
@@ -40,7 +40,7 @@ profiles:
   #   url: https://www.instagram.com/
   # - icon: brands/github
   #   url: https://github.com/gcushen
-  # - icon: brands/linkedin
+  - icon: brands/linkedin
     url: https://www.linkedin.com/in/gregg-claycamp-01200b10
   - icon: academicons/google-scholar
     url: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C44&q=h+g+claycamp&oq=

@@ -5,7 +5,7 @@ author:
   - Ravikanth Kona
   - Raafat Fahmy
   - Stephen W. Hoag
-date: '2014'
+date: 2014
 tags:
   - QRM
   - Quality Risk Management

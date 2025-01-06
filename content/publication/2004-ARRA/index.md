@@ -1,7 +1,7 @@
 ---
 title: 'Antimicrobial Resistance Risk Assessment in Food Safety'
 authors: ["H. Gregg Claycamp", "Barry H. Hooberman"]
-date: '2004'
+date: 2004
 tags:
   - Risk assessment
   - Food safety

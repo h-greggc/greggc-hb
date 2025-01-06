@@ -7,7 +7,7 @@ author:
   - B Hasselbalch
   - K Morgan
   - G Claycamp
-date: '2005'
+date: 2005
 tags:
   - QRM
   - Expert elicitation

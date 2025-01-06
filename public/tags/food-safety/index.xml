@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Food safety | Gregg Claycamp</title>
-    <link>/tags/food-safety/</link>
-      <atom:link href="/tags/food-safety/index.xml" rel="self" type="application/rss+xml" />
-    <description>Food safety</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Sep 2004 00:00:00 +0000</lastBuildDate>
+    <title>Food Safety | Gregg Claycamp</title>
+    <link>//localhost:1313/tags/food-safety/</link>
+      <atom:link href="//localhost:1313/tags/food-safety/index.xml" rel="self" type="application/rss+xml" />
+    <description>Food Safety</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 31 Dec 1969 18:33:24 -0600</lastBuildDate>
     <image>
-      <url>/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
-      <title>Food safety</title>
-      <link>/tags/food-safety/</link>
+      <url>//localhost:1313/media/icon_hu10226378635250344412.png</url>
+      <title>Food Safety</title>
+      <link>//localhost:1313/tags/food-safety/</link>
     </image>
     
     <item>
       <title>Antimicrobial Resistance Risk Assessment in Food Safety</title>
-      <link>/publication/2004-arra/</link>
-      <pubDate>Wed, 01 Sep 2004 00:00:00 +0000</pubDate>
-      <guid>/publication/2004-arra/</guid>
+      <link>//localhost:1313/publication/2004-arra/</link>
+      <pubDate>Wed, 31 Dec 1969 18:33:24 -0600</pubDate>
+      <guid>//localhost:1313/publication/2004-arra/</guid>
       <description></description>
     </item>
     

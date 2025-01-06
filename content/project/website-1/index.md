@@ -11,6 +11,7 @@ image:
 preview_only: false  
 ---
 
-A WordPress (.org) website created for Prince of Peace Lutheran Church.
+A WordPress (.org) website created for Prince of Peace Lutheran Church. 
+The site archives sermon notes, provides church event calendars and newletters and links to newsletters.
 
 <!--more-->
