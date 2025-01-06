@@ -23,15 +23,15 @@ sections:
           position: center
           parallax: false
 
-#- block: stats
-    # content:
-    #   items:
-    #     - statistic: "82"
-    #       description: |
-    #         Publications
-    #     - statistic: "1,000+"
-    #       description: |
-    #         Citations
+  # - block: stats
+  #   content:
+  #      items:
+  #       - statistic: "82"
+  #         description: |
+  #           Publications
+  #       - statistic: "1,000+"
+  #         description: |
+  #           Citations
 
     # design:
     #   # Section background color (CSS class)
@@ -50,13 +50,13 @@ sections:
   - block: collection
     content:
       title: Recent Posts
-      font-size: S
+      font-size: M
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...
       page_type: post
       # Choose how many pages you would like to display (0 = all pages)
-      count: 0
+      count: 5
       # Filter on criteria
       filters:
         author: ""
@@ -67,7 +67,7 @@ sections:
         exclude_past: false
         publication_type: ""
       design:
-        view: article-grid
+        view: showcase
           
   - block: collection
     content:
@@ -98,4 +98,3 @@ sections:
       spacing:
         padding: [0, 0, 0, 0]
 ---
-# UNDER CONSTRUCTION,

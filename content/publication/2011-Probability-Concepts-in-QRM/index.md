@@ -30,7 +30,7 @@ categories: []
 featured: true
 
 
-url_pdf:
+url_pdf: ./content/publication/2011-Probability-Concepts-in-QRM/
 url_code:
 url_dataset:
 url_poster:

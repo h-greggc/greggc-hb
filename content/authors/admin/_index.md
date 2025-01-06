@@ -6,7 +6,7 @@ title: H. Gregg Claycamp
 name_pronunciation: 
 
 # Full name (for SEO)
-first_name: Gregg
+first_name: Henry Gregg
 last_name: Claycamp
 
 # Status emoji
@@ -21,11 +21,11 @@ highlight_name: true
 
 # Role/position/tagline
 role: |
-  - Risk and Decision Analysis Consultant | (website under construction)
+  - Risk and Decision Analysis Consultant
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: FDA (Retired)
+  - name:
     url: 
 
 # Social network links
@@ -38,8 +38,8 @@ profiles:
   #   url: https://twitter.com/GetResearchDev
   # - icon: brands/instagram
   #   url: https://www.instagram.com/
-  # - icon: brands/github
-  #   url: https://github.com/gcushen
+  - icon: brands/github
+    url: https://github.com/h-greggc
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/gregg-claycamp-01200b10
   - icon: academicons/google-scholar
@@ -85,43 +85,47 @@ education:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Senior Biomedical Research Scientist
+    company_name: US Food and Drug Administration
+    company_url: 'https://FDA.gov'
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
+    date_start: 2001-06-03
+    date_end: 2020-04-11
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+      - Senior-level advisor, research and thought leader in risk analysis and risk-based decision making  
+      - Data analytics and scientific support leadership including Div Dir-level management of PhD, MD, DVM, MS technical staff 
+  - position: Professor and Assoc Chair
+    company_name: University of Pittsburgh, Graduate School of Public Health
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 1990-09-01
+    date_end: 2001-06-01
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Responsibilities included:
+      - Taught graduate level environmental and occupational health students
+      - Lead NIH-, DOE-, NRC-funded research
+      - Co-led postdoctoral (MD and PhD) training in environmental and occupational health
+      - Directed MS and PhD research disserations
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python
+      - name: Risk Analysis 
         description: ''
-        percent: 80
+        percent: 60
         icon: code-bracket
+      - name: Decision Analysis 
+        description: ''
+        percent: 30
+        icon: chart-bar        
       - name: Data Science
         description: ''
         percent: 100
         icon: chart-bar
-      - name: SQL
+      - name: R
         description: ''
         percent: 40
         icon: circle-stack
@@ -129,15 +133,15 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Woodworking
         description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Cats
+      - name: Music
         description: ''
         percent: 100
-        icon: cat
-      - name: Photography
+        icon: guitar
+      - name: Travel
         description: ''
         percent: 80
         icon: camera
@@ -155,20 +159,20 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Aome interesting Stuff
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
+  - title: Human Capital Development
+    url: 
     date: '2023-11-25'
-    awarder: Coursera
+    awarder: USFDA, Center for Veterinary Medicine
     icon: coursera
     summary: |
-      Lorem ipsum odor amet, consectetuer adipiscing elit. Pretium libero aliquet mi lobortis ac quam ultricies auctor. Sed odio fringilla lacus per ex. Felis maximus commodo ex quam nisi vulputate ultrices laoreet nisl. Habitant facilisi etiam duis curabitur tempor dui lobortis non. Nam dictum venenatis facilisis in neque lacinia? Placerat potenti nisi porta rhoncus tincidunt interdum. 
-  - title: Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+      Lorem ipsum odor amet, consectetuer adipiscing elit. Pretium libero aliquet mi lobortis ac quam ultricies auctor. Sed odio fringilla lacus per ex. 
+  - title: FDA Leveraging Award
+    url: 
     date: '2023-07-01'
-    awarder: edX
+    awarder: FDA
     icon: edx
     summary: |
-      Lorem ipsum odor amet, consectetuer adipiscing elit. Pretium libero aliquet mi lobortis ac quam ultricies auctor. Sed odio fringilla lacus per ex. Felis maximus commodo ex quam nisi vulputate ultrices laoreet nisl. Habitant facilisi etiam duis curabitur tempor dui lobortis non. Nam dictum venenatis facilisis in neque lacinia? Placerat potenti nisi porta rhoncus tincidunt interdum.
+      Lorem ipsum Habitant facilisi etiam duis curabitur tempor dui lobortis non. Nam dictum venenatis facilisis in neque lacinia? Placerat potenti nisi porta rhoncus tincidunt interdum.
 
   
 ---

@@ -13,35 +13,12 @@
     </image>
     
     <item>
-      <title>Pandas</title>
-      <link>//localhost:1313/project/pandas/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/project/pandas/</guid>
-      <description>&lt;p&gt;Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>PyTorch</title>
-      <link>//localhost:1313/project/pytorch/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/project/pytorch/</guid>
-      <description>&lt;p&gt;PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>scikit-learn</title>
-      <link>//localhost:1313/project/scikit/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/project/scikit/</guid>
-      <description>&lt;p&gt;scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Prince of Peace Lutheran Church (Website)</title>
       <link>//localhost:1313/project/website-1/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/project/website-1/</guid>
-      <description>&lt;p&gt;A WordPress (.org) website created for Prince of Peace Lutheran Church.&lt;/p&gt;</description>
+      <description>&lt;p&gt;A WordPress (.org) website created for Prince of Peace Lutheran Church.
+The site archives sermon notes, provides church event calendars and newletters and links to newsletters.&lt;/p&gt;</description>
     </item>
     
   </channel>
