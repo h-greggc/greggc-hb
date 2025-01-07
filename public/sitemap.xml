@@ -436,5 +436,8 @@
   </url><url>
     <loc>//localhost:1313/admin/</loc>
     <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/post/new-show/</loc>
+    <changefreq>weekly</changefreq>
   </url>
 </urlset>

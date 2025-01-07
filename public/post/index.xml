@@ -452,7 +452,7 @@ g + geom_bar(stat=&#34;identity&#34;, width = 0.7, fill=&#34;chartreuse4&#34;) +
 
 
 
-&lt;div id=&#34;chart-394865217&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-389512467&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -470,7 +470,7 @@ g + geom_bar(stat=&#34;identity&#34;, width = 0.7, fill=&#34;chartreuse4&#34;) +
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-394865217&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-389512467&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -954,6 +954,17 @@ Parallel 4   :         des6, after des4, 1d
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Do something else&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Embed a Power Point</title>
+      <link>//localhost:1313/post/new-show/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/new-show/</guid>
+      <description>&lt;!-- 
+[My Power Point](https://onedrive.live.com/edit.aspx?resid=B16B51D1F70656AA!72448&amp;cid=b16b51d1f70656aa&amp;CT=1736194665593&amp;OR=ItemsView) --&gt;
+&lt;iframe src=&#34;https://onedrive.live.com/embed?resid=B16B51D1F70656AA%2172448&amp;amp;authkey=%21AEBaaUG2kDJMkwA&amp;amp;em=2&amp;amp;wdAr=1.7777777777777777&#34; width=&#34;476px&#34; height=&#34;288px&#34; frameborder=&#34;0&#34;&gt;This is an embedded &lt;a target=&#34;_blank&#34; href=&#34;https://office.com&#34;&gt;Microsoft Office&lt;/a&gt; presentation, powered by &lt;a target=&#34;_blank&#34; href=&#34;https://office.com/webapps&#34;&gt;Office&lt;/a&gt;.&lt;/iframe&gt;
 </description>
     </item>
     
