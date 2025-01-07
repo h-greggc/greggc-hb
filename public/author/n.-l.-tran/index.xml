@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>N. L. Tran | Gregg Claycamp</title>
-    <link>//localhost:1313/author/n.-l.-tran/</link>
-      <atom:link href="//localhost:1313/author/n.-l.-tran/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:50708/author/n.-l.-tran/</link>
+      <atom:link href="//localhost:50708/author/n.-l.-tran/index.xml" rel="self" type="application/rss+xml" />
     <description>N. L. Tran</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 31 Dec 1969 18:33:25 -0600</lastBuildDate>
     <image>
-      <url>//localhost:1313/media/icon_hu10226378635250344412.png</url>
+      <url>//localhost:50708/media/icon_hu10226378635250344412.png</url>
       <title>N. L. Tran</title>
-      <link>//localhost:1313/author/n.-l.-tran/</link>
+      <link>//localhost:50708/author/n.-l.-tran/</link>
     </image>
     
     <item>
       <title>Elicitation of expert knowledge about risks associated with pharmaceutical manufacturing processes</title>
-      <link>//localhost:1313/publication/2005-elicitation-expert-knowledge/</link>
+      <link>//localhost:50708/publication/2005-elicitation-expert-knowledge/</link>
       <pubDate>Wed, 31 Dec 1969 18:33:25 -0600</pubDate>
-      <guid>//localhost:1313/publication/2005-elicitation-expert-knowledge/</guid>
+      <guid>//localhost:50708/publication/2005-elicitation-expert-knowledge/</guid>
       <description></description>
     </item>
     

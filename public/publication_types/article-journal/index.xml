@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Article-Journal | Gregg Claycamp</title>
-    <link>//localhost:1313/publication_types/article-journal/</link>
-      <atom:link href="//localhost:1313/publication_types/article-journal/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:50708/publication_types/article-journal/</link>
+      <atom:link href="//localhost:50708/publication_types/article-journal/index.xml" rel="self" type="application/rss+xml" />
     <description>Article-Journal</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 31 Dec 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>//localhost:1313/media/icon_hu10226378635250344412.png</url>
+      <url>//localhost:50708/media/icon_hu10226378635250344412.png</url>
       <title>Article-Journal</title>
-      <link>//localhost:1313/publication_types/article-journal/</link>
+      <link>//localhost:50708/publication_types/article-journal/</link>
     </image>
     
     <item>
       <title>A Few Lessons from Facilitating or Leading Risk-Based Decision-Making</title>
-      <link>//localhost:1313/publication/2023-facilitating-rbdm/</link>
+      <link>//localhost:50708/publication/2023-facilitating-rbdm/</link>
       <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/publication/2023-facilitating-rbdm/</guid>
+      <guid>//localhost:50708/publication/2023-facilitating-rbdm/</guid>
       <description>&lt;!-- 
 
 
@@ -42,9 +42,9 @@ Available at: &lt;a href=&#34;https://arrow.tudublin.ie/level3/vol19/iss1/4&#34;
     
     <item>
       <title>Controlling Subjectivity in Risk Decision-Making: The Benefits of Multicriteria Decision Analysis</title>
-      <link>//localhost:1313/publication/2018-controlling-subjectivity/</link>
+      <link>//localhost:50708/publication/2018-controlling-subjectivity/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/publication/2018-controlling-subjectivity/</guid>
+      <guid>//localhost:50708/publication/2018-controlling-subjectivity/</guid>
       <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
   &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
@@ -63,9 +63,9 @@ Available at: &lt;a href=&#34;https://arrow.tudublin.ie/level3/vol19/iss1/4&#34;
     
     <item>
       <title>An example journal article</title>
-      <link>//localhost:1313/publication/journal-article/</link>
+      <link>//localhost:50708/publication/journal-article/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/publication/journal-article/</guid>
+      <guid>//localhost:50708/publication/journal-article/</guid>
       <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
   &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
@@ -84,9 +84,9 @@ Available at: &lt;a href=&#34;https://arrow.tudublin.ie/level3/vol19/iss1/4&#34;
     
     <item>
       <title>A Systematic Approach of Employing Quality by Design Principles: Risk Assessment and Design of Experiments to Demonstrate Process Understanding and Identify the Critical Process Parameters for Coating of the Ethylcellulose Pseudolatex Dispersion Using Non-Conventional Fluid Bed Process</title>
-      <link>//localhost:1313/publication/2014-systematic-approach-empolying-qbd/</link>
+      <link>//localhost:50708/publication/2014-systematic-approach-empolying-qbd/</link>
       <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/publication/2014-systematic-approach-empolying-qbd/</guid>
+      <guid>//localhost:50708/publication/2014-systematic-approach-empolying-qbd/</guid>
       <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
   &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
@@ -98,9 +98,9 @@ Available at: &lt;a href=&#34;https://arrow.tudublin.ie/level3/vol19/iss1/4&#34;
     
     <item>
       <title>Quality-by-Design III: Application of Near-Infrared Spectroscopy to Monitor Roller Compaction In-process and Product Quality Attributes of Immediate Release Tablets</title>
-      <link>//localhost:1313/publication/2018-quality-by-design-iii/</link>
+      <link>//localhost:50708/publication/2018-quality-by-design-iii/</link>
       <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/publication/2018-quality-by-design-iii/</guid>
+      <guid>//localhost:50708/publication/2018-quality-by-design-iii/</guid>
       <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
   &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
@@ -112,49 +112,49 @@ Available at: &lt;a href=&#34;https://arrow.tudublin.ie/level3/vol19/iss1/4&#34;
     
     <item>
       <title>The reliability-quality relationship for quality systems and quality risk management</title>
-      <link>//localhost:1313/publication/2012-reliability-quality-relationship-qrm/</link>
+      <link>//localhost:50708/publication/2012-reliability-quality-relationship-qrm/</link>
       <pubDate>Sat, 01 Sep 2012 14:01:07 -0600</pubDate>
-      <guid>//localhost:1313/publication/2012-reliability-quality-relationship-qrm/</guid>
+      <guid>//localhost:50708/publication/2012-reliability-quality-relationship-qrm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Probability Concepts in Quality Risk Management</title>
-      <link>//localhost:1313/publication/2011-probability-concepts-in-qrm/</link>
+      <link>//localhost:50708/publication/2011-probability-concepts-in-qrm/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/publication/2011-probability-concepts-in-qrm/</guid>
+      <guid>//localhost:50708/publication/2011-probability-concepts-in-qrm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Phenol sensitization of DNA to subsequent oxidative damage in 8-hydroxyguanine assays</title>
-      <link>//localhost:1313/publication/1992-8ohdg-phenol/</link>
+      <link>//localhost:50708/publication/1992-8ohdg-phenol/</link>
       <pubDate>Wed, 01 Jul 1992 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/publication/1992-8ohdg-phenol/</guid>
+      <guid>//localhost:50708/publication/1992-8ohdg-phenol/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The risk of trusting priority numbers</title>
-      <link>//localhost:1313/publication/2017-risk-of-trusting-priority-numbers/</link>
+      <link>//localhost:50708/publication/2017-risk-of-trusting-priority-numbers/</link>
       <pubDate>Wed, 31 Dec 1969 18:33:37 -0600</pubDate>
-      <guid>//localhost:1313/publication/2017-risk-of-trusting-priority-numbers/</guid>
+      <guid>//localhost:50708/publication/2017-risk-of-trusting-priority-numbers/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Quality-by-Design II: Application of Quantitative Risk Analysis to the Formulation of Ciprofloxacin Tablets</title>
-      <link>//localhost:1313/publication/2016-quality-by-design-ii/</link>
+      <link>//localhost:50708/publication/2016-quality-by-design-ii/</link>
       <pubDate>Wed, 31 Dec 1969 18:33:34 -0600</pubDate>
-      <guid>//localhost:1313/publication/2016-quality-by-design-ii/</guid>
+      <guid>//localhost:50708/publication/2016-quality-by-design-ii/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Quality by design I: application of failure mode effect analysis (FMEA) and Plackett-Burman design of experiments in the identification of “main factors” in the formulation and process design space for roller-compacted ciprofloxacin hydrochloride immediate-release tablets.</title>
-      <link>//localhost:1313/publication/2013-quality-by-design-i/</link>
+      <link>//localhost:50708/publication/2013-quality-by-design-i/</link>
       <pubDate>Wed, 31 Dec 1969 18:33:32 -0600</pubDate>
-      <guid>//localhost:1313/publication/2013-quality-by-design-i/</guid>
+      <guid>//localhost:50708/publication/2013-quality-by-design-i/</guid>
       <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
   &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
@@ -166,25 +166,25 @@ Available at: &lt;a href=&#34;https://arrow.tudublin.ie/level3/vol19/iss1/4&#34;
     
     <item>
       <title>Risk, uncertainty, and process analytical technology</title>
-      <link>//localhost:1313/publication/2006-risk-pat/</link>
+      <link>//localhost:50708/publication/2006-risk-pat/</link>
       <pubDate>Wed, 31 Dec 1969 18:33:26 -0600</pubDate>
-      <guid>//localhost:1313/publication/2006-risk-pat/</guid>
+      <guid>//localhost:50708/publication/2006-risk-pat/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Elicitation of expert knowledge about risks associated with pharmaceutical manufacturing processes</title>
-      <link>//localhost:1313/publication/2005-elicitation-expert-knowledge/</link>
+      <link>//localhost:50708/publication/2005-elicitation-expert-knowledge/</link>
       <pubDate>Wed, 31 Dec 1969 18:33:25 -0600</pubDate>
-      <guid>//localhost:1313/publication/2005-elicitation-expert-knowledge/</guid>
+      <guid>//localhost:50708/publication/2005-elicitation-expert-knowledge/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Antimicrobial Resistance Risk Assessment in Food Safety</title>
-      <link>//localhost:1313/publication/2004-arra/</link>
+      <link>//localhost:50708/publication/2004-arra/</link>
       <pubDate>Wed, 31 Dec 1969 18:33:24 -0600</pubDate>
-      <guid>//localhost:1313/publication/2004-arra/</guid>
+      <guid>//localhost:50708/publication/2004-arra/</guid>
       <description></description>
     </item>
     

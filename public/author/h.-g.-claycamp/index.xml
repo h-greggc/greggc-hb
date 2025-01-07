@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>H. G. Claycamp | Gregg Claycamp</title>
-    <link>//localhost:1313/author/h.-g.-claycamp/</link>
-      <atom:link href="//localhost:1313/author/h.-g.-claycamp/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:50708/author/h.-g.-claycamp/</link>
+      <atom:link href="//localhost:50708/author/h.-g.-claycamp/index.xml" rel="self" type="application/rss+xml" />
     <description>H. G. Claycamp</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Sep 2012 14:01:07 -0600</lastBuildDate>
     <image>
-      <url>//localhost:1313/media/icon_hu10226378635250344412.png</url>
+      <url>//localhost:50708/media/icon_hu10226378635250344412.png</url>
       <title>H. G. Claycamp</title>
-      <link>//localhost:1313/author/h.-g.-claycamp/</link>
+      <link>//localhost:50708/author/h.-g.-claycamp/</link>
     </image>
     
     <item>
       <title>The reliability-quality relationship for quality systems and quality risk management</title>
-      <link>//localhost:1313/publication/2012-reliability-quality-relationship-qrm/</link>
+      <link>//localhost:50708/publication/2012-reliability-quality-relationship-qrm/</link>
       <pubDate>Sat, 01 Sep 2012 14:01:07 -0600</pubDate>
-      <guid>//localhost:1313/publication/2012-reliability-quality-relationship-qrm/</guid>
+      <guid>//localhost:50708/publication/2012-reliability-quality-relationship-qrm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Probability Concepts in Quality Risk Management</title>
-      <link>//localhost:1313/publication/2011-probability-concepts-in-qrm/</link>
+      <link>//localhost:50708/publication/2011-probability-concepts-in-qrm/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/publication/2011-probability-concepts-in-qrm/</guid>
+      <guid>//localhost:50708/publication/2011-probability-concepts-in-qrm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Risk, uncertainty, and process analytical technology</title>
-      <link>//localhost:1313/publication/2006-risk-pat/</link>
+      <link>//localhost:50708/publication/2006-risk-pat/</link>
       <pubDate>Wed, 31 Dec 1969 18:33:26 -0600</pubDate>
-      <guid>//localhost:1313/publication/2006-risk-pat/</guid>
+      <guid>//localhost:50708/publication/2006-risk-pat/</guid>
       <description></description>
     </item>
     

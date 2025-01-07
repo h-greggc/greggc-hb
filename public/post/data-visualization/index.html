@@ -1,9 +1,9 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: January 6, 2025 --><html lang="en-us" dir="ltr"
+<!-- Last Published: January 7, 2025 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=50708&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -46,7 +46,7 @@
   <meta name="description" content="Use popular tools such as Plotly, Mermaid, and data frames." />
 
   
-  <link rel="alternate" hreflang="en-us" href="//localhost:1313/post/data-visualization/" />
+  <link rel="alternate" hreflang="en-us" href="//localhost:50708/post/data-visualization/" />
 
   
   
@@ -166,7 +166,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu10978985619530458252.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu10391704213710329260.png" />
 
-  <link rel="canonical" href="//localhost:1313/post/data-visualization/" />
+  <link rel="canonical" href="//localhost:50708/post/data-visualization/" />
 
   
   
@@ -188,10 +188,10 @@
   <meta property="twitter:card" content="summary_large_image" />
   
   <meta property="og:site_name" content="Gregg Claycamp" />
-  <meta property="og:url" content="//localhost:1313/post/data-visualization/" />
+  <meta property="og:url" content="//localhost:50708/post/data-visualization/" />
   <meta property="og:title" content="📈 Communicate your results effectively with the best data visualizations | Gregg Claycamp" />
-  <meta property="og:description" content="Use popular tools such as Plotly, Mermaid, and data frames." /><meta property="og:image" content="//localhost:1313/post/data-visualization/featured.jpg" />
-    <meta property="twitter:image" content="//localhost:1313/post/data-visualization/featured.jpg" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="Use popular tools such as Plotly, Mermaid, and data frames." /><meta property="og:image" content="//localhost:50708/post/data-visualization/featured.jpg" />
+    <meta property="twitter:image" content="//localhost:50708/post/data-visualization/featured.jpg" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -1364,7 +1364,7 @@
 
 
 
-<div id="chart-712983645" class="chart"></div>
+<div id="chart-362458791" class="chart"></div>
 <script>
   async function fetchChartJSON() {
     console.debug('Hugo Blox fetching chart JSON...')
@@ -1382,7 +1382,7 @@
 
       fetchChartJSON().then(chart => {
         console.debug('Plotting chart...')
-        window.Plotly.newPlot('chart-712983645', chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot('chart-362458791', chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -1392,15 +1392,14 @@
 <h2 id="diagrams">Diagrams</h2>
 <p>Wowchemy supports the <em>Mermaid</em> Markdown extension for diagrams.</p>
 <p>An example <strong>flowchart</strong>:</p>
-<pre><code>```mermaid
-graph TD
-A[Hard] --&gt;|Text| B(Round)
-B --&gt; C{Decision}
-C --&gt;|One| D[Result 1]
-C --&gt;|Two| E[Result 2]
-```
-</code></pre>
-<p>renders as</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">```mermaid
+</span></span><span class="line"><span class="cl">graph TD
+</span></span><span class="line"><span class="cl">A[Hard] --&gt;|Text| B(Round)
+</span></span><span class="line"><span class="cl">B --&gt; C{Decision}
+</span></span><span class="line"><span class="cl">C --&gt;|One| D[Result 1]
+</span></span><span class="line"><span class="cl">C --&gt;|Two| E[Result 2]
+</span></span><span class="line"><span class="cl">```
+</span></span></code></pre></div><p>renders as</p>
 <div class="mermaid">graph TD
 A[Hard] -->|Text| B(Round)
 B --> C{Decision}
@@ -1408,19 +1407,18 @@ C -->|One| D[Result 1]
 C -->|Two| E[Result 2]
 </div>
 <p>An example <strong>sequence diagram</strong>:</p>
-<pre><code>```mermaid
-sequenceDiagram
-Alice-&gt;&gt;John: Hello John, how are you?
-loop Healthcheck
-    John-&gt;&gt;John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John--&gt;&gt;Alice: Great!
-John-&gt;&gt;Bob: How about you?
-Bob--&gt;&gt;John: Jolly good!
-```
-</code></pre>
-<p>renders as</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">```mermaid
+</span></span><span class="line"><span class="cl">sequenceDiagram
+</span></span><span class="line"><span class="cl">Alice-&gt;&gt;John: Hello John, how are you?
+</span></span><span class="line"><span class="cl">loop Healthcheck
+</span></span><span class="line"><span class="cl">    John-&gt;&gt;John: Fight against hypochondria
+</span></span><span class="line"><span class="cl">end
+</span></span><span class="line"><span class="cl">Note right of John: Rational thoughts!
+</span></span><span class="line"><span class="cl">John--&gt;&gt;Alice: Great!
+</span></span><span class="line"><span class="cl">John-&gt;&gt;Bob: How about you?
+</span></span><span class="line"><span class="cl">Bob--&gt;&gt;John: Jolly good!
+</span></span><span class="line"><span class="cl">```
+</span></span></code></pre></div><p>renders as</p>
 <div class="mermaid">sequenceDiagram
 Alice->>John: Hello John, how are you?
 loop Healthcheck
@@ -1432,24 +1430,23 @@ John->>Bob: How about you?
 Bob-->>John: Jolly good!
 </div>
 <p>An example <strong>class diagram</strong>:</p>
-<pre><code>```mermaid
-classDiagram
-Class01 &lt;|-- AveryLongClass : Cool
-Class03 *-- Class04
-Class05 o-- Class06
-Class07 .. Class08
-Class09 --&gt; C2 : Where am i?
-Class09 --* C3
-Class09 --|&gt; Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-Class08 &lt;--&gt; C2: Cool label
-```
-</code></pre>
-<p>renders as</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">```mermaid
+</span></span><span class="line"><span class="cl">classDiagram
+</span></span><span class="line"><span class="cl">Class01 &lt;|-- AveryLongClass : Cool
+</span></span><span class="line"><span class="cl">Class03 *-- Class04
+</span></span><span class="line"><span class="cl">Class05 o-- Class06
+</span></span><span class="line"><span class="cl">Class07 .. Class08
+</span></span><span class="line"><span class="cl">Class09 --&gt; C2 : Where am i?
+</span></span><span class="line"><span class="cl">Class09 --* C3
+</span></span><span class="line"><span class="cl">Class09 --|&gt; Class07
+</span></span><span class="line"><span class="cl">Class07 : equals()
+</span></span><span class="line"><span class="cl">Class07 : Object[] elementData
+</span></span><span class="line"><span class="cl">Class01 : size()
+</span></span><span class="line"><span class="cl">Class01 : int chimp
+</span></span><span class="line"><span class="cl">Class01 : int gorilla
+</span></span><span class="line"><span class="cl">Class08 &lt;--&gt; C2: Cool label
+</span></span><span class="line"><span class="cl">```
+</span></span></code></pre></div><p>renders as</p>
 <div class="mermaid">classDiagram
 Class01 <|-- AveryLongClass : Cool
 Class03 *-- Class04
@@ -1466,17 +1463,16 @@ Class01 : int gorilla
 Class08 <--> C2: Cool label
 </div>
 <p>An example <strong>state diagram</strong>:</p>
-<pre><code>```mermaid
-stateDiagram
-[*] --&gt; Still
-Still --&gt; [*]
-Still --&gt; Moving
-Moving --&gt; Still
-Moving --&gt; Crash
-Crash --&gt; [*]
-```
-</code></pre>
-<p>renders as</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">```mermaid
+</span></span><span class="line"><span class="cl">stateDiagram
+</span></span><span class="line"><span class="cl">[*] --&gt; Still
+</span></span><span class="line"><span class="cl">Still --&gt; [*]
+</span></span><span class="line"><span class="cl">Still --&gt; Moving
+</span></span><span class="line"><span class="cl">Moving --&gt; Still
+</span></span><span class="line"><span class="cl">Moving --&gt; Crash
+</span></span><span class="line"><span class="cl">Crash --&gt; [*]
+</span></span><span class="line"><span class="cl">```
+</span></span></code></pre></div><p>renders as</p>
 <div class="mermaid">stateDiagram
 [*] --> Still
 Still --> [*]
@@ -1596,7 +1592,7 @@ Crash --> [*]
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://twitter.com/intent/tweet?url=%2F%2Flocalhost%3A1313%2Fpost%2Fdata-visualization%2F&amp;text=%F0%9F%93%88&#43;Communicate&#43;your&#43;results&#43;effectively&#43;with&#43;the&#43;best&#43;data&#43;visualizations"
+    href="https://twitter.com/intent/tweet?url=%2F%2Flocalhost%3A50708%2Fpost%2Fdata-visualization%2F&amp;text=%F0%9F%93%88&#43;Communicate&#43;your&#43;results&#43;effectively&#43;with&#43;the&#43;best&#43;data&#43;visualizations"
     title="X"
     aria-label="X"
     id="share-link-x"
@@ -1614,7 +1610,7 @@ Crash --> [*]
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.facebook.com/sharer.php?u=%2F%2Flocalhost%3A1313%2Fpost%2Fdata-visualization%2F&amp;t=%F0%9F%93%88&#43;Communicate&#43;your&#43;results&#43;effectively&#43;with&#43;the&#43;best&#43;data&#43;visualizations"
+    href="https://www.facebook.com/sharer.php?u=%2F%2Flocalhost%3A50708%2Fpost%2Fdata-visualization%2F&amp;t=%F0%9F%93%88&#43;Communicate&#43;your&#43;results&#43;effectively&#43;with&#43;the&#43;best&#43;data&#43;visualizations"
     title="Facebook"
     aria-label="Facebook"
     id="share-link-facebook"
@@ -1634,7 +1630,7 @@ Crash --> [*]
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="mailto:?subject=%F0%9F%93%88%20Communicate%20your%20results%20effectively%20with%20the%20best%20data%20visualizations&amp;body=%2F%2Flocalhost%3A1313%2Fpost%2Fdata-visualization%2F"
+    href="mailto:?subject=%F0%9F%93%88%20Communicate%20your%20results%20effectively%20with%20the%20best%20data%20visualizations&amp;body=%2F%2Flocalhost%3A50708%2Fpost%2Fdata-visualization%2F"
     title="Email"
     aria-label="Email"
     id="share-link-email"
@@ -1652,7 +1648,7 @@ Crash --> [*]
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="https://www.linkedin.com/shareArticle?url=%2F%2Flocalhost%3A1313%2Fpost%2Fdata-visualization%2F&amp;title=%F0%9F%93%88&#43;Communicate&#43;your&#43;results&#43;effectively&#43;with&#43;the&#43;best&#43;data&#43;visualizations"
+    href="https://www.linkedin.com/shareArticle?url=%2F%2Flocalhost%3A50708%2Fpost%2Fdata-visualization%2F&amp;title=%F0%9F%93%88&#43;Communicate&#43;your&#43;results&#43;effectively&#43;with&#43;the&#43;best&#43;data&#43;visualizations"
     title="LinkedIn"
     aria-label="LinkedIn"
     id="share-link-linkedin"
@@ -1670,7 +1666,7 @@ Crash --> [*]
   <a
     target="_blank" rel="noopener"
     class="m-1 rounded-md bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral-300 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-    href="whatsapp://send?text=%F0%9F%93%88&#43;Communicate&#43;your&#43;results&#43;effectively&#43;with&#43;the&#43;best&#43;data&#43;visualizations%20%2F%2Flocalhost%3A1313%2Fpost%2Fdata-visualization%2F"
+    href="whatsapp://send?text=%F0%9F%93%88&#43;Communicate&#43;your&#43;results&#43;effectively&#43;with&#43;the&#43;best&#43;data&#43;visualizations%20%2F%2Flocalhost%3A50708%2Fpost%2Fdata-visualization%2F"
     title="WhatsApp"
     aria-label="WhatsApp"
     id="share-link-whatsapp"
@@ -1720,7 +1716,7 @@ Crash --> [*]
       Authors
     </div>
     <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
-      <a href="//localhost:1313/" class="no-underline">
+      <a href="//localhost:50708/" class="no-underline">
       H. Gregg Claycamp
       </a>
     </div>

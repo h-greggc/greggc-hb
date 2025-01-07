@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Other | Gregg Claycamp</title>
-    <link>//localhost:1313/tags/other/</link>
-      <atom:link href="//localhost:1313/tags/other/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:50708/tags/other/</link>
+      <atom:link href="//localhost:50708/tags/other/index.xml" rel="self" type="application/rss+xml" />
     <description>Other</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Apr 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>//localhost:1313/media/icon_hu10226378635250344412.png</url>
+      <url>//localhost:50708/media/icon_hu10226378635250344412.png</url>
       <title>Other</title>
-      <link>//localhost:1313/tags/other/</link>
+      <link>//localhost:50708/tags/other/</link>
     </image>
     
     <item>
       <title>Prince of Peace Lutheran Church (Website)</title>
-      <link>//localhost:1313/project/website-1/</link>
+      <link>//localhost:50708/project/website-1/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/project/website-1/</guid>
+      <guid>//localhost:50708/project/website-1/</guid>
       <description>&lt;p&gt;A WordPress (.org) website created for Prince of Peace Lutheran Church.
 The site archives sermon notes, provides church event calendars and newletters and links to newsletters.&lt;/p&gt;</description>
     </item>
