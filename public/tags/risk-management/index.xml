@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Risk Management | Gregg Claycamp</title>
-    <link>//localhost:50708/tags/risk-management/</link>
-      <atom:link href="//localhost:50708/tags/risk-management/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:1313/tags/risk-management/</link>
+      <atom:link href="//localhost:1313/tags/risk-management/index.xml" rel="self" type="application/rss+xml" />
     <description>Risk Management</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Sep 2012 14:01:07 -0600</lastBuildDate>
     <image>
-      <url>//localhost:50708/media/icon_hu10226378635250344412.png</url>
+      <url>//localhost:1313/media/icon_hu10226378635250344412.png</url>
       <title>Risk Management</title>
-      <link>//localhost:50708/tags/risk-management/</link>
+      <link>//localhost:1313/tags/risk-management/</link>
     </image>
     
     <item>
       <title>The reliability-quality relationship for quality systems and quality risk management</title>
-      <link>//localhost:50708/publication/2012-reliability-quality-relationship-qrm/</link>
+      <link>//localhost:1313/publication/2012-reliability-quality-relationship-qrm/</link>
       <pubDate>Sat, 01 Sep 2012 14:01:07 -0600</pubDate>
-      <guid>//localhost:50708/publication/2012-reliability-quality-relationship-qrm/</guid>
+      <guid>//localhost:1313/publication/2012-reliability-quality-relationship-qrm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Perspective on Quality Risk Management of Pharmaceutical Quality</title>
-      <link>//localhost:50708/publication/2007-perspective-on-qrm/</link>
+      <link>//localhost:1313/publication/2007-perspective-on-qrm/</link>
       <pubDate>Sat, 01 Sep 2007 00:00:00 +0000</pubDate>
-      <guid>//localhost:50708/publication/2007-perspective-on-qrm/</guid>
+      <guid>//localhost:1313/publication/2007-perspective-on-qrm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Risk, uncertainty, and process analytical technology</title>
-      <link>//localhost:50708/publication/2006-risk-pat/</link>
+      <link>//localhost:1313/publication/2006-risk-pat/</link>
       <pubDate>Wed, 31 Dec 1969 18:33:26 -0600</pubDate>
-      <guid>//localhost:50708/publication/2006-risk-pat/</guid>
+      <guid>//localhost:1313/publication/2006-risk-pat/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Elicitation of expert knowledge about risks associated with pharmaceutical manufacturing processes</title>
-      <link>//localhost:50708/publication/2005-elicitation-expert-knowledge/</link>
+      <link>//localhost:1313/publication/2005-elicitation-expert-knowledge/</link>
       <pubDate>Wed, 31 Dec 1969 18:33:25 -0600</pubDate>
-      <guid>//localhost:50708/publication/2005-elicitation-expert-knowledge/</guid>
+      <guid>//localhost:1313/publication/2005-elicitation-expert-knowledge/</guid>
       <description></description>
     </item>
     

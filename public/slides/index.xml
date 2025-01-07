@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Slides | Gregg Claycamp</title>
-    <link>//localhost:50708/slides/</link>
-      <atom:link href="//localhost:50708/slides/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:1313/slides/</link>
+      <atom:link href="//localhost:1313/slides/index.xml" rel="self" type="application/rss+xml" />
     <description>Slides</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Dec 2024 20:09:00 +0000</lastBuildDate>
     <image>
-      <url>//localhost:50708/media/icon_hu10226378635250344412.png</url>
+      <url>//localhost:1313/media/icon_hu10226378635250344412.png</url>
       <title>Slides</title>
-      <link>//localhost:50708/slides/</link>
+      <link>//localhost:1313/slides/</link>
     </image>
     
     <item>
       <title>Here’s a new slide </title>
-      <link>//localhost:50708/slides/heres-a-new-slide/</link>
+      <link>//localhost:1313/slides/heres-a-new-slide/</link>
       <pubDate>Thu, 26 Dec 2024 20:09:00 +0000</pubDate>
-      <guid>//localhost:50708/slides/heres-a-new-slide/</guid>
+      <guid>//localhost:1313/slides/heres-a-new-slide/</guid>
       <description>&lt;p&gt;slide 1
 —-
 Slide 2&lt;/p&gt;

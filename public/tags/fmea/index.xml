@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>FMEA | Gregg Claycamp</title>
-    <link>//localhost:50708/tags/fmea/</link>
-      <atom:link href="//localhost:50708/tags/fmea/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:1313/tags/fmea/</link>
+      <atom:link href="//localhost:1313/tags/fmea/index.xml" rel="self" type="application/rss+xml" />
     <description>FMEA</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Sep 2007 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>//localhost:50708/media/icon_hu10226378635250344412.png</url>
+      <url>//localhost:1313/media/icon_hu10226378635250344412.png</url>
       <title>FMEA</title>
-      <link>//localhost:50708/tags/fmea/</link>
+      <link>//localhost:1313/tags/fmea/</link>
     </image>
     
     <item>
       <title>Perspective on Quality Risk Management of Pharmaceutical Quality</title>
-      <link>//localhost:50708/publication/2007-perspective-on-qrm/</link>
+      <link>//localhost:1313/publication/2007-perspective-on-qrm/</link>
       <pubDate>Sat, 01 Sep 2007 00:00:00 +0000</pubDate>
-      <guid>//localhost:50708/publication/2007-perspective-on-qrm/</guid>
+      <guid>//localhost:1313/publication/2007-perspective-on-qrm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The risk of trusting priority numbers</title>
-      <link>//localhost:50708/publication/2017-risk-of-trusting-priority-numbers/</link>
+      <link>//localhost:1313/publication/2017-risk-of-trusting-priority-numbers/</link>
       <pubDate>Wed, 31 Dec 1969 18:33:37 -0600</pubDate>
-      <guid>//localhost:50708/publication/2017-risk-of-trusting-priority-numbers/</guid>
+      <guid>//localhost:1313/publication/2017-risk-of-trusting-priority-numbers/</guid>
       <description></description>
     </item>
     

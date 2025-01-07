@@ -1,5 +1,9 @@
+github.com/HugoBlox/all-access v0.0.0-20241105012909-6426bf8a9975 h1:BBS+zfj+sm9oEAY/5jYuyOgbwY+1xL1GIJEJGemYPfw=
+github.com/HugoBlox/all-access v0.0.0-20241105012909-6426bf8a9975/go.mod h1:J+uANL41R6r0tDLIMH0olEdkod4lsK/+Kn/TA0dImIU=
 github.com/HugoBlox/all-access/blox-all-access v0.0.0-20240506024847-96f2f37c71bb h1:16/uc4OkFKjBWUKRHE/y4hcHmapfNo5fpinaz4lVXuE=
 github.com/HugoBlox/all-access/blox-all-access v0.0.0-20240506024847-96f2f37c71bb/go.mod h1:AifD8GneU4Gu9fWU2WONrTOdu+MpTqJw0TPVVWKb50s=
+github.com/HugoBlox/all-access/blox-all-access v0.0.0-20241105012909-6426bf8a9975 h1:U3dXJ26y2C2zbV7y307R0VZsySdXP8yCOjmo/7CkrGk=
+github.com/HugoBlox/all-access/blox-all-access v0.0.0-20241105012909-6426bf8a9975/go.mod h1:AifD8GneU4Gu9fWU2WONrTOdu+MpTqJw0TPVVWKb50s=
 github.com/HugoBlox/hugo-blox-builder/modules/blox-core v0.3.1/go.mod h1:So8+V2U+TNxlXmcpZfdDX0muLh3PdJ7z92h30sv3bZg=
 github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms v0.1.1 h1:S1XFRPGzdlmrmqRcE9t0cj9auYFz7+TNCvsuxtD3wQQ=
 github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms v0.1.1/go.mod h1:Njlsj3S1Z833TdX1nacJZzsiwGGhOq4Nilzo2BH/wQ8=

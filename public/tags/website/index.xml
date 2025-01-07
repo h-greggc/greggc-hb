@@ -2,21 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Website | Gregg Claycamp</title>
-    <link>//localhost:50708/tags/website/</link>
-      <atom:link href="//localhost:50708/tags/website/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:1313/tags/website/</link>
+      <atom:link href="//localhost:1313/tags/website/index.xml" rel="self" type="application/rss+xml" />
     <description>Website</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>//localhost:50708/media/icon_hu10226378635250344412.png</url>
+      <url>//localhost:1313/media/icon_hu10226378635250344412.png</url>
       <title>Website</title>
-      <link>//localhost:50708/tags/website/</link>
+      <link>//localhost:1313/tags/website/</link>
     </image>
     
     <item>
+      <title>My Counties Covid-19 Tracking Website</title>
+      <link>//localhost:1313/project/covid-counties/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/project/covid-counties/</guid>
+      <description>&lt;p&gt;A Google Sites website for tracking Covid-19 statisics for counties in which I have family&amp;ndash;close or distant. The site is dormant as the US and university data source have suspended operations.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Prince of Peace Lutheran Church (Website)</title>
-      <link>//localhost:50708/project/website-1/</link>
+      <link>//localhost:1313/project/website-1/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>//localhost:50708/project/website-1/</guid>
+      <guid>//localhost:1313/project/website-1/</guid>
       <description>&lt;p&gt;A WordPress (.org) website created for Prince of Peace Lutheran Church.
 The site archives sermon notes, provides church event calendars and newletters and links to newsletters.&lt;/p&gt;</description>
     </item>
