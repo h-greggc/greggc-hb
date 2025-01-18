@@ -22,6 +22,7 @@ highlight_name: true
 # Role/position/tagline
 role: |
   - Risk and Decision Analysis Consultant
+  - (Website under construction)
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name:
@@ -57,37 +58,24 @@ interests:
   - Public Health Statistics
 
 education:
-  - area: PhD Artificial Intelligence
+  - area: PhD Radiological Health Engineering
+    institution: Northwestern University
+    date_start: 1977-06-01
+    date_end: 1982-06-01
+    summary:   
+    # button:
+    #   text: 'Read Thesis'
+    #   url: 'https://example.com'
+  - area: MS Radiological Health Engineering
+    institution: Northwestern Uiversity
+    date_start: 1975-07-01
+    date_end: 1977-12-31
+    summary: 
+  - area: BA Human Biology  
     institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    date_start: 1970-09-01
+    date_end: 1974-06-06
+    summary: 
 work:
   - position: Senior Biomedical Research Scientist
     company_name: US Food and Drug Administration
@@ -97,7 +85,7 @@ work:
     date_end: 2020-04-11
     summary: |2-
       Responsibilities include:
-      - Senior-level advisor, research and thought leader in risk analysis and risk-based decision making  
+      - Senior-level advisor, research, and thought leader in risk analysis and risk-based decision making  
       - Data analytics and scientific support leadership including Div Dir-level management of PhD, MD, DVM, MS technical staff 
   - position: Professor and Assoc Chair
     company_name: University of Pittsburgh, Graduate School of Public Health
@@ -120,7 +108,7 @@ skills:
       - name: Risk Analysis 
         description: ''
         percent: 60
-        icon: code-bracket
+        icon: work
       - name: Decision Analysis 
         description: ''
         percent: 30
@@ -140,7 +128,7 @@ skills:
       - name: Woodworking
         description: ''
         percent: 60
-        icon: person-simple-walk
+        icon: saw
       - name: Music
         description: ''
         percent: 100
@@ -149,13 +137,12 @@ skills:
         description: ''
         percent: 80
         icon: camera
-
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
+  - name: Spanish
+    percent: 25
+  - name: French
     percent: 25
 
 # Awards.
