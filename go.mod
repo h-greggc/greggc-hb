@@ -13,4 +13,7 @@ require (
 require (
 	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms v0.1.1 // indirect
 	github.com/HugoBlox/hugo-blox-builder/modules/blox-seo v0.2.3 // indirect
+	github.com/HugoBlox/all-access/blox-all-access v0.0.0-20240519164730-c04da0219148
+
 )
+
