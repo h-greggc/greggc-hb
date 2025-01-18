@@ -43,6 +43,7 @@ taxonomies:
   tag: tags
   categories: categories
   publication_type: publication_types
+  relative: relatives
 markup:
   _merge: deep
   highlight:
