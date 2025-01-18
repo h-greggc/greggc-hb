@@ -13,6 +13,9 @@ categories: ["risk management", "decision analysis"]
 
 ## The usual Markdown codes:
 
+{{< youtube 0RKpf3rK57I >}}
+
+
 ```
 # First
 ## Second

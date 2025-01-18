@@ -443,5 +443,8 @@
   </url><url>
     <loc>//localhost:1313/post/new-show/</loc>
     <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/relatives/</loc>
+    <changefreq>weekly</changefreq>
   </url>
 </urlset>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Decision Analysis | Gregg Claycamp</title>
+    <link>//localhost:1313/categories/decision-analysis/</link>
+      <atom:link href="//localhost:1313/categories/decision-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Decision Analysis</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Dec 2024 20:11:00 +0000</lastBuildDate>
+    <image>
+      <url>//localhost:1313/media/icon_hu10226378635250344412.png</url>
+      <title>Decision Analysis</title>
+      <link>//localhost:1313/categories/decision-analysis/</link>
+    </image>
+    
+    <item>
+      <title>Understanding Tailwind Typography</title>
+      <link>//localhost:1313/post/another-new-post/</link>
+      <pubDate>Thu, 26 Dec 2024 20:11:00 +0000</pubDate>
+      <guid>//localhost:1313/post/another-new-post/</guid>
+      <description>&lt;h2 id=&#34;the-usual-markdown-codes&#34;&gt;The usual Markdown codes:&lt;/h2&gt;
+
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/0RKpf3rK57I?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# First
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## Second
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;### Third
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;#### Fourth
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;_render-as_&#34;&gt;&lt;em&gt;Render as:&lt;/em&gt;&lt;/h2&gt;
+&lt;h1 id=&#34;first&#34;&gt;First&lt;/h1&gt;
+&lt;h2 id=&#34;second&#34;&gt;Second&lt;/h2&gt;
+&lt;h3 id=&#34;third&#34;&gt;Third&lt;/h3&gt;
+&lt;h4 id=&#34;fourth&#34;&gt;Fourth&lt;/h4&gt;
+&lt;hr&gt;
+&lt;h1 class=&#34;sm:text-md font-medium&#34;&gt;Now is the time...&lt;/h1&gt; --&gt;
+&lt;hr&gt;  
+&lt;h1 id=&#34;using-h1&#34;&gt;Using H1&lt;/h1&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;h1 class=&amp;#34;font-light&amp;#34;&amp;gt; font-light &amp;lt;/h1&amp;gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;h1 class=&amp;#34;font-normal&amp;#34;&amp;gt; font-normal &amp;lt;/h1&amp;gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;h1 class=&amp;#34;font-medium&amp;#34;&amp;gt; font-medium &amp;lt;/h1&amp;gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;h1 class=&amp;#34;font-semibold&amp;#34;&amp;gt; font-semibold &amp;lt;/h1&amp;gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;h1 class=&amp;#34;font-bold&amp;#34;&amp;gt; font-bold &amp;lt;/h1&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;h1 class=&amp;#34;font-extrabold&amp;#34;&amp;gt; font-extrabold &amp;lt;/h1&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;_h1-renders-as_&#34;&gt;&lt;em&gt;H1 Renders as:&lt;/em&gt;&lt;/h1&gt;
+&lt;h1 class=&#34;font-light&#34;&gt; font-light &lt;/h1&gt; 
+&lt;h1 class=&#34;font-normal&#34;&gt; font-normal &lt;/h1&gt; 
+&lt;h1 class=&#34;font-medium&#34;&gt; font-medium &lt;/h1&gt; 
+&lt;h1 class=&#34;font-semibold&#34;&gt; font-semibold &lt;/h1&gt; 
+&lt;h1 class=&#34;font-bold&#34;&gt; font-bold &lt;/h1&gt;
+&lt;h1 class=&#34;font-extrabold&#34;&gt; font-extrabold &lt;/h1&gt;
+&lt;h2 id=&#34;_h2-renders-as_&#34;&gt;&lt;em&gt;H2 renders as:&lt;/em&gt;&lt;/h2&gt;
+&lt;h2 class=&#34;font-light&#34;&gt; font-light &lt;/h2&gt; 
+&lt;h2 class=&#34;font-normal&#34;&gt; font-normal &lt;/h2&gt; 
+&lt;h2 class=&#34;font-medium&#34;&gt; font-medium &lt;/h2&gt; 
+&lt;h2 class=&#34;font-semibold&#34;&gt; font-semibold &lt;/h2&gt; 
+&lt;h2 class=&#34;font-bold&#34;&gt; font-bold &lt;/h2&gt;
+&lt;h2 class=&#34;font-extrabold&#34;&gt; font-extrabold &lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;_h3-renders-as_&#34;&gt;&lt;em&gt;H3 Renders as:&lt;/em&gt;&lt;/h3&gt;
+&lt;h3 class=&#34;font-light&#34;&gt;   font-light &lt;/h3&gt; 
+&lt;h3 class=&#34;font-normal&#34;&gt;   font-normal &lt;/h3&gt; 
+&lt;h3 class=&#34;font-medium&#34;&gt;   font-medium &lt;/h3&gt; 
+&lt;h3 class=&#34;font-semibold&#34;&gt;   font-semibold &lt;/h3&gt; 
+&lt;h3 class=&#34;font-bold&#34;&gt;   font-bold &lt;/h3&gt; 
+&lt;h3 class=&#34;font-extrabold&#34;&gt;   font-extrabold &lt;/h3&gt; 
+&lt;hr&gt;
+&lt;h4 id=&#34;_h4-renders-as_&#34;&gt;&lt;em&gt;H4 Renders as:&lt;/em&gt;&lt;/h4&gt;
+&lt;h4 class=&#34;font-light&#34;&gt; font-light &lt;/h4&gt; 
+&lt;h4 class=&#34;font-normal&#34;&gt; font-normal &lt;/h4&gt; 
+&lt;h4 class=&#34;font-mediumn&#34;&gt; font-medium &lt;/h4&gt; 
+&lt;h4 class=&#34;font-semibold&#34;&gt; font-semibold &lt;/h4&gt; 
+&lt;h4 class=&#34;font-bold&#34;&gt; font-bold &lt;/h4&gt; 
+&lt;hr&gt;
+&lt;h3 id=&#34;tailwind-font-weight-classes-in-a-p-element&#34;&gt;Tailwind font weight classes in a &amp;lt;p&amp;gt; element&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;p class=&amp;#34;font-light ...&amp;#34;&amp;gt;font-light: &amp;lt;/p&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;p class=&amp;#34;font-normal ...&amp;#34;&amp;gt;font-normal: &amp;lt;/p&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;p class=&amp;#34;font-medium ...&amp;#34;&amp;gt;font-medium: &amp;lt;/p&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;p class=&amp;#34;font-semibold ...&amp;#34;&amp;gt;font-semibold: &amp;lt;/p&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;p class=&amp;#34;font-bold ...&amp;#34;&amp;gt;font-bold: &amp;lt;/p&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;p class=&amp;#34;font-extrabold ...&amp;#34;&amp;gt;font-extrabold: &amp;lt;/p&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;p class=&amp;#34;font-black ...&amp;#34;&amp;gt;font-black:&amp;lt;/p&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;_renders-to_&#34;&gt;&lt;em&gt;renders to:&lt;/em&gt;&lt;/h3&gt;
+&lt;p class=&#34;font-light ...&#34;&gt;  - font-light&lt;/p&gt;
+&lt;p class=&#34;font-normal ...&#34;&gt;  - font-normal&lt;/p&gt;
+&lt;p class=&#34;font-medium ...&#34;&gt;  - font-medium&lt;/p&gt;
+&lt;p class=&#34;font-semibold ...&#34;&gt;  - font-semibold &lt;/p&gt;
+&lt;p class=&#34;font-bold ...&#34;&gt;  - font-bold&lt;/p&gt;
+&lt;p class=&#34;font-extrabold ...&#34;&gt;  - font-extrabold&lt;/p&gt;
+&lt;p class=&#34;font-black ...&#34;&gt;  - font-black&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;classes-found-in-the-blox-page-and-single-templates&#34;&gt;Classes found in the blox page and single templates&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;h1 class=&amp;#34;sm:text-5xl font-medium&amp;#34;&amp;gt;Now is the time...h1 sm:text-5xl font-medium&amp;lt;/h1&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;h1 class=&amp;#34;sm:text-lg font-medium&amp;#34;&amp;gt;Now is the time...h1 sm:text-lg font-medium&amp;lt;/h1&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;h1 class=&amp;#34;sm:text-md font-medium&amp;#34;&amp;gt;Now is the time...sm:text-md&amp;lt;/h1&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;h1 class=&amp;#34;sm:text font-large&amp;#34;&amp;gt;Now is the time...lg:text-4xl&amp;lt;/h1&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;lt;h1 class=&amp;#34;lg:m:text-3xl font-medium&amp;#34;&amp;gt;Now is the time...lg:text-3xl&amp;lt;/h1&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;_rendering-as_&#34;&gt;&lt;em&gt;Rendering as:&lt;/em&gt;&lt;/h3&gt;
+&lt;h1 class=&#34;sm:text-5xl font-medium&#34;&gt;h1 sm:text-5xl font-medium&lt;/h1&gt;
+&lt;h1 class=&#34;sm:text-lg font-medium&#34;&gt;h1 sm:text-lg font-medium&lt;/h1&gt;
+&lt;h1 class=&#34;sm:text-md font-medium&#34;&gt;sm:text-md&lt;/h1&gt;
+&lt;h1 class=&#34;sm:text font-large&#34;&gt;lg:text-4xl&lt;/h1&gt;
+&lt;h1 class=&#34;lg:m:text-3xl font-medium&#34;&gt;lg:text-3xl&lt;/h1&gt;
+&lt;p&gt;From hugo_stats.json&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;font-bold&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;font-color:blue&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;font-extrabold&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;font-italic&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;font-large&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;font-light&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;font-medium&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;font-mediumn&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;font-normal&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;font-semibold&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;font-small&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;sm:text&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;sm:text-5xl&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;sm:text-lg&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;sm:text-md&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-1xl&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-2xl&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-3xl&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-4xl&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-[0.6rem]&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-base&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-black&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-center&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-current&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-dark&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-ellipsis&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-gray-200&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-gray-500&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-gray-700&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-gray-900&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-lg&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-md&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-neutral-500&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-neutral-700&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-neutral-800&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-primary-600&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-primary-700&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-primary-800&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-red-400&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-right&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-slate-500&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-slate-700&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-slate-900&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-sm&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-white&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-wrap&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-xl&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-xs&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-zinc-400&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-zinc-600&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;#34;text-zinc-800&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p class=&#34;text-slate-500&#34;&gt;The quick brown fox...&lt;/p&gt;
+&lt;p class=&#34;text-slate-700&#34;&gt;The quick brown fox...&lt;/p&gt;
+&lt;p class=&#34;text-slate-900&#34;&gt;The quick brown fox...&lt;/p&gt;
+&lt;p class=&#34;text-base&#34;&gt;The quick brown fox...&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;lt;p class=&amp;#34;sm:text&amp;#34;&amp;gt;The quick brown fox...&amp;lt;/p&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;lt;p class=&amp;#34;sm:text-5xl&amp;#34;&amp;gt;The quick brown fox...&amp;lt;/p&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;lt;p class=&amp;#34;sm:text-lg&amp;#34;&amp;gt;The quick brown fox...&amp;lt;/p&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;lt;p class=&amp;#34;sm:text-md&amp;#34;&amp;gt;The quick brown fox...&amp;lt;/p&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;lt;p class=&amp;#34;text-1xl&amp;#34;&amp;gt;The quick brown fox...&amp;lt;/p&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;lt;p class=&amp;#34;text-2xl&amp;#34;&amp;gt;The quick brown fox...&amp;lt;/p&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;lt;p class=&amp;#34;text-3xl&amp;#34;&amp;gt;The quick brown fox...&amp;lt;/p&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      &amp;lt;p class=&amp;#34;text-4xl&amp;#34;&amp;gt;The quick brown fox...&amp;lt;/p&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p class=&#34;sm:text&#34;&gt;sm:text -- The quick brown fox...&lt;/p&gt;
+&lt;p class=&#34;sm:text-5xl&#34;&gt;sm:text-5xl -- The quick brown fox...&lt;/p&gt;
+&lt;p class=&#34;sm:text-lg&#34;&gt;sm:text-lg -- The quick brown fox...&lt;/p&gt;
+&lt;p class=&#34;sm:text-md&#34;&gt;sm:text-md -- The quick brown fox...&lt;/p&gt;
+&lt;p class=&#34;text-1xl&#34;&gt;The quick brown fox...&lt;/p&gt;
+&lt;p class=&#34;text-2xl&#34;&gt;The quick brown fox...&lt;/p&gt;
+&lt;p class=&#34;text-3xl&#34;&gt;The quick brown fox...&lt;/p&gt;
+&lt;p class=&#34;text-4xl&#34;&gt;The quick brown fox...&lt;/p&gt;
+&lt;p&gt;For xl 1 through 5&lt;/p&gt;
+&lt;p class=&#34;sm:text-1xl&#34;&gt;sm:text-1xl -- The quick brown fox...&lt;/p&gt;
+&lt;p class=&#34;sm:text-2xl&#34;&gt;sm:text-2xl -- The quick brown fox...&lt;/p&gt;
+&lt;p class=&#34;sm:text-3xl&#34;&gt;sm:text-3xl -- The quick brown fox...&lt;/p&gt;
+&lt;p class=&#34;sm:text-4xl&#34;&gt;sm:text-4xl -- The quick brown fox...&lt;/p&gt;
+&lt;p class=&#34;sm:text-5xl&#34;&gt;sm:text-5xl -- The quick brown fox...&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
