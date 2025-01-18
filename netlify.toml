@@ -1,5 +1,4 @@
 [build]
-  base = "/"
   command = "hugo --gc --minify -b $URL"
   publish = "public"
 
