@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>B. Hasselbalch | Gregg Claycamp</title>
-    <link>//localhost:1313/author/b.-hasselbalch/</link>
-      <atom:link href="//localhost:1313/author/b.-hasselbalch/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:62216/author/b.-hasselbalch/</link>
+      <atom:link href="//localhost:62216/author/b.-hasselbalch/index.xml" rel="self" type="application/rss+xml" />
     <description>B. Hasselbalch</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 31 Dec 1969 18:33:25 -0600</lastBuildDate>
     <image>
-      <url>//localhost:1313/media/icon_hu10226378635250344412.png</url>
+      <url>//localhost:62216/media/icon_hu10226378635250344412.png</url>
       <title>B. Hasselbalch</title>
-      <link>//localhost:1313/author/b.-hasselbalch/</link>
+      <link>//localhost:62216/author/b.-hasselbalch/</link>
     </image>
     
     <item>
       <title>Elicitation of expert knowledge about risks associated with pharmaceutical manufacturing processes</title>
-      <link>//localhost:1313/publication/2005-elicitation-expert-knowledge/</link>
+      <link>//localhost:62216/publication/2005-elicitation-expert-knowledge/</link>
       <pubDate>Wed, 31 Dec 1969 18:33:25 -0600</pubDate>
-      <guid>//localhost:1313/publication/2005-elicitation-expert-knowledge/</guid>
+      <guid>//localhost:62216/publication/2005-elicitation-expert-knowledge/</guid>
       <description></description>
     </item>
     

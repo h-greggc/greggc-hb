@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pandemic | Gregg Claycamp</title>
-    <link>//localhost:1313/tags/pandemic/</link>
-      <atom:link href="//localhost:1313/tags/pandemic/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:62216/tags/pandemic/</link>
+      <atom:link href="//localhost:62216/tags/pandemic/index.xml" rel="self" type="application/rss+xml" />
     <description>Pandemic</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 18 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>//localhost:1313/media/icon_hu10226378635250344412.png</url>
+      <url>//localhost:62216/media/icon_hu10226378635250344412.png</url>
       <title>Pandemic</title>
-      <link>//localhost:1313/tags/pandemic/</link>
+      <link>//localhost:62216/tags/pandemic/</link>
     </image>
     
     <item>
       <title>COVID-19 is Not Just Like the Annual Flu</title>
-      <link>//localhost:1313/post/covid-not-flu/</link>
+      <link>//localhost:62216/post/covid-not-flu/</link>
       <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/post/covid-not-flu/</guid>
+      <guid>//localhost:62216/post/covid-not-flu/</guid>
       <description>&lt;p&gt;Over the six months of the coronavirus pandemic in the US, I have had many casual conversations with strangers or family in which the individual suggests that &amp;ldquo;COVID-19 is just like an annual flu.&amp;rdquo; This notion is far from the truth even in the face of a general similarity that they are both respiratory infections. In this post I compare quantitative features of
 COVID-19 with H1N1 and other flu-like illnesses, Ebola virus disease (EVD), and SARS to show differences between COVID-19 and the flu. Of course, this is not the first time these comparisons have been made in public media; rather, this post is only my perspective on the issue.&lt;/p&gt;
 &lt;p&gt;There are several ways in which the ongoing COVID-19 pandemic and some recent other pandemics can be compared. Sometimes, the endpoints for comparing the pandemic are cherry-picked to support the individual&amp;rsquo;s or organization&amp;rsquo;s purpose. But generally speaking, quantitative comparisons of pandemics begin using fundamental measures, such as&lt;/p&gt;
@@ -75,7 +75,7 @@ g + geom_bar(stat=&#34;identity&#34;, width = 0.7, fill=&#34;blue&#34;) +
                /media/plotbarcase_hu10073645641584489576.webp 400w,
                /media/plotbarcase_hu17025792173898046106.webp 760w,
                /media/plotbarcase_hu3169737616762299870.webp 1200w&#34;
-               src=&#34;//localhost:1313/media/plotbarcase_hu10073645641584489576.webp&#34;
+               src=&#34;//localhost:62216/media/plotbarcase_hu10073645641584489576.webp&#34;
                width=&#34;760&#34;
                height=&#34;543&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -128,7 +128,7 @@ g + geom_bar(stat=&#34;identity&#34;, width = 0.7, fill=&#34;coral2&#34;) +
                /media/plotbardeath_hu17869015885608634849.webp 400w,
                /media/plotbardeath_hu12717155597378379551.webp 760w,
                /media/plotbardeath_hu6711948686741218124.webp 1200w&#34;
-               src=&#34;//localhost:1313/media/plotbardeath_hu17869015885608634849.webp&#34;
+               src=&#34;//localhost:62216/media/plotbardeath_hu17869015885608634849.webp&#34;
                width=&#34;760&#34;
                height=&#34;543&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -207,7 +207,7 @@ g + geom_bar(stat=&#34;identity&#34;, width = 0.7, fill=&#34;chartreuse4&#34;) +
                /media/uscases_hu5177947395891799217.webp 400w,
                /media/uscases_hu5710196219568358464.webp 760w,
                /media/uscases_hu17791834305310666828.webp 1200w&#34;
-               src=&#34;//localhost:1313/media/uscases_hu5177947395891799217.webp&#34;
+               src=&#34;//localhost:62216/media/uscases_hu5177947395891799217.webp&#34;
                width=&#34;760&#34;
                height=&#34;543&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
