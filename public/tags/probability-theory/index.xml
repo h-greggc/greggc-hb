@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Probability Theory | Gregg Claycamp</title>
-    <link>//localhost:62216/tags/probability-theory/</link>
-      <atom:link href="//localhost:62216/tags/probability-theory/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:1313/tags/probability-theory/</link>
+      <atom:link href="//localhost:1313/tags/probability-theory/index.xml" rel="self" type="application/rss+xml" />
     <description>Probability Theory</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2012 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>//localhost:62216/media/icon_hu10226378635250344412.png</url>
+      <url>//localhost:1313/media/icon_hu10226378635250344412.png</url>
       <title>Probability Theory</title>
-      <link>//localhost:62216/tags/probability-theory/</link>
+      <link>//localhost:1313/tags/probability-theory/</link>
     </image>
     
     <item>
       <title>Probability Concepts in Quality Risk Management</title>
-      <link>//localhost:62216/publication/2011-probability-concepts-in-qrm/</link>
+      <link>//localhost:1313/publication/2011-probability-concepts-in-qrm/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>//localhost:62216/publication/2011-probability-concepts-in-qrm/</guid>
+      <guid>//localhost:1313/publication/2011-probability-concepts-in-qrm/</guid>
       <description></description>
     </item>
     

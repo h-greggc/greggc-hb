@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Oliver Heinzerling | Gregg Claycamp</title>
-    <link>//localhost:62216/author/oliver-heinzerling/</link>
-      <atom:link href="//localhost:62216/author/oliver-heinzerling/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:1313/author/oliver-heinzerling/</link>
+      <atom:link href="//localhost:1313/author/oliver-heinzerling/index.xml" rel="self" type="application/rss+xml" />
     <description>Oliver Heinzerling</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 31 Dec 1969 18:33:37 -0600</lastBuildDate>
     <image>
-      <url>//localhost:62216/media/icon_hu10226378635250344412.png</url>
+      <url>//localhost:1313/media/icon_hu10226378635250344412.png</url>
       <title>Oliver Heinzerling</title>
-      <link>//localhost:62216/author/oliver-heinzerling/</link>
+      <link>//localhost:1313/author/oliver-heinzerling/</link>
     </image>
     
     <item>
       <title>The risk of trusting priority numbers</title>
-      <link>//localhost:62216/publication/2017-risk-of-trusting-priority-numbers/</link>
+      <link>//localhost:1313/publication/2017-risk-of-trusting-priority-numbers/</link>
       <pubDate>Wed, 31 Dec 1969 18:33:37 -0600</pubDate>
-      <guid>//localhost:62216/publication/2017-risk-of-trusting-priority-numbers/</guid>
+      <guid>//localhost:1313/publication/2017-risk-of-trusting-priority-numbers/</guid>
       <description></description>
     </item>
     

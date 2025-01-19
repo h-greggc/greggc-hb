@@ -2,449 +2,449 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:62216/event/example/</loc>
+    <loc>//localhost:1313/event/example/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/event/</loc>
+    <loc>//localhost:1313/event/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/slides/heres-a-new-slide/</loc>
+    <loc>//localhost:1313/slides/heres-a-new-slide/</loc>
     <lastmod>2024-12-26T20:09:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/slides/</loc>
+    <loc>//localhost:1313/slides/</loc>
     <lastmod>2024-12-26T20:09:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/post/</loc>
+    <loc>//localhost:1313/post/</loc>
     <lastmod>2024-12-26T11:41:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2024-11-29T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/post/defining-the-objectives/</loc>
+    <loc>//localhost:1313/post/defining-the-objectives/</loc>
     <lastmod>2024-09-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/tags/mcda/</loc>
+    <loc>//localhost:1313/tags/mcda/</loc>
     <lastmod>2024-09-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/tags/project-teams/</loc>
+    <loc>//localhost:1313/tags/project-teams/</loc>
     <lastmod>2024-09-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/tags/qrm/</loc>
+    <loc>//localhost:1313/tags/qrm/</loc>
     <lastmod>2024-09-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/tags/quality-risk-management/</loc>
+    <loc>//localhost:1313/tags/quality-risk-management/</loc>
     <lastmod>2024-09-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
     <lastmod>2024-09-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/tags/uncertainty/</loc>
+    <loc>//localhost:1313/tags/uncertainty/</loc>
     <lastmod>2024-09-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/tags/working-paper/</loc>
+    <loc>//localhost:1313/tags/working-paper/</loc>
     <lastmod>2024-09-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/publication/2023-facilitating-rbdm/</loc>
+    <loc>//localhost:1313/publication/2023-facilitating-rbdm/</loc>
     <lastmod>2023-12-31T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/publication_types/article-journal/</loc>
+    <loc>//localhost:1313/publication_types/article-journal/</loc>
     <lastmod>2023-12-31T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/authors/</loc>
+    <loc>//localhost:1313/authors/</loc>
     <lastmod>2023-12-31T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/author/h.-gregg-claycamp/</loc>
+    <loc>//localhost:1313/author/h.-gregg-claycamp/</loc>
     <lastmod>2023-12-31T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/tags/ich-q9r1/</loc>
+    <loc>//localhost:1313/tags/ich-q9r1/</loc>
     <lastmod>2023-12-31T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/publication_types/</loc>
+    <loc>//localhost:1313/publication_types/</loc>
     <lastmod>2023-12-31T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/publication/</loc>
+    <loc>//localhost:1313/publication/</loc>
     <lastmod>2023-12-31T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/project/</loc>
+    <loc>//localhost:1313/project/</loc>
     <lastmod>2023-10-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/experience/</loc>
+    <loc>//localhost:1313/experience/</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/projects/</loc>
+    <loc>//localhost:1313/projects/</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/tags/javascript/</loc>
+    <loc>//localhost:1313/tags/javascript/</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/teaching/js/</loc>
+    <loc>//localhost:1313/teaching/js/</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/teaching/python/</loc>
+    <loc>//localhost:1313/teaching/python/</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/tags/python/</loc>
+    <loc>//localhost:1313/tags/python/</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/teaching/</loc>
+    <loc>//localhost:1313/teaching/</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/tags/covid-19/</loc>
+    <loc>//localhost:1313/tags/covid-19/</loc>
     <lastmod>2020-12-18T09:11:55-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/post/covid-not-flu/</loc>
+    <loc>//localhost:1313/post/covid-not-flu/</loc>
     <lastmod>2020-12-18T09:11:55-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/tags/pandemic/</loc>
+    <loc>//localhost:1313/tags/pandemic/</loc>
     <lastmod>2020-12-18T09:11:55-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/tags/risk/</loc>
+    <loc>//localhost:1313/tags/risk/</loc>
     <lastmod>2020-12-18T09:11:55-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/project/covid-counties/</loc>
+    <loc>//localhost:1313/project/covid-counties/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/tags/other/</loc>
+    <loc>//localhost:1313/tags/other/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/tags/website/</loc>
+    <loc>//localhost:1313/tags/website/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/publication/2018-controlling-subjectivity/</loc>
+    <loc>//localhost:1313/publication/2018-controlling-subjectivity/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/categories/mcda/</loc>
+    <loc>//localhost:1313/categories/mcda/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/categories/quality-risk-management/</loc>
+    <loc>//localhost:1313/categories/quality-risk-management/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/project/website-1/</loc>
+    <loc>//localhost:1313/project/website-1/</loc>
     <lastmod>2018-04-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/publication/journal-article/</loc>
+    <loc>//localhost:1313/publication/journal-article/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/author/robert-ford/</loc>
+    <loc>//localhost:1313/author/robert-ford/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/tags/source-themes/</loc>
+    <loc>//localhost:1313/tags/source-themes/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/publication/2014-systematic-approach-empolying-qbd/</loc>
+    <loc>//localhost:1313/publication/2014-systematic-approach-empolying-qbd/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/author/bhaveshkumar-h-kothari/</loc>
+    <loc>//localhost:1313/author/bhaveshkumar-h-kothari/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/author/christine-m-v-moore/</loc>
+    <loc>//localhost:1313/author/christine-m-v-moore/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/author/h-g-claycamp/</loc>
+    <loc>//localhost:1313/author/h-g-claycamp/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/author/h-gregg-claycamp/</loc>
+    <loc>//localhost:1313/author/h-gregg-claycamp/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/author/james-e-polli/</loc>
+    <loc>//localhost:1313/author/james-e-polli/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/author/marilyn-martinez/</loc>
+    <loc>//localhost:1313/author/marilyn-martinez/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/tags/quality-by-design/</loc>
+    <loc>//localhost:1313/tags/quality-by-design/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/publication/2018-quality-by-design-iii/</loc>
+    <loc>//localhost:1313/publication/2018-quality-by-design-iii/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/author/raafat-fahmy/</loc>
+    <loc>//localhost:1313/author/raafat-fahmy/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/author/raafat-m-fahmy/</loc>
+    <loc>//localhost:1313/author/raafat-m-fahmy/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/author/ravikanth-kona/</loc>
+    <loc>//localhost:1313/author/ravikanth-kona/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/author/sharmista-chatterjee/</loc>
+    <loc>//localhost:1313/author/sharmista-chatterjee/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/author/stephen-w-hoag/</loc>
+    <loc>//localhost:1313/author/stephen-w-hoag/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/publication/conference-paper/</loc>
+    <loc>//localhost:1313/publication/conference-paper/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/publication_types/paper-conference/</loc>
+    <loc>//localhost:1313/publication_types/paper-conference/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/tags/expert-elicitation/</loc>
+    <loc>//localhost:1313/tags/expert-elicitation/</loc>
     <lastmod>2012-09-01T14:01:07-06:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/author/f.-rahaman/</loc>
+    <loc>//localhost:1313/author/f.-rahaman/</loc>
     <lastmod>2012-09-01T14:01:07-06:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/author/h.-g.-claycamp/</loc>
+    <loc>//localhost:1313/author/h.-g.-claycamp/</loc>
     <lastmod>2012-09-01T14:01:07-06:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/author/j.-urban/</loc>
+    <loc>//localhost:1313/author/j.-urban/</loc>
     <lastmod>2012-09-01T14:01:07-06:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/tags/risk-management/</loc>
+    <loc>//localhost:1313/tags/risk-management/</loc>
     <lastmod>2012-09-01T14:01:07-06:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/publication/2012-reliability-quality-relationship-qrm/</loc>
+    <loc>//localhost:1313/publication/2012-reliability-quality-relationship-qrm/</loc>
     <lastmod>2012-09-01T14:01:07-06:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/publication/2011-probability-concepts-in-qrm/</loc>
+    <loc>//localhost:1313/publication/2011-probability-concepts-in-qrm/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/tags/probability-theory/</loc>
+    <loc>//localhost:1313/tags/probability-theory/</loc>
     <lastmod>2012-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/publication_types/2/</loc>
+    <loc>//localhost:1313/publication_types/2/</loc>
     <lastmod>2007-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/tags/fmea/</loc>
+    <loc>//localhost:1313/tags/fmea/</loc>
     <lastmod>2007-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/author/h.-gregg-claycamp/</loc>
+    <loc>//localhost:1313/author/h.-gregg-claycamp/</loc>
     <lastmod>2007-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/publication/2007-perspective-on-qrm/</loc>
+    <loc>//localhost:1313/publication/2007-perspective-on-qrm/</loc>
     <lastmod>2007-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/post/data-visualization/</loc>
+    <loc>//localhost:1313/post/data-visualization/</loc>
     <lastmod>2000-10-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/tags/hugo/</loc>
+    <loc>//localhost:1313/tags/hugo/</loc>
     <lastmod>2000-10-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/tags/markdown/</loc>
+    <loc>//localhost:1313/tags/markdown/</loc>
     <lastmod>2000-10-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/tags/second-brain/</loc>
+    <loc>//localhost:1313/tags/second-brain/</loc>
     <lastmod>2000-10-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/tags/wowchemy/</loc>
+    <loc>//localhost:1313/tags/wowchemy/</loc>
     <lastmod>2000-10-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/post/second-brain/</loc>
+    <loc>//localhost:1313/post/second-brain/</loc>
     <lastmod>2000-10-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/post/teach-courses/</loc>
+    <loc>//localhost:1313/post/teach-courses/</loc>
     <lastmod>2000-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/tags/hugo-blox-builder/</loc>
+    <loc>//localhost:1313/tags/hugo-blox-builder/</loc>
     <lastmod>2000-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/post/project-management/</loc>
+    <loc>//localhost:1313/post/project-management/</loc>
     <lastmod>2000-10-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/tags/dna-damage/</loc>
+    <loc>//localhost:1313/tags/dna-damage/</loc>
     <lastmod>1992-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/tags/mutation/</loc>
+    <loc>//localhost:1313/tags/mutation/</loc>
     <lastmod>1992-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/publication/1992-8ohdg-phenol/</loc>
+    <loc>//localhost:1313/publication/1992-8ohdg-phenol/</loc>
     <lastmod>1992-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/tags/risk-assessment/</loc>
+    <loc>//localhost:1313/tags/risk-assessment/</loc>
     <lastmod>1992-07-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/categories/fmea/</loc>
+    <loc>//localhost:1313/categories/fmea/</loc>
     <lastmod>1969-12-31T18:33:37-06:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/author/john-c.-strong/</loc>
+    <loc>//localhost:1313/author/john-c.-strong/</loc>
     <lastmod>1969-12-31T18:33:37-06:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/author/oliver-heinzerling/</loc>
+    <loc>//localhost:1313/author/oliver-heinzerling/</loc>
     <lastmod>1969-12-31T18:33:37-06:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/publication/2017-risk-of-trusting-priority-numbers/</loc>
+    <loc>//localhost:1313/publication/2017-risk-of-trusting-priority-numbers/</loc>
     <lastmod>1969-12-31T18:33:37-06:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/author/todd-s.-mcdermott/</loc>
+    <loc>//localhost:1313/author/todd-s.-mcdermott/</loc>
     <lastmod>1969-12-31T18:33:37-06:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/publication/2016-quality-by-design-ii/</loc>
+    <loc>//localhost:1313/publication/2016-quality-by-design-ii/</loc>
     <lastmod>1969-12-31T18:33:34-06:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/author/stephen-w.-hoag/</loc>
+    <loc>//localhost:1313/author/stephen-w.-hoag/</loc>
     <lastmod>1969-12-31T18:33:34-06:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/author/gregg-claycamp/</loc>
+    <loc>//localhost:1313/author/gregg-claycamp/</loc>
     <lastmod>1969-12-31T18:33:32-06:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/publication/2013-quality-by-design-i/</loc>
+    <loc>//localhost:1313/publication/2013-quality-by-design-i/</loc>
     <lastmod>1969-12-31T18:33:32-06:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/author/ramesh-dandu/</loc>
+    <loc>//localhost:1313/author/ramesh-dandu/</loc>
     <lastmod>1969-12-31T18:33:32-06:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/author/walter-xie/</loc>
+    <loc>//localhost:1313/author/walter-xie/</loc>
     <lastmod>1969-12-31T18:33:32-06:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/tags/probability/</loc>
+    <loc>//localhost:1313/tags/probability/</loc>
     <lastmod>1969-12-31T18:33:26-06:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/publication/2006-risk-pat/</loc>
+    <loc>//localhost:1313/publication/2006-risk-pat/</loc>
     <lastmod>1969-12-31T18:33:26-06:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/categories/uncertainty/</loc>
+    <loc>//localhost:1313/categories/uncertainty/</loc>
     <lastmod>1969-12-31T18:33:26-06:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/author/b.-hasselbalch/</loc>
+    <loc>//localhost:1313/author/b.-hasselbalch/</loc>
     <lastmod>1969-12-31T18:33:25-06:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/publication/2005-elicitation-expert-knowledge/</loc>
+    <loc>//localhost:1313/publication/2005-elicitation-expert-knowledge/</loc>
     <lastmod>1969-12-31T18:33:25-06:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/categories/expert-elicitation/</loc>
+    <loc>//localhost:1313/categories/expert-elicitation/</loc>
     <lastmod>1969-12-31T18:33:25-06:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/author/g.-claycamp/</loc>
+    <loc>//localhost:1313/author/g.-claycamp/</loc>
     <lastmod>1969-12-31T18:33:25-06:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/author/k.-morgan/</loc>
+    <loc>//localhost:1313/author/k.-morgan/</loc>
     <lastmod>1969-12-31T18:33:25-06:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/author/n.-l.-tran/</loc>
+    <loc>//localhost:1313/author/n.-l.-tran/</loc>
     <lastmod>1969-12-31T18:33:25-06:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/tags/antimicrobial-resistance-risk-assessment/</loc>
+    <loc>//localhost:1313/tags/antimicrobial-resistance-risk-assessment/</loc>
     <lastmod>1969-12-31T18:33:24-06:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/publication/2004-arra/</loc>
+    <loc>//localhost:1313/publication/2004-arra/</loc>
     <lastmod>1969-12-31T18:33:24-06:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/author/barry-h.-hooberman/</loc>
+    <loc>//localhost:1313/author/barry-h.-hooberman/</loc>
     <lastmod>1969-12-31T18:33:24-06:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/tags/food-safety/</loc>
+    <loc>//localhost:1313/tags/food-safety/</loc>
     <lastmod>1969-12-31T18:33:24-06:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/admin/</loc>
+    <loc>//localhost:1313/admin/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/post/new-show/</loc>
+    <loc>//localhost:1313/post/new-show/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>//localhost:62216/relatives/</loc>
+    <loc>//localhost:1313/relatives/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

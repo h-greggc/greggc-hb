@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2 | Gregg Claycamp</title>
-    <link>//localhost:62216/publication_types/2/</link>
-      <atom:link href="//localhost:62216/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:1313/publication_types/2/</link>
+      <atom:link href="//localhost:1313/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Sep 2007 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>//localhost:62216/media/icon_hu10226378635250344412.png</url>
+      <url>//localhost:1313/media/icon_hu10226378635250344412.png</url>
       <title>2</title>
-      <link>//localhost:62216/publication_types/2/</link>
+      <link>//localhost:1313/publication_types/2/</link>
     </image>
     
     <item>
       <title>Perspective on Quality Risk Management of Pharmaceutical Quality</title>
-      <link>//localhost:62216/publication/2007-perspective-on-qrm/</link>
+      <link>//localhost:1313/publication/2007-perspective-on-qrm/</link>
       <pubDate>Sat, 01 Sep 2007 00:00:00 +0000</pubDate>
-      <guid>//localhost:62216/publication/2007-perspective-on-qrm/</guid>
+      <guid>//localhost:1313/publication/2007-perspective-on-qrm/</guid>
       <description></description>
     </item>
     

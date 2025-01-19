@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Relatives | Gregg Claycamp</title>
-    <link>//localhost:62216/relatives/</link>
-      <atom:link href="//localhost:62216/relatives/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:1313/relatives/</link>
+      <atom:link href="//localhost:1313/relatives/index.xml" rel="self" type="application/rss+xml" />
     <description>Relatives</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
     <image>
-      <url>//localhost:62216/media/icon_hu10226378635250344412.png</url>
+      <url>//localhost:1313/media/icon_hu10226378635250344412.png</url>
       <title>Relatives</title>
-      <link>//localhost:62216/relatives/</link>
+      <link>//localhost:1313/relatives/</link>
     </image>
     
   </channel>

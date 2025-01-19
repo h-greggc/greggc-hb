@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mutation | Gregg Claycamp</title>
-    <link>//localhost:62216/tags/mutation/</link>
-      <atom:link href="//localhost:62216/tags/mutation/index.xml" rel="self" type="application/rss+xml" />
+    <link>//localhost:1313/tags/mutation/</link>
+      <atom:link href="//localhost:1313/tags/mutation/index.xml" rel="self" type="application/rss+xml" />
     <description>Mutation</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jul 1992 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>//localhost:62216/media/icon_hu10226378635250344412.png</url>
+      <url>//localhost:1313/media/icon_hu10226378635250344412.png</url>
       <title>Mutation</title>
-      <link>//localhost:62216/tags/mutation/</link>
+      <link>//localhost:1313/tags/mutation/</link>
     </image>
     
     <item>
       <title>Phenol sensitization of DNA to subsequent oxidative damage in 8-hydroxyguanine assays</title>
-      <link>//localhost:62216/publication/1992-8ohdg-phenol/</link>
+      <link>//localhost:1313/publication/1992-8ohdg-phenol/</link>
       <pubDate>Wed, 01 Jul 1992 00:00:00 +0000</pubDate>
-      <guid>//localhost:62216/publication/1992-8ohdg-phenol/</guid>
+      <guid>//localhost:1313/publication/1992-8ohdg-phenol/</guid>
       <description></description>
     </item>
     
