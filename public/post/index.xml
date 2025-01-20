@@ -13,6 +13,14 @@
     </image>
     
     <item>
+      <title>Understanding Shortcodes</title>
+      <link>//localhost:1313/post/mynext/</link>
+      <pubDate>Thu, 26 Dec 2024 20:11:00 +0000</pubDate>
+      <guid>//localhost:1313/post/mynext/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Defining Objectives for Team Decisions</title>
       <link>//localhost:1313/post/defining-the-objectives/</link>
       <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
@@ -452,7 +460,7 @@ g + geom_bar(stat=&#34;identity&#34;, width = 0.7, fill=&#34;chartreuse4&#34;) +
 
 
 
-&lt;div id=&#34;chart-694582371&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-435871269&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -470,7 +478,7 @@ g + geom_bar(stat=&#34;identity&#34;, width = 0.7, fill=&#34;chartreuse4&#34;) +
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-694582371&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-435871269&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

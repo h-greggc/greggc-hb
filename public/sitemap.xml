@@ -10,6 +10,26 @@
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>//localhost:1313/categories/</loc>
+    <lastmod>2024-12-26T20:11:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/categories/decision-analysis/</loc>
+    <lastmod>2024-12-26T20:11:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/categories/risk-management/</loc>
+    <lastmod>2024-12-26T20:11:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/post/mynext/</loc>
+    <lastmod>2024-12-26T20:11:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>//localhost:1313/post/another-new-post/</loc>
+    <lastmod>2024-12-26T20:11:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>//localhost:1313/slides/heres-a-new-slide/</loc>
     <lastmod>2024-12-26T20:09:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -144,10 +164,6 @@
   </url><url>
     <loc>//localhost:1313/tags/website/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>//localhost:1313/categories/</loc>
-    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>//localhost:1313/publication/2018-controlling-subjectivity/</loc>

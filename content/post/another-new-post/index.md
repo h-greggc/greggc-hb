@@ -3,6 +3,7 @@ title: Understanding Tailwind Typography
 subtitle: "Okay "
 date: 2024-12-26T20:11:00.000Z
 draft: true
+
 featured: false
 image:
   filename: featured
@@ -10,6 +11,8 @@ image:
   preview_only: false
 categories: ["risk management", "decision analysis"]  
 ---
+
+
 
 ## The usual Markdown codes:
 
