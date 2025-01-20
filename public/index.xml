@@ -907,7 +907,7 @@ The site archives sermon notes, provides church event calendars and newletters a
 
 
 
-&lt;div id=&#34;chart-214857936&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-694582371&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   async function fetchChartJSON() {
     console.debug(&#39;Hugo Blox fetching chart JSON...&#39;)
@@ -925,7 +925,7 @@ The site archives sermon notes, provides church event calendars and newletters a
 
       fetchChartJSON().then(chart =&gt; {
         console.debug(&#39;Plotting chart...&#39;)
-        window.Plotly.newPlot(&#39;chart-214857936&#39;, chart.data, chart.layout, {responsive: true});
+        window.Plotly.newPlot(&#39;chart-694582371&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
