@@ -1,6 +1,6 @@
 ---
 title: Posts
-columns: 1
+columns: 2
 view: article-grid
 
 subtitle: -- Recent and not-so-recent
