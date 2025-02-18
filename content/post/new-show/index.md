@@ -3,6 +3,23 @@ title: Embed a Power Point
 
 ---
 
+Using the spoiler--
+
+{{< spoiler text="This element can be toggled" >}}
+TOGGLE
+{{< /spoiler >}}
+
+{{% jstoogle %}} 
+
+
+<div>
+<show-button onclick="toggleElement('myElement')">Toggle</show-button>
+<div id="myElement">This element can be toggled.</div>
+</div>
+
+<button class="favorite styled" type="button">Add to favorites</button>
+<br>
+<br>
 
 
 <!-- 
