@@ -43,3 +43,103 @@
         
    
    
+   span .absolute -inset-x-4 -inset-y-6 z-20 sm:-inset-x-6 sm:rounded-2xl {
+	/* Font & Text */
+	font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	letter-spacing: normal;
+	line-height: 24px;
+	text-decoration: none solid rgb(38, 38, 38);
+	text-align: left;
+	text-indent: 0px;
+	text-transform: none;
+	vertical-align: baseline;
+	white-space: normal;
+	word-spacing: 0px;
+
+	/* Color & Background */
+	background-attachment: scroll;
+	background-color: rgba(207, 202, 202, 0);
+	background-image: none;
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	color: rgb(38, 38, 38);
+
+	/* Box */
+	height: 428px;
+	width: 357.337px;
+	border: 0px solid rgb(229, 231, 235);
+	border-top: 0px solid rgb(229, 231, 235);
+	border-right: 0px solid rgb(229, 231...lid rgb(229, 231, 235);
+	border-left: 0px solid rgb(229, 231, 235);
+	margin: 0px;
+	padding: 0px;
+	max-height: none;
+	min-height: 0px;
+	max-width: none;
+	min-width: 0px;
+
+	/* Positioning */
+	position: absolute;
+	top: -24px;
+	bottom: -24px;
+	right: -24px;
+	left: -24px;
+	float: none;
+	display: block;
+	clear: none;
+	z-index: 20;
+
+	/* List */
+	list-style-image: none;
+	list-style-type: none;
+	list-style-position: outside;
+
+	/* Table */
+	border-collapse: separate;
+	border-spacing: 0px 0px;
+	caption-side: top;
+	empty-cells: show;
+	table-layout: auto;
+
+	/* Miscellaneous */
+	overflow: visible;
+	cursor: pointer;
+	visibility: visible;
+
+	/* Effects */
+	transform: none;
+	transition: all;
+	outline: rgb(255, 0, 0) dashed 0.8px;
+	outline-offset: 0px;
+	box-sizing: border-box;
+	resize: none;
+	text-shadow: none;
+	text-overflow: clip;
+	word-wrap: normal;
+	box-shadow: none;
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
+	border-bottom-left-radius: 16px;
+	border-bottom-right-radius: 16px;
+}
+
+/* Max screen */
+.page-body .items-center .max-w-screen-lg{
+	padding-top:30px;
+	transform:translatex(0px) translatey(0px);
+	margin-right:109px;
+	display:inline-block;
+	padding-right:60px;
+   }
+   
+   /* Page body */
+   .page-body{
+	transform:translatex(0px) translatey(0px);
+	padding-right:101px;
+   }
+   
+   

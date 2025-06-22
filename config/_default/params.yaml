@@ -41,7 +41,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {2024} H Gregg Claycamp. This work is licensed under {license}'
+    notice: '© {year} H G Claycamp. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
