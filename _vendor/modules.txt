@@ -1,1 +1,1 @@
-# github.com/HugoBlox/all-access/blox-all-access@v0.0.0-20241105012909-6426bf8a9975
+# github.com/HugoBlox/all-access/blox-all-access v0.0.0-20241105012909-6426bf8a9975
