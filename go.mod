@@ -9,7 +9,7 @@ require (
 )
 
 require (
-	github.com/HugoBlox/all-access/blox-all-access v0.0.0-20241105012909-6426bf8a9975 // indirect
+	github.com/HugoBlox/all-access/blox-all-access 
 	github.com/HugoBlox/hugo-blox-builder/modules/blox-analytics v0.1.3 // indirect
 	github.com/HugoBlox/hugo-blox-builder/modules/blox-core v0.3.1 // indirect
 	github.com/HugoBlox/hugo-blox-builder/modules/blox-seo v0.2.3 // indirect
